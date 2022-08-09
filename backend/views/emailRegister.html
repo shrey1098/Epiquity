@@ -1,0 +1,85 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Epiquity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <!-- dark nav bar with title epiquity -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/api/register/email">Epiquity</a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Register</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="/api/register/email" method="post">
+                            <!-- input for user name-->
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <p>&copy; 2022 Epiquity</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    document.getElementById("email").addEventListener("keyup", function(event) {
+        // check if email contains @gmail.com or @yahoo.com or @hotmail.com or @aol.com or @outlook.com or @mail.com 
+        if (event.target.value.includes("@gmail.com") || event.target.value.includes("@yahoo.com") || event.target.value.includes("@hotmail.com") || event.target.value.includes("@aol.com") || event.target.value.includes("@outlook.com") || event.target.value.includes("@mail.com")) {
+            // if email contains @gmail.com or @yahoo.com or @hotmail.com or @aol.com or @outlook.com or @mail.co
+            // enable submit button
+            document.getElementById("submit").disabled = false;
+
+            
+        } else {
+            // disable submit button
+            document.getElementById("submit").disabled = true;
+        }
+        
+    });
+    // script to check if passwords match
+    document.getElementById("confirmPassword").addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (document.getElementById("password").value != document.getElementById("confirmPassword").value) {
+            document.getElementById("confirmPassword").setCustomValidity("Passwords do not match");
+        } else {
+            document.getElementById("confirmPassword").setCustomValidity("");
+        }
+    });
+</script>
+
+</html>

@@ -1,0 +1,17 @@
+/backend/googleOAuthCredentials.json
+/backend/node_modules/
+/backend/db/creds.txt
+/backend/admin_creds.txt
+/epiquity_stock_api/env/
+/epiquity_stock_api/env/
+/epiquity_stock_api/nseStocksData.csv
+**/__pycache__
+/frontend/
+/frontend_flutter/.dart_tool/
+/frontend_flutter/.flutter-plugins
+/frontend_flutter/.flutter-pugins-dependencies
+/frontend_flutter/.packages
+/frontend_flutter/.pub-cache/
+/frontend_flutter/.pub/
+/frontend_flutter/build/
+/frontend_flutter/frontend_flutter.iml

@@ -1,0 +1,30 @@
+{
+  "name": "epiquity_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "shrey1098",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "generate-api-key": "^1.0.0",
+    "googleapis": "^105.0.0",
+    "mongoose": "^6.4.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-session": "^1.0.2",
+    "session": "^0.1.0"
+  }
+}
