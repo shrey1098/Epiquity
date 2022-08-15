@@ -37,6 +37,7 @@ dependencies:
   flutter_secure_storage: ^5.0.2
   url_launcher: ^6.1.5
   webview_flutter: ^3.0.4
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:

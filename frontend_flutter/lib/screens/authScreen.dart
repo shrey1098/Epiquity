@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:http/http.dart' as http;
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({Key? key}) : super(key: key);
@@ -51,9 +52,15 @@ class _AuthScreenState extends State<AuthScreen> {
         child: // button with text
             Center(
           child: ElevatedButton(
-            onPressed: () {
-              html.window
-                  .open("http://localhost:3000/api/register/google", "_self");
+            onPressed: () async {
+              // if platform is android then navigate to _pageRoute
+
+              // launch url in browser
+              var response = await http
+                  .get(Uri.parse('http://localhost:3000/api/register/google'));
+              if (response.statusCode == 200) {
+                print(response.body);
+              }
             },
             child: const Text('Register with google'),
           ),
@@ -88,16 +95,14 @@ class _GoogleRegisterState extends State<GoogleRegister> {
         backgroundColor: Colors.black,
       ),
       body: WebView(
-        initialUrl: 'http://localhost:3000/api/register/google',
+        initialUrl: 'http://192.168.1.7:3000/api/register/google',
         javascriptMode: JavascriptMode.unrestricted,
+        userAgent: "random",
         onWebViewCreated: (WebViewController controller) {
           _controller = controller;
         },
         onPageFinished: (String url) {
-          if (url.contains('http://localhost:3000/api/register/google')) {
-            _controller.evaluateJavascript(
-                'document.getElementById("token").value = "$token";');
-          }
+          print(url);
         },
       ),
     );
