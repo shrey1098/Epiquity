@@ -8,7 +8,7 @@ const GOOGLE_CLIENT_SECRET = "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"
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/api/register/google/callback"
+    callbackURL: "https://13.126.202.203:3000/api/register/google/callback"
   },
   function(accessToken, refreshToken, profile, cb) {
       //console.log(cb)
