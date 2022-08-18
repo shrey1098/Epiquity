@@ -1,9 +1,9 @@
 import fetch from "node-fetch";
 
-const url = 'http://localhost:8000';
+const url = 'http://3.110.44.198';
 const stocksDictAllEndpoint = url + '/stocks/dict/all';
 
-const getStocksApiEndpoint = function (symbol, operation, url='http://localhost:8000'){
+const getStocksApiEndpoint = function (symbol, operation, url='http://3.110.44.198'){
     return url + '/api/stocks/' + symbol + '/' + operation;
 }
 
