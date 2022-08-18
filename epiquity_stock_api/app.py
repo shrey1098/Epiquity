@@ -89,7 +89,7 @@ def get_stock_allinfo(symbol: str):
         financials = get_stock_fins(symbol)
         price = get_stock_price_current(symbol)
         price_range = get_stock_price_range(symbol, 30)
-        return {"symbol": symbol, "price": float("{:.2f}".format(price)), "price_range": price_range, "technical": technical, "financials": financials}
+        return {"price": float("{:.2f}".format(price)), "price_range": price_range, "technical": technical, "financials": financials}
     except:
         return {"error": "Error getting stock all info"}
 

@@ -1,4 +1,5 @@
 import { makeRequest, getStocksApiEndpoint } from "../stock_api_endpoints/endpoints.js";
+import { Stocks } from "../models/stocks.js";
 
 
 const getStockPriceRange = async (req, res) => {
@@ -80,4 +81,26 @@ const getStockFinancials = async (req, res) => {
         );
     }
 }
-export { getStockPriceRange, getStockPrice, getStockTechnicals, getStockFinancials };
+
+const getStockAllInfo = async (req, res) => {
+    const { symbol } = req.query;
+    // if symbol is not provided
+    if (!symbol) {
+        return res.status(400).send({ message: "Symbol not provided" });
+    }
+    // if symbol is provided
+    else {
+        // get stock from db
+        const stock = await Stocks.findOne({ yahooFinanceSymbol: { $regex: symbol, $options: 'i' } });
+        // if stock is not in db
+        var [name, quote, marketCap, industry, sector] = [stock.name, stock.symbol, stock.marketCap, stock.industry, stock.sector];
+        makeRequest(getStocksApiEndpoint(symbol, `allinfo`)).then(response => {
+            return res.status(200).json({'name': name, 'tickername':quote, 'marketcap': marketCap, 'industry': industry, 'sector': sector, 'Numbers': response});
+        }).catch(error => {
+            console.error(error);
+            return res.status(400).json({ message: "Bad Request" });
+        }
+        );
+    }
+}
+export { getStockPriceRange, getStockPrice, getStockTechnicals, getStockFinancials, getStockAllInfo };

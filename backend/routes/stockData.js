@@ -1,6 +1,6 @@
 import express from 'express';
 import { verifyToken } from '../middlewares/verifyToken.js';
-import { getStockPriceRange, getStockPrice, getStockTechnicals, getStockFinancials } from '../controllers/stockData.js';
+import { getStockPriceRange, getStockPrice, getStockTechnicals, getStockFinancials, getStockAllInfo } from '../controllers/stockData.js';
 
 const router = express.Router();
 
@@ -34,6 +34,14 @@ router.get('/financials', verifyToken, (req, res) => {
     // Body: {symbol}
     // Response: {message, data}
     getStockFinancials(req, res);
+}
+);
+
+router.get('/allinfo', verifyToken, (req, res) => {
+    // Usage: GET /api/stockData/allinfo?symbol=AAPL&apiToken=<token>
+    // Body: {symbol}
+    // Response: {message, data}
+    getStockAllInfo(req, res);
 }
 );
 
