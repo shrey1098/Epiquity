@@ -38,6 +38,11 @@ dependencies:
   url_launcher: ^6.1.5
   webview_flutter: ^3.0.4
   http: ^0.13.5
+  google_nav_bar: ^5.0.6
+  line_icons: ^2.0.1
+  floating_frosted_bottom_bar: ^0.0.1
+  google_fonts: ^3.0.1
+  flutter_typeahead: ^4.0.0
 
 dev_dependencies:
   flutter_test:

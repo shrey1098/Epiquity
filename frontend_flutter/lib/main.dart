@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:frontend_flutter/screens/authScreen.dart';
+import 'package:frontend_flutter/screens/homeScreen.dart';
 
-void main() {
+void main() async {
   runApp(const EpiquityApp());
 }
 
@@ -13,14 +14,27 @@ class EpiquityApp extends StatefulWidget {
 }
 
 class _EpiquityAppState extends State<EpiquityApp> {
-  getToken() {
-    const storage = FlutterSecureStorage();
-    return storage.read(key: 'token');
+  String? token;
+  final storage = new FlutterSecureStorage();
+
+  _getToken() async {
+    await storage.write(key: 'token', value: 'Il0.CmCil_jgpZId1X');
+    await storage.read(key: 'token').then((value) {
+      setState(() {
+        token = value;
+        print(token);
+      });
+    });
+  }
+
+  @override
+  void initState() {
+    _getToken();
+    super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    var token = getToken();
     return MaterialApp(
       title: 'Epiquity',
       debugShowCheckedModeBanner: false,
@@ -32,8 +46,8 @@ class _EpiquityAppState extends State<EpiquityApp> {
       ),
       initialRoute: token == null ? '/login' : '/home',
       routes: {
-        '/login': (context) => const AuthScreen(),
         '/home': (context) => const AuthScreen(),
+        '/login': (context) => const HomeScreen(),
       },
     );
   }

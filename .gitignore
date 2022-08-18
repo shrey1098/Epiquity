@@ -4,7 +4,7 @@
 /backend/admin_creds.txt
 /epiquity_stock_api/env/
 /epiquity_stock_api/env/
-/epiquity_stock_api/nseStocksData.csv
+
 **/__pycache__
 /frontend/
 /frontend_flutter/.dart_tool/

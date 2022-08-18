@@ -1,0 +1,1892 @@
+symbol,name,marketCap,exchange,sector,industry,yahooFinanceSymbol
+RELIANCE,Reliance Industries Limited,178237576,NSE,Energy,Oil & Gas Refining & Marketing,RELIANCE.NS
+TCS,Tata Consultancy Services Limited,138342672,NSE,Technology,Information Technology Services,TCS.NS
+HDFCBANK,HDFC Bank Limited,81525796,NSE,Financial Services,Banks—Regional,HDFCBANK.NS
+INFY,Infosys Limited,80216196,NSE,Technology,Information Technology Services,INFY.NS
+ICICIBANK,ICICI Bank Limited,50744643,NSE,Financial Services,Banks—Regional,ICICIBANK.NS
+HINDUNILVR,Hindustan Unilever Limited,48134901,NSE,Consumer Defensive,Household & Personal Products,HINDUNILVR.NS
+SBIN,State Bank of India,44047420,NSE,Financial Services,Banks—Regional,SBIN.NS
+BAJFINANCE,Bajaj Finance Limited,43953860,NSE,Financial Services,Credit Services,BAJFINANCE.NS
+HDFC,Housing Development Finance Corporation Limited,43247739,NSE,Financial Services,Mortgage Finance,HDFC.NS
+BHARTIARTL,Bharti Airtel Limited,41462060,NSE,Communication Services,Telecom Services,BHARTIARTL.NS
+KOTAKBANK,Kotak Mahindra Bank Limited,34802939,NSE,Financial Services,Banks—Regional,KOTAKBANK.NS
+WIPRO,Wipro Limited,32448373,NSE,Technology,Information Technology Services,WIPRO.NS
+HCLTECH,HCL Technologies Limited,31580278,NSE,Technology,Information Technology Services,HCLTECH.NS
+ITC,ITC Limited,30888241,NSE,Consumer Defensive,Tobacco,ITC.NS
+ADANIGREEN,Adani Green Energy Limited,29946181,NSE,Utilities,Utilities—Renewable,ADANIGREEN.NS
+ASIANPAINT,Asian Paints Limited,29542812,NSE,Basic Materials,Specialty Chemicals,ASIANPAINT.NS
+BAJAJFINSV,Bajaj Finserv Limited,27149564,NSE,Financial Services,Financial Conglomerates,BAJAJFINSV.NS
+ADANITRANS,Adani Transmission Limited,26045152,NSE,Utilities,Utilities—Independent Power Producers,ADANITRANS.NS
+DMART,Avenue Supermarts Limited,25932688,NSE,Consumer Defensive,Discount Stores,DMART.NS
+LT,Larsen & Toubro Limited,24834879,NSE,Industrials,Engineering & Construction,LT.NS
+ATGL,Adani Total Gas Limited,23643717,NSE,Utilities,Utilities—Regulated Gas,ATGL.NS
+AXISBANK,Axis Bank Limited,23364339,NSE,Financial Services,Banks—Regional,AXISBANK.NS
+MARUTI,Maruti Suzuki India Limited,22841180,NSE,Consumer Cyclical,Auto Manufacturers,MARUTI.NS
+TITAN,Titan Company Limited,22515589,NSE,Consumer Cyclical,Luxury Goods,TITAN.NS
+ADANIENT,Adani Enterprises Limited,22158424,NSE,Energy,Thermal Coal,ADANIENT.NS
+SUNPHARMA,Sun Pharmaceutical Industries Limited,21947917,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SUNPHARMA.NS
+ONGC,Oil & Natural Gas Corporation Limited,20619078,NSE,Energy,Oil & Gas Integrated,ONGC.NS
+ULTRACEMCO,UltraTech Cement Limited,19058645,NSE,Basic Materials,Building Materials,ULTRACEMCO.NS
+JSWSTEEL,JSW Steel Limited,17709766,NSE,Basic Materials,Steel,JSWSTEEL.NS
+ADANIPORTS,Adani Ports and Special Economic Zone Limited,16353994,NSE,Industrials,Marine Shipping,ADANIPORTS.NS
+TATASTEEL,Tata Steel Limited,15975539,NSE,Basic Materials,Steel,TATASTEEL.NS
+POWERGRID,Power Grid Corporation of India Limited,15122782,NSE,Utilities,Utilities—Regulated Electric,POWERGRID.NS
+VEDL,Vedanta Limited,14993322,NSE,Basic Materials,Other Industrial Metals & Mining,VEDL.NS
+TECHM,Tech Mahindra Limited,14565340,NSE,Technology,Information Technology Services,TECHM.NS
+TATAMOTORS,Tata Motors Limited,14403371,NSE,Consumer Cyclical,Auto Manufacturers,TATAMOTORS.NS
+HINDZINC,Hindustan Zinc Limited,13104827,NSE,Basic Materials,Other Industrial Metals & Mining,HINDZINC.NS
+NTPC,NTPC Limited,13090499,NSE,Utilities,Utilities—Independent Power Producers,NTPC.NS
+HINDALCO,Hindalco Industries Limited,12797649,NSE,Basic Materials,Aluminum,HINDALCO.NS
+PIDILITIND,Pidilite Industries Limited,12474923,NSE,Basic Materials,Specialty Chemicals,PIDILITIND.NS
+DIVISLAB,Divi's Laboratories Limited,11686060,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,DIVISLAB.NS
+HDFCLIFE,HDFC Life Insurance Company Limited,11369597,NSE,Financial Services,Insurance—Life,HDFCLIFE.NS
+COALINDIA,Coal India Limited,11280874,NSE,Energy,Thermal Coal,COALINDIA.NS
+SBILIFE,SBI Life Insurance Company Limited,11218656,NSE,Financial Services,Insurance—Life,SBILIFE.NS
+IOC,Indian Oil Corporation Limited,11198142,NSE,Energy,Oil & Gas Refining & Marketing,IOC.NS
+GRASIM,Grasim Industries Limited,10954036,NSE,Basic Materials,Building Materials,GRASIM.NS
+LTI,Larsen & Toubro Infotech Limited,10788579,NSE,Technology,Information Technology Services,LTI.NS
+BAJAJ-AUTO,Bajaj Auto Limited,10570577,NSE,Consumer Cyclical,Auto Manufacturers,BAJAJ-AUTO.NS
+M&M,Mahindra & Mahindra Limited,10026969,NSE,Consumer Cyclical,Auto Manufacturers,M&M.NS
+DABUR,Dabur India Limited,9479246,NSE,Consumer Defensive,Household & Personal Products,DABUR.NS
+DLF,DLF Limited,9417336,NSE,Real Estate,Real Estate—Development,DLF.NS
+SHREECEM,SHREE CEMENT LIMITED,8671142,NSE,Basic Materials,Building Materials,SHREECEM.NS
+SIEMENS,Siemens Limited,8433640,NSE,Industrials,Specialty Industrial Machinery,SIEMENS.NS
+CIPLA,Cipla Limited,8213770,NSE,Healthcare,Drug Manufacturers—General,CIPLA.NS
+SBICARD,SBI Cards and Payment Services Limited,8032764,NSE,Financial Services,Credit Services,SBICARD.NS
+NYKAA,FSN E-Commerce Ventures Limited,8010239,NSE,Consumer Cyclical,Internet Retail,NYKAA.NS
+SRF,SRF Limited,7942157,NSE,Basic Materials,Specialty Chemicals,SRF.NS
+BPCL,Bharat Petroleum Corporation Limited,7795210,NSE,Energy,Oil & Gas Refining & Marketing,BPCL.NS
+INDIGO,InterGlobe Aviation Limited,7759608,NSE,Industrials,Airlines,INDIGO.NS
+BRITANNIA,Britannia Industries Limited,7723201,NSE,Consumer Defensive,Packaged Foods,BRITANNIA.NS
+GODREJCP,Godrej Consumer Products Limited,7641748,NSE,Consumer Defensive,Household & Personal Products,GODREJCP.NS
+TATAPOWER,Tata Power Company Limited,7625678,NSE,Utilities,Utilities—Independent Power Producers,TATAPOWER.NS
+INDUSINDBK,IndusInd Bank Limited,7246095,NSE,Financial Services,Banks—Regional,INDUSINDBK.NS
+HAVELLS,Havells India Limited,7218456,NSE,Industrials,Electrical Equipment & Parts,HAVELLS.NS
+ICICIPRULI,ICICI Prudential Life Insurance Company Limited,7199466,NSE,Financial Services,Insurance—Life,ICICIPRULI.NS
+TATACONSUM,TATA CONSUMER PRODUCTS LIMITED,7164143,NSE,Consumer Defensive,Packaged Foods,TATACONSUM.NS
+DRREDDY,Dr. Reddy's Laboratories Limited,7148739,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,DRREDDY.NS
+ADANIPOWER,Adani Power Limited,7139194,NSE,Utilities,Utilities—Independent Power Producers,ADANIPOWER.NS
+MINDTREE,MindTree Limited,7092632,NSE,Technology,Information Technology Services,MINDTREE.NS
+GAIL,GAIL (India) Limited,6911460,NSE,Utilities,Utilities—Regulated Gas,GAIL.NS
+BERGEPAINT,Berger Paints (I) Limited,6796350,NSE,Basic Materials,Specialty Chemicals,BERGEPAINT.NS
+EICHERMOT,Eicher Motors Limited,6718416,NSE,Consumer Cyclical,Auto Manufacturers,EICHERMOT.NS
+AWL,Adani Wilmar Limited,6718039,NSE,Consumer Defensive,Farm Products,AWL.NS
+ICICIGI,ICICI Lombard General Insurance Company Limited,6520511,NSE,Financial Services,Insurance—Diversified,ICICIGI.NS
+MARICO,Marico Limited,6511578,NSE,Consumer Defensive,Household & Personal Products,MARICO.NS
+APOLLOHOSP,Apollo Hospitals Enterprise Limited,6493459,NSE,Healthcare,Medical Care Facilities,APOLLOHOSP.NS
+ZOMATO,Zomato Limited,6478601,NSE,Consumer Cyclical,Internet Retail,ZOMATO.NS
+MCDOWELL-N,United Spirits Limited,6455095,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,MCDOWELL-N.NS
+MPHASIS,MphasiS Limited,6342323,NSE,Technology,Information Technology Services,MPHASIS.NS
+IRCTC,Indian Railway Catering And Tourism Corporation Limited,6197600,NSE,Industrials,Railroads,IRCTC.NS
+INDUSTOWER,Indus Towers Limited,5984107,NSE,Communication Services,Telecom Services,INDUSTOWER.NS
+AMBUJACEM,Ambuja Cements Limited,5942043,NSE,Basic Materials,Building Materials,AMBUJACEM.NS
+CHOLAFIN,Cholamandalam Investment and Finance Company Limited,5898441,NSE,Financial Services,Credit Services,CHOLAFIN.NS
+UPL,UPL Limited,5880094,NSE,Basic Materials,Agricultural Inputs,UPL.NS
+NAUKRI,Info Edge (India) Limited,5807455,NSE,Communication Services,Internet Content & Information,NAUKRI.NS
+BANKBARODA,Bank of Baroda,5771240,NSE,Financial Services,Banks—Regional,BANKBARODA.NS
+BAJAJHLDNG,Bajaj Holdings & Investment Limited,5576973,NSE,Financial Services,Asset Management,BAJAJHLDNG.NS
+TATAELXSI,Tata Elxsi Limited,5505331,NSE,Technology,Software—Application,TATAELXSI.NS
+JINDALSTEL,Jindal Steel & Power Limited,5435539,NSE,Basic Materials,Steel,JINDALSTEL.NS
+LODHA,Macrotech Developers Limited,5422725,NSE,Real Estate,Real Estate—Development,LODHA.NS
+LTTS,L&T Technology Services Limited,5387734,NSE,Technology,Information Technology Services,LTTS.NS
+GLAND,Gland Pharma Limited,5377053,NSE,Healthcare,Drug Manufacturers—General,GLAND.NS
+MUTHOOTFIN,Muthoot Finance Limited,5341695,NSE,Financial Services,Credit Services,MUTHOOTFIN.NS
+PEL,Piramal Enterprises Limited,5219336,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,PEL.NS
+BEL,Bharat Electronics Limited,5136338,NSE,Industrials,Aerospace & Defense,BEL.NS
+JSWENERGY,JSW Energy Limited,4968264,NSE,Utilities,Utilities—Independent Power Producers,JSWENERGY.NS
+HAL,Hindustan Aeronautics Limited,4965320,NSE,Industrials,Aerospace & Defense,HAL.NS
+BANDHANBNK,Bandhan Bank Limited,4951472,NSE,Financial Services,Banks—Regional,BANDHANBNK.NS
+PAGEIND,Page Industries Limited,4817286,NSE,Consumer Cyclical,Apparel Manufacturing,PAGEIND.NS
+NMDC,NMDC Limited,4763700,NSE,Basic Materials,Steel,NMDC.NS
+TORNTPHARM,Torrent Pharmaceuticals Limited,4724614,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,TORNTPHARM.NS
+PGHH,Procter & Gamble Hygiene and Health Care Limited,4679410,NSE,Consumer Defensive,Household & Personal Products,PGHH.NS
+GODREJPROP,Godrej Properties Limited,4648516,NSE,Real Estate,Real Estate—Development,GODREJPROP.NS
+IDBI,IDBI Bank Limited,4602028,NSE,Financial Services,Banks—Regional,IDBI.NS
+HEROMOTOCO,Hero MotoCorp Limited,4583986,NSE,Consumer Cyclical,Auto Manufacturers,HEROMOTOCO.NS
+HDFCAMC,HDFC Asset Management Company Limited,4576672,NSE,Financial Services,Asset Management,HDFCAMC.NS
+ABB,ABB India Limited,4572877,NSE,Industrials,Specialty Industrial Machinery,ABB.NS
+TRENT,Trent Limited,4534243,NSE,Consumer Cyclical,Apparel Retail,TRENT.NS
+MOTHERSUMI,Motherson Sumi Systems Limited,4403739,NSE,Consumer Cyclical,Auto Parts,MOTHERSUMI.NS
+ALKEM,Alkem Laboratories Limited,4329090,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ALKEM.NS
+PIIND,PI Industries Limited,4277920,NSE,Basic Materials,Agricultural Inputs,PIIND.NS
+BOSCHLTD,Bosch Limited,4258439,NSE,Consumer Cyclical,Auto Parts,BOSCHLTD.NS
+COLPAL,Colgate Palmolive (India) Limited,4194698,NSE,Consumer Defensive,Household & Personal Products,COLPAL.NS
+CANBK,Canara Bank,4131682,NSE,Financial Services,Banks—Regional,CANBK.NS
+BALKRISIND,Balkrishna Industries Limited,4129642,NSE,Consumer Cyclical,Auto Parts,BALKRISIND.NS
+VOLTAS,Voltas Limited,4120839,NSE,Industrials,Specialty Industrial Machinery,VOLTAS.NS
+CONCOR,Container Corporation of India Limited,4095372,NSE,Industrials,Railroads,CONCOR.NS
+STARHEALTH,Star Health and Allied Insurance Company Limited,4088797,NSE,Financial Services,Insurance—Diversified,STARHEALTH.NS
+VBL,Varun Beverages Limited,4076140,NSE,Consumer Defensive,Beverages—Non-Alcoholic,VBL.NS
+SAIL,Steel Authority of India Limited,4070633,NSE,Basic Materials,Steel,SAIL.NS
+ASTRAL,Astral Limited,4064515,NSE,Industrials,Building Products & Equipment,ASTRAL.NS
+ACC,ACC Limited,4039961,NSE,Basic Materials,Building Materials,ACC.NS
+BIOCON,Biocon Limited,4029214,NSE,Healthcare,Biotechnology,BIOCON.NS
+SONACOMS,Sona BLW Precision Forgings Limited,3970384,NSE,Consumer Cyclical,Auto Parts,SONACOMS.NS
+UBL,United Breweries Limited,3938447,NSE,Consumer Defensive,Beverages—Brewers,UBL.NS
+AUBANK,AU Small Finance Bank Limited,3924442,NSE,Financial Services,Banks—Regional,AUBANK.NS
+AUROPHARMA,Aurobindo Pharma Limited,3917293,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,AUROPHARMA.NS
+PNB,Punjab National Bank,3859361,NSE,Financial Services,Banks—Regional,PNB.NS
+HINDPETRO,Hindustan Petroleum Corporation Limited,3820860,NSE,Energy,Oil & Gas Refining & Marketing,HINDPETRO.NS
+PERSISTENT,Persistent Systems Limited,3641881,NSE,Technology,Information Technology Services,PERSISTENT.NS
+ZYDUSLIFE,Zydus Lifesciences Limited,3567743,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ZYDUSLIFE.NS
+POLYCAB,Polycab India Limited,3533084,NSE,Industrials,Electrical Equipment & Parts,POLYCAB.NS
+HONAUT,Honeywell Automation India Limited,3508033,NSE,Industrials,Electrical Equipment & Parts,HONAUT.NS
+TATACOMM,Tata Communications Limited,3501510,NSE,Communication Services,Telecom Services,TATACOMM.NS
+JUBLFOOD,Jubilant Foodworks Limited,3479364,NSE,Consumer Cyclical,Restaurants,JUBLFOOD.NS
+AARTIIND,Aarti Industries Limited,3467895,NSE,Basic Materials,Specialty Chemicals,AARTIIND.NS
+GUJGASLTD,Gujarat Gas Limited,3464323,NSE,Utilities,Utilities—Regulated Gas,GUJGASLTD.NS
+ASHOKLEY,Ashok Leyland Limited,3441906,NSE,Industrials,Farm & Heavy Construction Machinery,ASHOKLEY.NS
+IOB,Indian Overseas Bank,3430788,NSE,Financial Services,Banks—Regional,IOB.NS
+PAYTM,One 97 Communications Limited,3427126,NSE,Technology,Software—Infrastructure,PAYTM.NS
+OBEROIRLTY,Oberoi Realty Limited,3417316,NSE,Real Estate,Real Estate—Development,OBEROIRLTY.NS
+LUPIN,Lupin Limited,3394975,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,LUPIN.NS
+MAXHEALTH,Max Healthcare Institute Limited,3370861,NSE,Healthcare,Medical Care Facilities,MAXHEALTH.NS
+BHARATFORG,Bharat Forge Limited,3261914,NSE,Consumer Cyclical,Auto Parts,BHARATFORG.NS
+TTML,Tata Teleservices (Maharashtra) Limited,3258865,NSE,Communication Services,Telecom Services,TTML.NS
+LINDEINDIA,Linde India Limited,3227923,NSE,Basic Materials,Specialty Chemicals,LINDEINDIA.NS
+LAURUSLABS,Laurus Labs Limited,3170957,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,LAURUSLABS.NS
+INDHOTEL,The Indian Hotels Company Limited,3151514,NSE,Consumer Cyclical,Lodging,INDHOTEL.NS
+TIINDIA,Tube Investments of India Limited,3134862,NSE,Consumer Cyclical,Auto Parts,TIINDIA.NS
+POLICYBZR,PB Fintech Limited,3120877,NSE,Communication Services,Internet Content & Information,POLICYBZR.NS
+CUMMINSIND,Cummins India Limited,3108244,NSE,Industrials,Specialty Industrial Machinery,CUMMINSIND.NS
+OFSS,Oracle Financial Services Software Limited,3094472,NSE,Technology,Software—Infrastructure,OFSS.NS
+YESBANK,Yes Bank Limited,3081759,NSE,Financial Services,Banks—Regional,YESBANK.NS
+SRTRANSFIN,Shriram Transport Finance Company Limited,3069993,NSE,Financial Services,Credit Services,SRTRANSFIN.NS
+DEEPAKNTR,Deepak Nitrite Limited,3060319,NSE,Basic Materials,Chemicals,DEEPAKNTR.NS
+ATUL,Atul Limited,3045262,NSE,Basic Materials,Specialty Chemicals,ATUL.NS
+SCHAEFFLER,Schaeffler India Limited,3035417,NSE,Consumer Cyclical,Auto Parts,SCHAEFFLER.NS
+FLUOROCHEM,Gujarat Fluorochemicals Limited,3012691,NSE,Basic Materials,Chemicals,FLUOROCHEM.NS
+PFC,Power Finance Corporation Limited,2972732,NSE,Financial Services,Credit Services,PFC.NS
+TVSMOTOR,TVS Motor Company Limited,2972383,NSE,Consumer Cyclical,Auto Manufacturers,TVSMOTOR.NS
+PETRONET,Petronet LNG Limited,2906250,NSE,Energy,Oil & Gas Refining & Marketing,PETRONET.NS
+ABFRL,Aditya Birla Fashion and Retail Limited,2834363,NSE,Consumer Cyclical,Apparel Manufacturing,ABFRL.NS
+RUCHI,Ruchi Soya Industries Limited,2833713,NSE,Consumer Defensive,Packaged Foods,RUCHI.NS
+GLAXO,GlaxoSmithKline Pharmaceuticals Limited,2823829,NSE,Healthcare,Drug Manufacturers—General,GLAXO.NS
+IRFC,Indian Railway Finance Corporation Limited,2803195,NSE,Financial Services,Credit Services,IRFC.NS
+DALBHARAT,Dalmia Bharat Limited,2802286,NSE,Basic Materials,Building Materials,DALBHARAT.NS
+NHPC,NHPC Limited,2792520,NSE,Utilities,Utilities—Renewable,NHPC.NS
+IDEA,Vodafone Idea Limited,2772965,NSE,Communication Services,Telecom Services,IDEA.NS
+ZEEL,Zee Entertainment Enterprises Limited,2769647,NSE,Communication Services,Broadcasting,ZEEL.NS
+MRF,MRF Limited,2757680,NSE,Consumer Cyclical,Auto Parts,MRF.NS
+TRIDENT,Trident Limited,2718692,NSE,Consumer Cyclical,Textile Manufacturing,TRIDENT.NS
+COFORGE,Coforge Limited,2714758,NSE,Technology,Information Technology Services,COFORGE.NS
+IPCALAB,IPCA Laboratories Limited,2703853,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,IPCALAB.NS
+MINDAIND,Minda Industries Limited,2662839,NSE,Consumer Cyclical,Auto Parts,MINDAIND.NS
+RELAXO,Relaxo Footwears Limited,2654423,NSE,Consumer Cyclical,Footwear & Accessories,RELAXO.NS
+UNIONBANK,Union Bank of India,2645047,NSE,Financial Services,Banks—Regional,UNIONBANK.NS
+IGL,Indraprastha Gas Limited,2612053,NSE,Utilities,Utilities—Regulated Gas,IGL.NS
+MFSL,Max Financial Services Limited,2601820,NSE,Financial Services,Insurance—Life,MFSL.NS
+ABCAPITAL,Aditya Birla Capital Limited,2601138,NSE,Financial Services,Financial Conglomerates,ABCAPITAL.NS
+SUPREMEIND,Supreme Industries Limited,2600494,NSE,Industrials,Building Products & Equipment,SUPREMEIND.NS
+OIL,Oil India Limited,2585222,NSE,Energy,Oil & Gas E&P,OIL.NS
+CGPOWER,CG Power and Industrial Solutions Limited,2561067,NSE,Industrials,Electrical Equipment & Parts,CGPOWER.NS
+DIXON,Dixon Technologies (India) Limited,2556925,NSE,Technology,Consumer Electronics,DIXON.NS
+SOLARINDS,Solar Industries India Limited,2530554,NSE,Basic Materials,Specialty Chemicals,SOLARINDS.NS
+BATAINDIA,Bata India Limited,2520939,NSE,Consumer Cyclical,Footwear & Accessories,BATAINDIA.NS
+KANSAINER,Kansai Nerolac Paints Limited,2520797,NSE,Basic Materials,Specialty Chemicals,KANSAINER.NS
+TATACHEM,Tata Chemicals Limited,2482218,NSE,Basic Materials,Chemicals,TATACHEM.NS
+IDFCFIRSTB,IDFC First Bank Limited,2468430,NSE,Financial Services,Banks—Regional,IDFCFIRSTB.NS
+RECLTD,REC Limited,2430137,NSE,Financial Services,Credit Services,RECLTD.NS
+CRISIL,CRISIL Limited,2406503,NSE,Financial Services,Financial Data & Stock Exchanges,CRISIL.NS
+SYNGENE,Syngene International Limited,2395160,NSE,Healthcare,Biotechnology,SYNGENE.NS
+CROMPTON,Crompton Greaves Consumer Electricals Limited,2368938,NSE,Consumer Cyclical,,CROMPTON.NS
+TORNTPOWER,Torrent Power Limited,2363914,NSE,Utilities,Utilities—Independent Power Producers,TORNTPOWER.NS
+COROMANDEL,Coromandel International Limited,2346797,NSE,Basic Materials,Agricultural Inputs,COROMANDEL.NS
+MANYAVAR,Vedant Fashions Limited,2346737,NSE,Consumer Cyclical,Apparel Retail,MANYAVAR.NS
+HATSUN,Hatsun Agro Product Limited,2310839,NSE,Consumer Defensive,Packaged Foods,HATSUN.NS
+THERMAX,Thermax Limited,2310500,NSE,Industrials,Specialty Industrial Machinery,THERMAX.NS
+APLAPOLLO,APL Apollo Tubes Limited,2289065,NSE,Basic Materials,Steel,APLAPOLLO.NS
+ESCORTS,Escorts Limited,2279850,NSE,Industrials,Farm & Heavy Construction Machinery,ESCORTS.NS
+SUMICHEM,Sumitomo Chemical India Limited,2238669,NSE,Basic Materials,Agricultural Inputs,SUMICHEM.NS
+NATIONALUM,National Aluminium Company Limited,2237018,NSE,Basic Materials,Aluminum,NATIONALUM.NS
+GMRINFRA,GMR Infrastructure Limited,2230282,NSE,Industrials,Airports & Air Services,GMRINFRA.NS
+3MINDIA,3M India Limited,2218915,NSE,Industrials,Conglomerates,3MINDIA.NS
+FORTIS,Fortis Healthcare Limited,2192398,NSE,Healthcare,Medical Care Facilities,FORTIS.NS
+LALPATHLAB,Dr. Lal Path Labs Ltd.,2175885,NSE,Healthcare,Diagnostics & Research,LALPATHLAB.NS
+NAM-INDIA,Nippon Life India Asset Management Limited,2162445,NSE,Financial Services,Asset Management,NAM-INDIA.NS
+SUNDARMFIN,Sundaram Finance Limited,2155637,NSE,Financial Services,Credit Services,SUNDARMFIN.NS
+KPRMILL,K.P.R. Mill Limited,2141883,NSE,Consumer Cyclical,Apparel Manufacturing,KPRMILL.NS
+CLEAN,Clean Science and Technology Limited,2116307,NSE,Basic Materials,Specialty Chemicals,CLEAN.NS
+DEVYANI,Devyani International Limited,2108737,NSE,Consumer Cyclical,Restaurants,DEVYANI.NS
+POONAWALLA,Poonawalla Fincorp Limited,2079445,NSE,Financial Services,Credit Services,POONAWALLA.NS
+TANLA,Tanla Platforms Limited,2070252,NSE,Technology,Software—Application,TANLA.NS
+FEDERALBNK,The Federal Bank  Limited,2048806,NSE,Financial Services,Banks—Regional,FEDERALBNK.NS
+RAJESHEXPO,Rajesh Exports Limited,2040542,NSE,Consumer Cyclical,Luxury Goods,RAJESHEXPO.NS
+MSUMI,Motherson Sumi Wiring India Limited,2035289,NSE,Consumer Cyclical,Auto Parts,MSUMI.NS
+AAVAS,Aavas Financiers Limited,2028233,NSE,Financial Services,Mortgage Finance,AAVAS.NS
+NAVINFLUOR,Navin Fluorine International Limited,2022181,NSE,Basic Materials,Chemicals,NAVINFLUOR.NS
+IEX,Indian Energy Exchange Limited,2019310,NSE,Financial Services,Capital Markets,IEX.NS
+VINATIORGA,Vinati Organics Limited,2007539,NSE,Basic Materials,Specialty Chemicals,VINATIORGA.NS
+ISEC,ICICI Securities Limited,2004627,NSE,Financial Services,Capital Markets,ISEC.NS
+GICRE,General Insurance Corporation of India,1997384,NSE,Financial Services,Insurance—Reinsurance,GICRE.NS
+WHIRLPOOL,Whirlpool of India Limited,1995504,NSE,Consumer Cyclical,,WHIRLPOOL.NS
+L&TFH,L&T Finance Holdings Limited,1994073,NSE,Financial Services,Credit Services,L&TFH.NS
+GRINDWELL,Grindwell Norton Limited,1992905,NSE,Industrials,Building Products & Equipment,GRINDWELL.NS
+PFIZER,Pfizer Limited,1989180,NSE,Healthcare,Drug Manufacturers—General,PFIZER.NS
+EMAMILTD,Emami Limited,1987643,NSE,Consumer Defensive,Household & Personal Products,EMAMILTD.NS
+PRESTIGE,Prestige Estates Projects Limited,1979455,NSE,Real Estate,Real Estate—Diversified,PRESTIGE.NS
+LICHSGFIN,LIC Housing Finance Limited,1974451,NSE,Financial Services,Mortgage Finance,LICHSGFIN.NS
+M&MFIN,Mahindra & Mahindra Financial Services Limited,1966346,NSE,Financial Services,Credit Services,M&MFIN.NS
+PHOENIXLTD,The Phoenix Mills Limited,1963602,NSE,Real Estate,Real Estate—Diversified,PHOENIXLTD.NS
+SUNTV,Sun TV Network Limited,1930424,NSE,Communication Services,Broadcasting,SUNTV.NS
+INDIANB,Indian Bank,1916734,NSE,Financial Services,Banks—Regional,INDIANB.NS
+SUNDRMFAST,Sundram Fasteners Limited,1890735,NSE,Consumer Cyclical,Auto Parts,SUNDRMFAST.NS
+BANKINDIA,Bank of India,1881485,NSE,Financial Services,Banks—Regional,BANKINDIA.NS
+JKCEMENT,JK Cement Limited,1878623,NSE,Basic Materials,Building Materials,JKCEMENT.NS
+NIACL,The New India Assurance Company Limited,1839992,NSE,Financial Services,Insurance—Diversified,NIACL.NS
+RAMCOCEM,The Ramco Cements Limited,1814844,NSE,Basic Materials,Building Materials,RAMCOCEM.NS
+DCMSHRIRAM,DCM Shriram Limited,1762304,NSE,Basic Materials,Specialty Chemicals,DCMSHRIRAM.NS
+CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,1756813,NSE,Basic Materials,Agricultural Inputs,CHAMBLFERT.NS
+SKFINDIA,SKF India Limited,1747335,NSE,Industrials,Tools & Accessories,SKFINDIA.NS
+SANOFI,Sanofi India Limited,1727170,NSE,Healthcare,Drug Manufacturers—General,SANOFI.NS
+BHEL,Bharat Heavy Electricals Limited,1718398,NSE,,,BHEL.NS
+BCG,Brightcom Group Limited,1711750,NSE,Communication Services,Advertising Agencies,BCG.NS
+SFL,Sheela Foam Limited,1695105,NSE,Consumer Cyclical,,SFL.NS
+APTUS,Aptus Value Housing Finance India Limited,1692255,NSE,Financial Services,Mortgage Finance,APTUS.NS
+AFFLE,Affle (India) Limited,1679030,NSE,Communication Services,Advertising Agencies,AFFLE.NS
+METROBRAND,Metro Brands Limited,1662168,NSE,Consumer Cyclical,Footwear & Accessories,METROBRAND.NS
+KPITTECH,KPIT Technologies Limited,1647741,NSE,Technology,Information Technology Services,KPITTECH.NS
+BLUEDART,Blue Dart Express Limited,1628270,NSE,Industrials,Integrated Freight & Logistics,BLUEDART.NS
+KAJARIACER,Kajaria Ceramics Limited,1622767,NSE,Industrials,Building Products & Equipment,KAJARIACER.NS
+TIMKEN,Timken India Limited,1610508,NSE,Industrials,Tools & Accessories,TIMKEN.NS
+CENTRALBK,Central Bank of India,1592952,NSE,Financial Services,Banks—Regional,CENTRALBK.NS
+CENTURYPLY,Century Plyboards (India) Limited,1591425,NSE,Consumer Cyclical,,CENTURYPLY.NS
+GILLETTE,Gillette India Limited,1580269,NSE,Consumer Defensive,Household & Personal Products,GILLETTE.NS
+SUVENPHAR,Suven Pharmaceuticals Limited,1574357,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SUVENPHAR.NS
+AJANTPHARM,Ajanta Pharma Limited,1566946,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,AJANTPHARM.NS
+GODREJIND,Godrej Industries Limited,1561751,NSE,Industrials,Conglomerates,GODREJIND.NS
+HAPPSTMNDS,Happiest Minds Technologies Limited,1551834,NSE,Technology,Information Technology Services,HAPPSTMNDS.NS
+CDSL,Central Depository Services (India) Limited,1546966,NSE,Financial Services,Capital Markets,CDSL.NS
+ENDURANCE,Endurance Technologies Limited,1539977,NSE,Consumer Cyclical,Auto Parts,ENDURANCE.NS
+ABSLAMC,Aditya Birla Sun Life AMC Limited,1537488,NSE,Financial Services,Asset Management,ABSLAMC.NS
+AIAENG,AIA Engineering Limited,1530537,NSE,Industrials,Specialty Industrial Machinery,AIAENG.NS
+NH,Narayana Hrudayalaya Ltd.,1523203,NSE,Healthcare,Medical Care Facilities,NH.NS
+IRB,IRB Infrastructure Developers Limited,1517299,NSE,Industrials,Infrastructure Operations,IRB.NS
+CARBORUNIV,Carborundum Universal Limited,1514548,NSE,Industrials,Conglomerates,CARBORUNIV.NS
+POWERINDIA,Hitachi Energy India Limited,1492365,NSE,Technology,Electronic Components,POWERINDIA.NS
+GRINFRA,G R Infraprojects Limited,1483064,NSE,Industrials,Engineering & Construction,GRINFRA.NS
+IIFLWAM,Iifl Wealth Management Limited,1480445,NSE,Financial Services,Asset Management,IIFLWAM.NS
+GSPL,Gujarat State Petronet Limited,1461590,NSE,Utilities,Utilities—Regulated Gas,GSPL.NS
+ALKYLAMINE,Alkyl Amines Chemicals Limited,1459931,NSE,Basic Materials,Specialty Chemicals,ALKYLAMINE.NS
+APLLTD,Alembic Pharmaceuticals Limited,1457712,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,APLLTD.NS
+ZFCVINDIA,ZF Commercial Vehicle Control Systems India Limited,1447549,NSE,Consumer Cyclical,Auto Parts,ZFCVINDIA.NS
+UCOBANK,UCO Bank,1416781,NSE,Financial Services,Banks—Regional,UCOBANK.NS
+NUVOCO,Nuvoco Vistas Corporation Limited,1410588,NSE,Basic Materials,Building Materials,NUVOCO.NS
+NATCOPHARM,Natco Pharma Limited,1380126,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,NATCOPHARM.NS
+BASF,BASF India Limited,1338782,NSE,Basic Materials,Chemicals,BASF.NS
+CREDITACC,CREDITACCESS GRAMEEN LIMITED,1324396,NSE,Financial Services,Credit Services,CREDITACC.NS
+INDIAMART,Indiamart Intermesh Limited,1321200,NSE,Communication Services,Internet Content & Information,INDIAMART.NS
+GNFC,Gujarat Narmada Valley Fertilizers and Chemicals Limited,1312434,NSE,Basic Materials,Chemicals,GNFC.NS
+EXIDEIND,Exide Industries Limited,1284350,NSE,Consumer Cyclical,Auto Parts,EXIDEIND.NS
+MOTILALOFS,Motilal Oswal Financial Services Limited,1280518,NSE,Financial Services,Capital Markets,MOTILALOFS.NS
+BSE,BSE Limited,1276929,NSE,Financial Services,Financial Data & Stock Exchanges,BSE.NS
+ANGELONE,Angel One Limited,1273331,NSE,Financial Services,Capital Markets,ANGELONE.NS
+INTELLECT,Intellect Design Arena Limited,1272541,NSE,Technology,Information Technology Services,INTELLECT.NS
+BSOFT,BIRLASOFT LIMITED,1271567,NSE,Technology,Information Technology Services,BSOFT.NS
+TV18BRDCST,TV18 Broadcast Limited,1269484,NSE,Communication Services,Broadcasting,TV18BRDCST.NS
+KIOCL,KIOCL Limited,1268377,NSE,Basic Materials,Steel,KIOCL.NS
+UTIAMC,UTI Asset Management Company Limited,1262583,NSE,Financial Services,Asset Management,UTIAMC.NS
+VTL,Vardhman Textiles Limited,1259447,NSE,Consumer Cyclical,Textile Manufacturing,VTL.NS
+ALOKINDS,Alok Industries Limited,1258688,NSE,Consumer Cyclical,Textile Manufacturing,ALOKINDS.NS
+GLENMARK,Glenmark Pharmaceuticals Limited,1247183,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,GLENMARK.NS
+BAJAJELEC,Bajaj Electricals Limited,1233904,NSE,Consumer Cyclical,,BAJAJELEC.NS
+FINEORG,Fine Organic Industries Limited,1228131,NSE,Basic Materials,Specialty Chemicals,FINEORG.NS
+JBCHEPHARM,JB Chemicals & Pharmaceuticals Limited,1217116,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,JBCHEPHARM.NS
+APOLLOTYRE,Apollo Tyres Limited,1213043,NSE,Consumer Cyclical,Auto Parts,APOLLOTYRE.NS
+RATNAMANI,Ratnamani Metals & Tubes Limited,1211821,NSE,Basic Materials,Steel,RATNAMANI.NS
+MEDPLUS,Medplus Health Services Limited,1210356,NSE,Healthcare,Pharmaceutical Retailers,MEDPLUS.NS
+BRIGADE,Brigade Enterprises Limited,1190112,NSE,Real Estate,Real Estate—Development,BRIGADE.NS
+AMBER,Amber Enterprises India Limited,1187114,NSE,Consumer Cyclical,,AMBER.NS
+RADICO,Radico Khaitan Limited,1186956,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,RADICO.NS
+PVR,PVR Limited,1172537,NSE,Communication Services,Entertainment,PVR.NS
+CHOLAHLDNG,Cholamandalam Financial Holdings Limited,1161284,NSE,Financial Services,Credit Services,CHOLAHLDNG.NS
+TTKPRESTIG,TTK Prestige Limited,1145991,NSE,Consumer Cyclical,,TTKPRESTIG.NS
+KEI,KEI Industries Limited,1136230,NSE,Industrials,Electrical Equipment & Parts,KEI.NS
+REDINGTON,Redington (India) Limited,1132721,NSE,Technology,Information Technology Services,REDINGTON.NS
+CAMS,Computer Age Management Services Limited,1132531,NSE,Technology,Information Technology Services,CAMS.NS
+MAHABANK,Bank of Maharashtra,1123993,NSE,Financial Services,Banks—Regional,MAHABANK.NS
+KIMS,Krishna Institute of Medical Sciences Limited,1106944,NSE,Healthcare,Medical Care Facilities,KIMS.NS
+HINDCOPPER,Hindustan Copper Limited,1099990,NSE,Basic Materials,Copper,HINDCOPPER.NS
+IIFL,IIFL Finance Limited,1084134,NSE,Financial Services,Credit Services,IIFL.NS
+HFCL,HFCL Limited,1083372,NSE,Technology,Communication Equipment,HFCL.NS
+SHRIRAMCIT,Shriram City Union Finance Limited,1081680,NSE,Financial Services,Credit Services,SHRIRAMCIT.NS
+CGCL,Capri Global Capital Limited,1080624,NSE,Financial Services,Credit Services,CGCL.NS
+SJVN,SJVN Limited,1078729,NSE,Utilities,Utilities—Renewable,SJVN.NS
+VIPIND,VIP Industries Limited,1054897,NSE,Consumer Cyclical,Footwear & Accessories,VIPIND.NS
+LXCHEM,Laxmi Organic Industries Limited,1053069,NSE,Basic Materials,Specialty Chemicals,LXCHEM.NS
+CHEMPLASTS,Chemplast Sanmar Limited,1051666,NSE,Basic Materials,Chemicals,CHEMPLASTS.NS
+ASAHIINDIA,Asahi India Glass Limited,1047718,NSE,Consumer Cyclical,Auto Parts,ASAHIINDIA.NS
+METROPOLIS,Metropolis Healthcare Limited,1041736,NSE,Healthcare,Diagnostics & Research,METROPOLIS.NS
+LAXMIMACH,Lakshmi Machine Works Limited,1027507,NSE,Industrials,Specialty Industrial Machinery,LAXMIMACH.NS
+CYIENT,Cyient Limited,1023139,NSE,Industrials,Conglomerates,CYIENT.NS
+JSL,Jindal Stainless Limited,1021405,NSE,Basic Materials,Steel,JSL.NS
+GALAXYSURF,Galaxy Surfactants Limited,1015566,NSE,Basic Materials,Specialty Chemicals,GALAXYSURF.NS
+BLUESTARCO,Blue Star Limited,1013270,NSE,Industrials,Specialty Industrial Machinery,BLUESTARCO.NS
+BDL,Bharat Dynamics Limited,1006764,NSE,Industrials,Aerospace & Defense,BDL.NS
+CESC,CESC Limited,1005445,NSE,Utilities,Utilities—Independent Power Producers,CESC.NS
+BALRAMCHIN,Balrampur Chini Mills Limited,998572,NSE,Consumer Defensive,Confectioners,BALRAMCHIN.NS
+CASTROLIND,Castrol India Limited,998519,NSE,Energy,Oil & Gas Refining & Marketing,CASTROLIND.NS
+MASTEK,Mastek Limited,996638,NSE,Technology,Information Technology Services,MASTEK.NS
+RHIM,RHI MAGNESITA INDIA LIMITED,986827,NSE,Industrials,Metal Fabrication,RHIM.NS
+ASTERDM,Aster DM Healthcare Limited,986538,NSE,Healthcare,Medical Care Facilities,ASTERDM.NS
+IDFC,IDFC Limited,985799,NSE,Financial Services,Asset Management,IDFC.NS
+GRAPHITE,Graphite India Limited,982446,NSE,Industrials,Electrical Equipment & Parts,GRAPHITE.NS
+QUESS,Quess Corp Limited,975332,NSE,Industrials,Staffing & Employment Services,QUESS.NS
+KEC,KEC International Limited,974236,NSE,Industrials,Engineering & Construction,KEC.NS
+ROUTE,ROUTE MOBILE LIMITED,969688,NSE,Communication Services,Telecom Services,ROUTE.NS
+EIHOTEL,EIH Limited,967126,NSE,Consumer Cyclical,Lodging,EIHOTEL.NS
+MANAPPURAM,Manappuram Finance Limited,961081,NSE,Financial Services,Credit Services,MANAPPURAM.NS
+FINPIPE,Finolex Industries Limited,959568,NSE,Industrials,Building Products & Equipment,FINPIPE.NS
+ZYDUSWELL,Zydus Wellness Limited,955214,NSE,Consumer Defensive,Packaged Foods,ZYDUSWELL.NS
+CENTURYTEX,Century Textiles & Industries Limited,954551,NSE,Basic Materials,Paper & Paper Products,CENTURYTEX.NS
+CUB,City Union Bank Limited,953325,NSE,Financial Services,Banks—Regional,CUB.NS
+SAPPHIRE,Sapphire Foods India Limited,941828,NSE,Consumer Cyclical,Restaurants,SAPPHIRE.NS
+BALAMINES,Balaji Amines Limited,941411,NSE,Basic Materials,Specialty Chemicals,BALAMINES.NS
+ERIS,Eris Lifesciences Limited,936151,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ERIS.NS
+VGUARD,V-Guard Industries Limited,930882,NSE,Industrials,Electrical Equipment & Parts,VGUARD.NS
+SAREGAMA,Saregama India Limited,930740,NSE,Communication Services,Entertainment,SAREGAMA.NS
+SHYAMMETL,Shyam Metalics and Energy Limited,924285,NSE,Basic Materials,Steel,SHYAMMETL.NS
+JSLHISAR,Jindal Stainless (Hisar) Limited,918612,NSE,Basic Materials,Steel,JSLHISAR.NS
+AMARAJABAT,Amara Raja Batteries Limited,916238,NSE,Industrials,Electrical Equipment & Parts,AMARAJABAT.NS
+POLYMED,Poly Medicure Limited,910574,NSE,Healthcare,Medical Instruments & Supplies,POLYMED.NS
+BIRLACORPN,Birla Corporation Limited,910357,NSE,Basic Materials,Building Materials,BIRLACORPN.NS
+ITI,ITI Limited,900383,NSE,Technology,Communication Equipment,ITI.NS
+WELSPUNIND,Welspun India Limited,897651,NSE,Consumer Cyclical,Textile Manufacturing,WELSPUNIND.NS
+STLTECH,Sterlite Technologies Limited,892765,NSE,Technology,Communication Equipment,STLTECH.NS
+NETWORK18,Network18 Media & Investments Limited,891477,NSE,Communication Services,Broadcasting,NETWORK18.NS
+ELGIEQUIP,Elgi Equipments Limited,885919,NSE,Industrials,Specialty Industrial Machinery,ELGIEQUIP.NS
+DELTACORP,Delta Corp Limited,882083,NSE,Consumer Cyclical,Resorts & Casinos,DELTACORP.NS
+ALLCARGO,Allcargo Logistics Limited,880573,NSE,Industrials,Integrated Freight & Logistics,ALLCARGO.NS
+FSL,Firstsource Solutions Limited,871587,NSE,Technology,Information Technology Services,FSL.NS
+SUPPETRO,Supreme Petrochem Limited,870208,NSE,Dell Back to College offers,,SUPPETRO.NS
+AKZOINDIA,Akzo Nobel India Limited,869160,NSE,Basic Materials,Specialty Chemicals,AKZOINDIA.NS
+NLCINDIA,NLC India Limited,867341,NSE,Utilities,Utilities—Regulated Electric,NLCINDIA.NS
+GODREJAGRO,Godrej Agrovet Limited,849427,NSE,Consumer Defensive,Farm Products,GODREJAGRO.NS
+LATENTVIEW,Latent View Analytics Limited,847284,NSE,Industrials,Consulting Services,LATENTVIEW.NS
+FACT,Fertilizers and Chemicals Travancore Limited,847017,NSE,Basic Materials,Agricultural Inputs,FACT.NS
+SUZLON,Suzlon Energy Limited,843396,NSE,Industrials,Specialty Industrial Machinery,SUZLON.NS
+CANFINHOME,Can Fin Homes Limited,840802,NSE,Financial Services,Mortgage Finance,CANFINHOME.NS
+NIITLTD,NIIT Limited,832253,NSE,Consumer Defensive,Education & Training Services,NIITLTD.NS
+ZENSARTECH,Zensar Technologies Limited,830046,NSE,Technology,Information Technology Services,ZENSARTECH.NS
+ANURAS,Anupam Rasayan India Limited,826485,NSE,Basic Materials,Specialty Chemicals,ANURAS.NS
+MAPMYINDIA,C.E. Info Systems Limited,804342,NSE,Technology,Software—Application,MAPMYINDIA.NS
+EIDPARRY,EID Parry India Limited,802585,NSE,Consumer Defensive,Confectioners,EIDPARRY.NS
+ECLERX,eClerx Services Limited,802092,NSE,Technology,Information Technology Services,ECLERX.NS
+KNRCON,KNR Constructions Limited,799128,NSE,Industrials,Engineering & Construction,KNRCON.NS
+VMART,V-Mart Retail Limited,783323,NSE,Consumer Cyclical,Department Stores,VMART.NS
+SPARC,Sun Pharma Advanced Research Company Limited,782255,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SPARC.NS
+RBLBANK,RBL Bank Limited,780552,NSE,Financial Services,Banks—Regional,RBLBANK.NS
+SONATSOFTW,Sonata Software Limited,777548,NSE,Technology,Information Technology Services,SONATSOFTW.NS
+MGL,Mahanagar Gas Limited,769528,NSE,Utilities,Utilities—Regulated Gas,MGL.NS
+SYMPHONY,Symphony Limited,768058,NSE,Consumer Cyclical,694,SYMPHONY.NS
+INDIGOPNTS,Indigo Paints Limited,763887,NSE,Basic Materials,Specialty Chemicals,INDIGOPNTS.NS
+POLYPLEX,Polyplex Corporation Limited,761236,NSE,Basic Materials,Specialty Chemicals,POLYPLEX.NS
+GRANULES,Granules India Limited,760138,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,GRANULES.NS
+RENUKA,Shree Renuka Sugars Limited,757742,NSE,Consumer Defensive,Confectioners,RENUKA.NS
+BEML,BEML Limited,757451,NSE,Industrials,Conglomerates,BEML.NS
+BORORENEW,BOROSIL RENEWABLES LIMITED,756387,NSE,Consumer Cyclical,Packaging & Containers,BORORENEW.NS
+TRIVENI,Triveni Engineering & Industries Limited,752221,NSE,Consumer Defensive,Confectioners,TRIVENI.NS
+TEAMLEASE,Teamlease Services Limited,741812,NSE,Industrials,Staffing & Employment Services,TEAMLEASE.NS
+EASEMYTRIP,Easy Trip Planners Limited,740524,NSE,Consumer Cyclical,Travel Services,EASEMYTRIP.NS
+IBULHSGFIN,Indiabulls Housing Finance Limited,739406,NSE,Financial Services,Mortgage Finance,IBULHSGFIN.NS
+PRIVISCL,Privi Speciality Chemicals Limited,732484,NSE,Basic Materials,Specialty Chemicals,PRIVISCL.NS
+PRAJIND,Praj Industries Limited,731845,NSE,Industrials,Engineering & Construction,PRAJIND.NS
+MRPL,Mangalore Refinery and Petrochemicals Limited,729081,NSE,Energy,Oil & Gas Refining & Marketing,MRPL.NS
+SUNCLAYLTD,Sundaram Clayton Limited,723418,NSE,Consumer Cyclical,Auto Parts,SUNCLAYLTD.NS
+AEGISCHEM,Aegis Logistics Limited,721481,NSE,Energy,Oil & Gas Refining & Marketing,AEGISCHEM.NS
+GREENPANEL,Greenpanel Industries Limited,717922,NSE,Consumer Cyclical,,GREENPANEL.NS
+JUBLINGREA,Jubilant Ingrevia Limited,716526,NSE,Healthcare,Biotechnology,JUBLINGREA.NS
+SIS,SIS LIMITED,713174,NSE,Industrials,Security & Protection Services,SIS.NS
+PRINCEPIPE,Prince Pipes And Fittings Limited,701234,NSE,Basic Materials,Specialty Chemicals,PRINCEPIPE.NS
+TATAINVEST,Tata Investment Corporation Limited,686325,NSE,Financial Services,Capital Markets,TATAINVEST.NS
+RVNL,Rail Vikas Nigam Limited,681802,NSE,Industrials,Engineering & Construction,RVNL.NS
+ORIENTELEC,Orient Electric Limited,681646,NSE,Consumer Cyclical,888,ORIENTELEC.NS
+DEEPAKFERT,Deepak Fertilizers and Petrochemicals Corporation Limited,676949,NSE,Basic Materials,Chemicals,DEEPAKFERT.NS
+HOMEFIRST,Home First Finance Company India Limited,674298,NSE,Financial Services,Mortgage Finance,HOMEFIRST.NS
+SOBHA,Sobha Limited,671272,NSE,Real Estate,Real Estate—Development,SOBHA.NS
+GMMPFAUDLR,GMM Pfaudler Limited,665908,NSE,Industrials,Specialty Industrial Machinery,GMMPFAUDLR.NS
+PNCINFRA,PNC Infratech Limited,664821,NSE,Industrials,Engineering & Construction,PNCINFRA.NS
+PGHL,Procter & Gamble Health Limited,664374,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,PGHL.NS
+MMTC,MMTC Limited,661500,NSE,Industrials,Conglomerates,MMTC.NS
+LUXIND,Lux Industries Limited,658855,NSE,Consumer Cyclical,Apparel Manufacturing,LUXIND.NS
+GUJALKALI,Gujarat Alkalies and Chemicals Limited,658473,NSE,Basic Materials,Chemicals,GUJALKALI.NS
+TCIEXP,TCI Express Limited,656823,NSE,Industrials,Integrated Freight & Logistics,TCIEXP.NS
+HUDCO,Housing & Urban Development Corporation Limited,655622,NSE,Financial Services,Credit Services,HUDCO.NS
+TRITURBINE,Triveni Turbine Limited,653562,NSE,Industrials,Specialty Industrial Machinery,TRITURBINE.NS
+NBCC,NBCC (India) Limited,653400,NSE,Industrials,Engineering & Construction,NBCC.NS
+RAIN,Rain Industries Limited,652511,NSE,Basic Materials,Chemicals,RAIN.NS
+MAHINDCIE,Mahindra CIE Automotive Limited,651445,NSE,Consumer Cyclical,Auto Parts,MAHINDCIE.NS
+INDIACEM,The India Cements Limited,649235,NSE,Basic Materials,Building Materials,INDIACEM.NS
+INOXLEISUR,INOX Leisure Limited,648153,NSE,Communication Services,Entertainment,INOXLEISUR.NS
+CERA,Cera Sanitaryware Limited,646711,NSE,Industrials,Building Products & Equipment,CERA.NS
+GSFC,Gujarat State Fertilizers & Chemicals Limited,645733,NSE,Basic Materials,Agricultural Inputs,GSFC.NS
+JMFINANCIL,JM Financial Limited,644937,NSE,Financial Services,Capital Markets,JMFINANCIL.NS
+EQUITASBNK,Equitas Small Finance Bank Limited,639786,NSE,Financial Services,Banks—Regional,EQUITASBNK.NS
+SUNTECK,Sunteck Realty Limited,639620,NSE,Real Estate,Real Estate—Development,SUNTECK.NS
+ASTRAZEN,AstraZeneca Pharma India Limited,637963,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ASTRAZEN.NS
+RTNINDIA,RattanIndia Enterprises Limited,637917,NSE,Utilities,Utilities—Independent Power Producers,RTNINDIA.NS
+PNBHOUSING,PNB Housing Finance Limited,635364,NSE,Financial Services,Mortgage Finance,PNBHOUSING.NS
+RITES,RITES Limited,630792,NSE,Industrials,Engineering & Construction,RITES.NS
+PSB,Punjab & Sind Bank,626137,NSE,Financial Services,Banks—Regional,PSB.NS
+CHALET,Chalet Hotels Limited,619890,NSE,Consumer Cyclical,Lodging,CHALET.NS
+JUBLPHARMA,Jubilant Pharmova Limited,618250,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,JUBLPHARMA.NS
+VAIBHAVGBL,Vaibhav Global Limited,613178,NSE,Consumer Cyclical,Luxury Goods,VAIBHAVGBL.NS
+EPL,EPL Limited,611636,NSE,Consumer Cyclical,Packaging & Containers,EPL.NS
+MAHLIFE,Mahindra Lifespace Developers Limited,610632,NSE,Real Estate,Real Estate—Development,MAHLIFE.NS
+KALYANKJIL,Kalyan Jewellers India Limited,605156,NSE,Consumer Cyclical,Luxury Goods,KALYANKJIL.NS
+GMDCLTD,Gujarat Mineral Development Corporation Limited,603405,NSE,Energy,Thermal Coal,GMDCLTD.NS
+SWSOLAR,Sterling and Wilson Renewable Energy Limited,603320,NSE,Technology,Solar,SWSOLAR.NS
+BBTC,Bombay Burmah Trading Corporation Limited,600597,NSE,Consumer Defensive,Packaged Foods,BBTC.NS
+GAEL,Gujarat Ambuja Exports Limited,596731,NSE,Consumer Defensive,Packaged Foods,GAEL.NS
+JUSTDIAL,Just Dial Limited,594738,NSE,Communication Services,Internet Content & Information,JUSTDIAL.NS
+GARFIBRES,Garware Technical Fibres Limited,581793,NSE,Consumer Cyclical,Textile Manufacturing,GARFIBRES.NS
+PRSMJOHNSN,Prism Johnson Limited,579867,NSE,Basic Materials,Building Materials,PRSMJOHNSN.NS
+FINCABLES,Finolex Cables Limited,577575,NSE,Industrials,Electrical Equipment & Parts,FINCABLES.NS
+RAYMOND,Raymond Limited,568972,NSE,Consumer Cyclical,Textile Manufacturing,RAYMOND.NS
+JINDWORLD,Jindal Worldwide Limited,562660,NSE,Consumer Cyclical,Textile Manufacturing,JINDWORLD.NS
+GLS,Glenmark Life Sciences Limited,562155,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,GLS.NS
+AVANTIFEED,Avanti Feeds Limited,561809,NSE,Consumer Defensive,Packaged Foods,AVANTIFEED.NS
+JKLAKSHMI,JK Lakshmi Cement Limited,558756,NSE,Basic Materials,Building Materials,JKLAKSHMI.NS
+SHARDACROP,Sharda Cropchem Limited,554856,NSE,Basic Materials,Agricultural Inputs,SHARDACROP.NS
+EDELWEISS,Edelweiss Financial Services Limited,553597,NSE,Financial Services,Capital Markets,EDELWEISS.NS
+OLECTRA,Olectra Greentech Limited,549572,NSE,Consumer Cyclical,Auto Parts,OLECTRA.NS
+GOCOLORS,Go Fashion (India) Limited,546301,NSE,Consumer Cyclical,Apparel Manufacturing,GOCOLORS.NS
+KALPATPOWR,Kalpataru Power Transmission Limited,546125,NSE,Industrials,Engineering & Construction,KALPATPOWR.NS
+GPIL,Godawari Power And Ispat limited,544682,NSE,Basic Materials,Steel,GPIL.NS
+JYOTHYLAB,Jyothy Labs Limited,541449,NSE,Consumer Defensive,Household & Personal Products,JYOTHYLAB.NS
+MTARTECH,Mtar Technologies Limited,539446,NSE,Industrials,Specialty Industrial Machinery,MTARTECH.NS
+SCI,Shipping Corporation Of India Limited,537299,NSE,Industrials,Marine Shipping,SCI.NS
+CCL,CCL Products (India) Limited,537034,NSE,Consumer Defensive,Packaged Foods,CCL.NS
+NAZARA,Nazara Technologies Limited,534434,NSE,Communication Services,Electronic Gaming & Multimedia,NAZARA.NS
+HEG,HEG Limited,531093,NSE,Industrials,Electrical Equipment & Parts,HEG.NS
+VARROC,Varroc Engineering Limited,528259,NSE,Consumer Cyclical,Auto Parts,VARROC.NS
+GODFRYPHLP,Godfrey Phillips India Limited,524931,NSE,Consumer Defensive,Tobacco,GODFRYPHLP.NS
+GHCL,GHCL Limited,522093,NSE,Basic Materials,Chemicals,GHCL.NS
+INFIBEAM,Infibeam Avenues Limited,517866,NSE,Technology,Software—Infrastructure,INFIBEAM.NS
+JBMA,JBM Auto Limited,517095,NSE,Consumer Cyclical,Auto Parts,JBMA.NS
+SHOPERSTOP,Shoppers Stop Limited,515253,NSE,Consumer Cyclical,Department Stores,SHOPERSTOP.NS
+JKPAPER,JK Paper Limited,514898,NSE,Basic Materials,Paper & Paper Products,JKPAPER.NS
+CAPLIPOINT,Caplin Point Laboratories Limited,514000,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,CAPLIPOINT.NS
+TATVA,Tatva Chintan Pharma Chem Limited,511658,NSE,Basic Materials,Specialty Chemicals,TATVA.NS
+GESHIP,The Great Eastern Shipping Company Limited,507549,NSE,Industrials,Marine Shipping,GESHIP.NS
+BHARATRAS,Bharat Rasayan Limited,506729,NSE,Basic Materials,Agricultural Inputs,BHARATRAS.NS
+INGERRAND,Ingersoll Rand (India) Limited,504346,NSE,Industrials,Specialty Industrial Machinery,INGERRAND.NS
+LEMONTREE,Lemon Tree Hotels Limited,502284,NSE,Consumer Cyclical,Lodging,LEMONTREE.NS
+ROSSARI,Rossari Biotech Limited,501894,NSE,Basic Materials,Specialty Chemicals,ROSSARI.NS
+CRAFTSMAN,Craftsman Automation Limited,498290,NSE,Consumer Cyclical,Auto Parts,CRAFTSMAN.NS
+RBA,Restaurant Brands Asia Limited,496433,NSE,Consumer Cyclical,Restaurants,RBA.NS
+HIKAL,Hikal Limited,496039,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,HIKAL.NS
+MINDACORP,Minda Corporation Limited,494416,NSE,Consumer Cyclical,Auto Parts,MINDACORP.NS
+RCF,Rashtriya Chemicals and Fertilizers Limited,493485,NSE,Basic Materials,Agricultural Inputs,RCF.NS
+BARBEQUE,Barbeque Nation Hospitality Limited,493232,NSE,Consumer Cyclical,Restaurants,BARBEQUE.NS
+TEJASNET,Tejas Networks Limited,488232,NSE,Technology,Communication Equipment,TEJASNET.NS
+JINDALPOLY,Jindal Poly Films Limited,486752,NSE,Basic Materials,Specialty Chemicals,JINDALPOLY.NS
+RESPONIND,Responsive Industries Limited,485381,NSE,Basic Materials,Specialty Chemicals,RESPONIND.NS
+MAZDOCK,Mazagon Dock Shipbuilders Limited,483451,NSE,Industrials,Aerospace & Defense,MAZDOCK.NS
+JCHAC,Johnson Controls - Hitachi Air Conditioning India Limited,481483,NSE,Consumer Cyclical,,JCHAC.NS
+KRBL,KRBL Limited,474546,NSE,Consumer Defensive,Packaged Foods,KRBL.NS
+SWANENERGY,Swan Energy Limited,474469,NSE,Consumer Cyclical,Textile Manufacturing,SWANENERGY.NS
+SUPRAJIT,Suprajit Engineering Limited,473554,NSE,Consumer Cyclical,Auto Parts,SUPRAJIT.NS
+VSTIND,VST Industries Limited,473326,NSE,Consumer Defensive,Tobacco,VSTIND.NS
+TCNSBRANDS,TCNS Clothing Co. Limited,472138,NSE,Consumer Cyclical,Apparel Manufacturing,TCNSBRANDS.NS
+JPPOWER,Jaiprakash Power Ventures Limited,466035,NSE,Utilities,Utilities—Independent Power Producers,JPPOWER.NS
+ESABINDIA,Esab India Limited,465092,NSE,Industrials,Tools & Accessories,ESABINDIA.NS
+TCI,Transport Corporation of India Limited,463272,NSE,Industrials,Integrated Freight & Logistics,TCI.NS
+RALLIS,Rallis India Limited,462933,NSE,Basic Materials,Agricultural Inputs,RALLIS.NS
+IBREALEST,Indiabulls Real Estate Limited,462502,NSE,Real Estate,Real Estate—Development,IBREALEST.NS
+MHRIL,Mahindra Holidays & Resorts India Limited,460172,NSE,Consumer Cyclical,Resorts & Casinos,MHRIL.NS
+KSB,Ksb Limited,459272,NSE,Industrials,Specialty Industrial Machinery,KSB.NS
+RPOWER,Reliance Power Limited,459017,NSE,Utilities,Utilities—Renewable,RPOWER.NS
+JSWHL,JSW Holdings Limited,455601,NSE,Industrials,Conglomerates,JSWHL.NS
+PDSL,PDS Limited,455036,NSE,Industrials,Specialty Business Services,PDSL.NS
+VIJAYA,Vijaya Diagnostic Centre Limited,446764,NSE,Healthcare,Diagnostics & Research,VIJAYA.NS
+GREAVESCOT,Greaves Cotton Limited,442090,NSE,Industrials,Specialty Industrial Machinery,GREAVESCOT.NS
+GLOBUSSPR,Globus Spirits Limited,441186,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,GLOBUSSPR.NS
+UFLEX,UFLEX Limited,439299,NSE,Consumer Cyclical,Packaging & Containers,UFLEX.NS
+GREENLAM,Greenlam Industries Limited,438618,NSE,Consumer Cyclical,,GREENLAM.NS
+MOIL,MOIL Limited,437514,NSE,Basic Materials,Other Industrial Metals & Mining,MOIL.NS
+WELCORP,Welspun Corp Limited,436829,NSE,Basic Materials,Steel,WELCORP.NS
+VRLLOG,VRL Logistics Limited,436682,NSE,Industrials,Trucking,VRLLOG.NS
+NEOGEN,Neogen Chemicals Limited,435041,NSE,Basic Materials,Specialty Chemicals,NEOGEN.NS
+FDC,FDC Limited,434011,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,FDC.NS
+PCBL,PCBL LIMITED,431628,NSE,Basic Materials,Specialty Chemicals,PCBL.NS
+HEIDELBERG,HeidelbergCement India Limited,429658,NSE,Basic Materials,Building Materials,HEIDELBERG.NS
+HGS,Hinduja Global Solutions Limited,427857,NSE,Industrials,Specialty Business Services,HGS.NS
+IFBIND,IFB Industries Limited,421679,NSE,Consumer Cyclical,,IFBIND.NS
+MAHSCOOTER,Maharashtra Scooters Limited,420411,NSE,Consumer Cyclical,Auto Parts,MAHSCOOTER.NS
+TINPLATE,The Tinplate Company of India Limited,420031,NSE,Basic Materials,Steel,TINPLATE.NS
+RELIGARE,Religare Enterprises Limited,415090,NSE,Financial Services,Capital Markets,RELIGARE.NS
+NOCIL,NOCIL Limited,414602,NSE,Basic Materials,Chemicals,NOCIL.NS
+THYROCARE,Thyrocare Technologies Limited,410160,NSE,Healthcare,Diagnostics & Research,THYROCARE.NS
+USHAMART,Usha Martin Limited,409878,NSE,Basic Materials,Steel,USHAMART.NS
+ICRA,ICRA Limited,408652,NSE,Financial Services,Financial Data & Stock Exchanges,ICRA.NS
+SARDAEN,Sarda Energy & Minerals Limited,408312,NSE,Basic Materials,Steel,SARDAEN.NS
+CMSINFO,CMS Info Systems Limited,405778,NSE,Industrials,Specialty Business Services,CMSINFO.NS
+TATACOFFEE,Tata Coffee Limited,404918,NSE,Consumer Defensive,Packaged Foods,TATACOFFEE.NS
+MFL,Meghmani Finechem Limited,404200,NSE,Basic Materials,Chemicals,MFL.NS
+SHAREINDIA,Share India Securities Limited,399407,NSE,Financial Services,Capital Markets,SHAREINDIA.NS
+AARTIDRUGS,Aarti Drugs Limited,397347,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,AARTIDRUGS.NS
+SUPRIYA,Supriya Lifescience Limited,397022,NSE,Healthcare,Biotechnology,SUPRIYA.NS
+JAMNAAUTO,Jamna Auto Industries Limited,396472,NSE,Consumer Cyclical,Auto Parts,JAMNAAUTO.NS
+DALMIASUG,Dalmia Bharat Sugar and Industries Limited,389318,NSE,Consumer Defensive,Confectioners,DALMIASUG.NS
+NESCO,Nesco Limited,389291,NSE,Industrials,Conglomerates,NESCO.NS
+MANINFRA,Man Infraconstruction Limited,387771,NSE,Industrials,Engineering & Construction,MANINFRA.NS
+COCHINSHIP,Cochin Shipyard Limited,386992,NSE,Industrials,Aerospace & Defense,COCHINSHIP.NS
+MAITHANALL,Maithan Alloys Limited,386499,NSE,Basic Materials,Steel,MAITHANALL.NS
+LAOPALA,La Opala RG Limited,385281,NSE,Consumer Cyclical,978,LAOPALA.NS
+WOCKPHARMA,Wockhardt Limited,379743,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,WOCKPHARMA.NS
+BOROLTD,Borosil Limited,377593,NSE,Consumer Cyclical,713,BOROLTD.NS
+ISGEC,Isgec Heavy Engineering Limited,377427,NSE,Industrials,Specialty Industrial Machinery,ISGEC.NS
+CEATLTD,CEAT Limited,377056,NSE,Consumer Cyclical,Auto Parts,CEATLTD.NS
+ARVINDFASN,Arvind Fashions Limited,375847,NSE,Consumer Cyclical,Apparel Manufacturing,ARVINDFASN.NS
+HCG,Healthcare Global Enterprises Limited,375193,NSE,Healthcare,Medical Care Facilities,HCG.NS
+DHANI,Dhani Services Limited,374707,NSE,Financial Services,Capital Markets,DHANI.NS
+IRCON,Ircon International Limited,374325,NSE,Industrials,Engineering & Construction,IRCON.NS
+TARSONS,Tarsons Products Limited,374014,NSE,Healthcare,Medical Instruments & Supplies,TARSONS.NS
+KARURVYSYA,Karur Vysya Bank Limited,370334,NSE,Financial Services,Banks—Regional,KARURVYSYA.NS
+MAHSEAMLES,Maharashtra Seamless Limited,369536,NSE,Basic Materials,Steel,MAHSEAMLES.NS
+STARCEMENT,Star Cement Limited,369536,NSE,Basic Materials,Building Materials,STARCEMENT.NS
+GPPL,Gujarat Pipavav Port Limited,369348,NSE,Industrials,Marine Shipping,GPPL.NS
+VAKRANGEE,Vakrangee Limited,367646,NSE,Technology,Information Technology Services,VAKRANGEE.NS
+CSBBANK,CSB Bank Limited,366315,NSE,Financial Services,Banks—Regional,CSBBANK.NS
+AMIORG,Ami Organics Limited,365190,NSE,Basic Materials,Specialty Chemicals,AMIORG.NS
+DATAPATTNS,Data Patterns (India) Limited,364711,NSE,Industrials,Aerospace & Defense,DATAPATTNS.NS
+EQUITAS,Equitas Holdings Limited,364006,NSE,Financial Services,Credit Services,EQUITAS.NS
+HGINFRA,H.G. Infra Engineering Limited,363622,NSE,Industrials,Engineering & Construction,HGINFRA.NS
+MAHLOG,Mahindra Logistics Limited,362664,NSE,Industrials,Integrated Freight & Logistics,MAHLOG.NS
+SUDARSCHEM,Sudarshan Chemical Industries Limited,360639,NSE,Basic Materials,Specialty Chemicals,SUDARSCHEM.NS
+ENGINERSIN,Engineers India Limited,359988,NSE,Industrials,Engineering & Construction,ENGINERSIN.NS
+RATEGAIN,Rategain Travel Technologies Limited,358524,NSE,Technology,Software—Application,RATEGAIN.NS
+NCC,NCC Limited,357065,NSE,Industrials,Engineering & Construction,NCC.NS
+DHAMPURSUG,Dhampur Sugar Mills Limited,354974,NSE,Consumer Defensive,Confectioners,DHAMPURSUG.NS
+DBL,Dilip Buildcon Limited,352524,NSE,Industrials,Engineering & Construction,DBL.NS
+SANSERA,Sansera Engineering Limited,349781,NSE,Industrials,Metal Fabrication,SANSERA.NS
+RUPA,Rupa & Company Limited,348437,NSE,Consumer Cyclical,Apparel Manufacturing,RUPA.NS
+INDOCO,Indoco Remedies Limited,347453,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,INDOCO.NS
+SHILPAMED,Shilpa Medicare Limited,345645,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SHILPAMED.NS
+ASTEC,Astec LifeSciences Limited,343907,NSE,Basic Materials,Agricultural Inputs,ASTEC.NS
+ROLEXRINGS,Rolex Rings Limited,341683,NSE,Industrials,Metal Fabrication,ROLEXRINGS.NS
+SEAMECLTD,Seamec Limited,340314,NSE,Industrials,Marine Shipping,SEAMECLTD.NS
+PAISALO,Paisalo Digital Limited,334848,NSE,Financial Services,Credit Services,PAISALO.NS
+DHANUKA,Dhanuka Agritech Limited,334293,NSE,Basic Materials,Agricultural Inputs,DHANUKA.NS
+GATEWAY,Gateway Distriparks Limited,333262,NSE,Industrials,Integrated Freight & Logistics,GATEWAY.NS
+BANARISUG,Bannari Amman Sugars Limited,333217,NSE,Consumer Defensive,Confectioners,BANARISUG.NS
+SEQUENT,Sequent Scientific Limited,332320,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SEQUENT.NS
+HEMIPROP,Hemisphere Properties India Limited,325898,NSE,Real Estate,Real Estate—Diversified,HEMIPROP.NS
+NEWGEN,Newgen Software Technologies Limited,325749,NSE,Technology,Software—Application,NEWGEN.NS
+ITDC,India Tourism Development Corporation Limited,325066,NSE,Consumer Cyclical,Lodging,ITDC.NS
+TATASTLLP,Tata Steel Long Products Limited,324111,NSE,Basic Materials,Steel,TATASTLLP.NS
+KSCL,Kaveri Seed Company Limited,319019,NSE,Consumer Defensive,Farm Products,KSCL.NS
+AHLUCONT,Ahluwalia Contracts (India) Limited,315545,NSE,Industrials,Engineering & Construction,AHLUCONT.NS
+ADVENZYMES,Advanced Enzyme Technologies Limited,315390,NSE,Basic Materials,Specialty Chemicals,ADVENZYMES.NS
+COSMOFILMS,Cosmo Films Limited,314988,NSE,Consumer Cyclical,Packaging & Containers,COSMOFILMS.NS
+ICIL,Indo Count Industries Limited,313767,NSE,Consumer Cyclical,Textile Manufacturing,ICIL.NS
+INDIAGLYCO,India Glycols Limited,312773,NSE,Basic Materials,Chemicals,INDIAGLYCO.NS
+DOLLAR,Dollar Industries Limited,312166,NSE,Consumer Cyclical,Apparel Manufacturing,DOLLAR.NS
+TEGA,Tega Industries Limited,311843,NSE,Industrials,Specialty Industrial Machinery,TEGA.NS
+HSCL,Himadri Speciality Chemical Limited,311291,NSE,Basic Materials,Specialty Chemicals,HSCL.NS
+STAR,Strides Pharma Science Limited,311213,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,STAR.NS
+MIDHANI,Mishra Dhatu Nigam Limited,310329,NSE,Basic Materials,Steel,MIDHANI.NS
+IPL,India Pesticides Limited,310020,NSE,Basic Materials,Agricultural Inputs,IPL.NS
+HATHWAY,Hathway Cable & Datacom Limited,305343,NSE,Communication Services,Entertainment,HATHWAY.NS
+NILKAMAL,Nilkamal Limited,302674,NSE,Consumer Cyclical,,NILKAMAL.NS
+VENKEYS,Venky's (India) Limited,301814,NSE,Consumer Defensive,Farm Products,VENKEYS.NS
+J&KBANK,The Jammu & Kashmir Bank Limited,301322,NSE,Financial Services,Banks—Regional,J&KBANK.NS
+DISHTV,Dish TV India Limited,301045,NSE,Communication Services,Entertainment,DISHTV.NS
+ARVIND,Arvind Limited,300846,NSE,Consumer Cyclical,Textile Manufacturing,ARVIND.NS
+RSYSTEMS,R Systems International Limited,300432,NSE,Technology,Information Technology Services,RSYSTEMS.NS
+HIL,HIL Limited,298610,NSE,Industrials,Building Products & Equipment,HIL.NS
+RELINFRA,Reliance Infrastructure Limited,295338,NSE,Utilities,Utilities—Regulated Electric,RELINFRA.NS
+MASFIN,MAS Financial Services Limited,293071,NSE,Financial Services,Credit Services,MASFIN.NS
+ORIENTCEM,Orient Cement Limited,291528,NSE,Basic Materials,Building Materials,ORIENTCEM.NS
+HINDOILEXP,Hindustan Oil Exploration Company Limited,290915,NSE,Energy,Oil & Gas E&P,HINDOILEXP.NS
+DCAL,Dishman Carbogen Amcis Limited,289657,NSE,Healthcare,Biotechnology,DCAL.NS
+SAGCEM,Sagar Cements Limited,289461,NSE,Basic Materials,Building Materials,SAGCEM.NS
+JKTYRE,JK Tyre & Industries Limited,288952,NSE,Consumer Cyclical,Auto Parts,JKTYRE.NS
+JINDALSAW,Jindal Saw Limited,288098,NSE,Basic Materials,Steel,JINDALSAW.NS
+RTNPOWER,RattanIndia Power Limited,287301,NSE,Utilities,Utilities—Renewable,RTNPOWER.NS
+ACE,Action Construction Equipment Limited,286395,NSE,Industrials,Farm & Heavy Construction Machinery,ACE.NS
+FILATEX,Filatex India Limited,284961,NSE,Consumer Cyclical,Textile Manufacturing,FILATEX.NS
+SCHNEIDER,Schneider Electric Infrastructure Limited,283458,NSE,Industrials,Specialty Industrial Machinery,SCHNEIDER.NS
+TIPSINDLTD,TIPS Industries Limited,283359,NSE,Communication Services,Entertainment,TIPSINDLTD.NS
+TASTYBITE,Tasty Bite Eatables Limited,277705,NSE,Consumer Defensive,Packaged Foods,TASTYBITE.NS
+SOMANYCERA,Somany Ceramics Limited,275360,NSE,Industrials,Building Products & Equipment,SOMANYCERA.NS
+OPTIEMUS,Optiemus Infracom Limited,274133,NSE,Technology,Electronics & Computer Distribution,OPTIEMUS.NS
+PFOCUS,Prime Focus Limited,273477,NSE,Communication Services,Entertainment,PFOCUS.NS
+TECHNOE,Techno Electric & Engineering Company Limited,272525,NSE,Industrials,Engineering & Construction,TECHNOE.NS
+TIRUMALCHM,Thirumalai Chemicals Limited,272352,NSE,Basic Materials,Specialty Chemicals,TIRUMALCHM.NS
+SELMC,SEL Manufacturing Company Limited,272102,NSE,Consumer Cyclical,Apparel Manufacturing,SELMC.NS
+RAILTEL,Railtel Corporation Of India Limited,269909,NSE,Communication Services,Telecom Services,RAILTEL.NS
+CARTRADE,Cartrade Tech Limited,269659,NSE,Consumer Cyclical,Auto & Truck Dealerships,CARTRADE.NS
+GREENPLY,Greenply Industries Limited,269658,NSE,Basic Materials,Lumber & Wood Production,GREENPLY.NS
+IIFLSEC,IIFL Securities Limited,269068,NSE,Financial Services,Capital Markets,IIFLSEC.NS
+DODLA,Dodla Dairy Limited,266081,NSE,Consumer Defensive,Food Distribution,DODLA.NS
+MOL,Meghmani Organics Limited,265250,NSE,Basic Materials,Agricultural Inputs,MOL.NS
+SHIL,Somany Home Innovation Limited,262508,NSE,,,SHIL.NS
+RAJRATAN,Rajratan Global Wire Limited,261826,NSE,Basic Materials,Steel,RAJRATAN.NS
+INDOSTAR,IndoStar Capital Finance Limited,261786,NSE,Financial Services,Credit Services,INDOSTAR.NS
+NFL,National Fertilizers Limited,260252,NSE,Basic Materials,Agricultural Inputs,NFL.NS
+GRSE,Garden Reach Shipbuilders & Engineers Limited,259689,NSE,Industrials,Aerospace & Defense,GRSE.NS
+THOMASCOOK,Thomas Cook  (India)  Limited,259497,NSE,Consumer Cyclical,Travel Services,THOMASCOOK.NS
+AUTOAXLES,Automotive Axles Limited,259049,NSE,Consumer Cyclical,Auto Parts,AUTOAXLES.NS
+UJJIVANSFB,Ujjivan Small Finance Bank Limited,255791,NSE,Financial Services,Banks—Regional,UJJIVANSFB.NS
+DBREALTY,D B Realty Limited,255787,NSE,Real Estate,Real Estate—Development,DBREALTY.NS
+EKC,Everest Kanto Cylinder Limited,253982,NSE,Industrials,Specialty Industrial Machinery,EKC.NS
+KIRIINDUS,Kiri Industries Limited,253780,NSE,Basic Materials,Specialty Chemicals,KIRIINDUS.NS
+PURVA,Puravankara Limited,253039,NSE,Real Estate,Real Estate—Development,PURVA.NS
+SSWL,Steel Strips Wheels Limited,252951,NSE,Consumer Cyclical,Auto Parts,SSWL.NS
+ANANDRATHI,Anand Rathi Wealth Limited,252319,NSE,Financial Services,Asset Management,ANANDRATHI.NS
+RKFORGE,Ramkrishna Forgings Limited,251666,NSE,Industrials,Tools & Accessories,RKFORGE.NS
+VALIANTORG,Valiant Organics Limited,250056,NSE,Basic Materials,Chemicals,VALIANTORG.NS
+DAAWAT,LT Foods Limited,249799,NSE,Consumer Defensive,Packaged Foods,DAAWAT.NS
+APARINDS,Apar Industries Limited,248459,NSE,Industrials,Electrical Equipment & Parts,APARINDS.NS
+BUTTERFLY,Butterfly Gandhimathi Appliances Limited,248365,NSE,Consumer Cyclical,,BUTTERFLY.NS
+BBOX,Black Box Limited,247409,NSE,Technology,Software—Application,BBOX.NS
+INOXWIND,Inox Wind Limited,245885,NSE,Industrials,Specialty Industrial Machinery,INOXWIND.NS
+PARAS,Paras Defence and Space Technologies Limited,244023,NSE,Industrials,Aerospace & Defense,PARAS.NS
+IONEXCHANG,ION Exchange (India) Limited,243936,NSE,Industrials,Pollution & Treatment Controls,IONEXCHANG.NS
+TATAMETALI,Tata Metaliks Limited,243605,NSE,Basic Materials,Steel,TATAMETALI.NS
+EVEREADY,Eveready Industries India Limited,243502,NSE,Industrials,Electrical Equipment & Parts,EVEREADY.NS
+PTC,PTC India Limited,243467,NSE,Utilities,Utilities—Independent Power Producers,PTC.NS
+JISLJALEQS,Jain Irrigation Systems Limited,242079,NSE,Industrials,Farm & Heavy Construction Machinery,JISLJALEQS.NS
+HERANBA,Heranba Industries Limited,242001,NSE,Basic Materials,Agricultural Inputs,HERANBA.NS
+GUFICBIO,Gufic Biosciences Limited,241392,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,GUFICBIO.NS
+TIIL,Technocraft Industries (India) Limited,241192,NSE,Industrials,Tools & Accessories,TIIL.NS
+BLS,BLS International Services Limited,241116,NSE,Industrials,Specialty Business Services,BLS.NS
+BAJAJCON,Bajaj Consumer Care Limited,240933,NSE,Consumer Defensive,Household & Personal Products,BAJAJCON.NS
+ASHOKA,Ashoka Buildcon Limited,240861,NSE,Industrials,Engineering & Construction,ASHOKA.NS
+SOLARA,Solara Active Pharma Sciences Limited,239771,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SOLARA.NS
+GOKEX,Gokaldas Exports Limited,238444,NSE,Consumer Cyclical,Apparel Manufacturing,GOKEX.NS
+HCC,Hindustan Construction Company Limited,237545,NSE,Industrials,Engineering & Construction,HCC.NS
+OAL,Oriental Aromatics Limited,236955,NSE,Basic Materials,Specialty Chemicals,OAL.NS
+DWARKESH,Dwarikesh Sugar Industries Limited,236412,NSE,Consumer Defensive,Confectioners,DWARKESH.NS
+GET&D,GE T&D India Limited,234667,NSE,Industrials,Specialty Industrial Machinery,GET&D.NS
+IFCI,IFCI Limited,233432,NSE,Financial Services,Credit Services,IFCI.NS
+AMRUTANJAN,Amrutanjan Health Care Limited,232267,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,AMRUTANJAN.NS
+POKARNA,Pokarna Limited,231181,NSE,Industrials,Building Products & Equipment,POKARNA.NS
+HESTERBIO,Hester Biosciences Limited,230830,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,HESTERBIO.NS
+MOLDTKPAC,Mold-Tek Packaging Limited,228160,NSE,Consumer Cyclical,Packaging & Containers,MOLDTKPAC.NS
+SURYAROSNI,Surya Roshni Limited,224954,NSE,Basic Materials,Steel,SURYAROSNI.NS
+KIRLOSBROS,Kirloskar Brothers Limited,224767,NSE,Industrials,Specialty Industrial Machinery,KIRLOSBROS.NS
+IMFA,Indian Metals & Ferro Alloys Limited,223640,NSE,Basic Materials,Steel,IMFA.NS
+SHARDAMOTR,Sharda Motor Industries Limited,222601,NSE,Consumer Cyclical,Auto Parts,SHARDAMOTR.NS
+GANESHHOUC,Ganesh Housing Corporation Limited,221976,NSE,Real Estate,Real Estate—Development,GANESHHOUC.NS
+TVTODAY,TV Today Network Limited,221699,NSE,Communication Services,Broadcasting,TVTODAY.NS
+ACRYSIL,Acrysil Limited,221474,NSE,Consumer Cyclical,,ACRYSIL.NS
+WSTCSTPAPR,West Coast Paper Mills Limited,220768,NSE,Basic Materials,Paper & Paper Products,WSTCSTPAPR.NS
+GRAVITA,Gravita India Limited,219368,NSE,Industrials,Metal Fabrication,GRAVITA.NS
+SAFARI,Safari Industries (India) Limited,218186,NSE,Consumer Cyclical,Footwear & Accessories,SAFARI.NS
+JAYNECOIND,Jayaswal Neco Industries Limited,217989,NSE,Basic Materials,Steel,JAYNECOIND.NS
+IGPL,IG Petrochemicals Limited,215933,NSE,Basic Materials,Specialty Chemicals,IGPL.NS
+DCBBANK,DCB Bank Limited,215818,NSE,Financial Services,Banks—Regional,DCBBANK.NS
+MSTCLTD,Mstc Limited,215494,NSE,Industrials,Conglomerates,MSTCLTD.NS
+KOLTEPATIL,Kolte - Patil Developers Limited,214560,NSE,Real Estate,Real Estate—Development,KOLTEPATIL.NS
+SUBROS,Subros Limited,213778,NSE,Consumer Cyclical,Auto Parts,SUBROS.NS
+SPANDANA,Spandana Sphoorty Financial Limited,213771,NSE,Financial Services,Credit Services,SPANDANA.NS
+GULFOILLUB,Gulf Oil Lubricants India Limited,213080,NSE,Basic Materials,Specialty Chemicals,GULFOILLUB.NS
+BEPL,Bhansali Engineering Polymers Limited,210534,NSE,Basic Materials,Chemicals,BEPL.NS
+STEELXIND,STEEL EXCHANGE INDIA LIMITED,210382,NSE,Basic Materials,Steel,STEELXIND.NS
+FINOPB,Fino Payments Bank Limited,209201,NSE,Financial Services,Banks—Regional,FINOPB.NS
+VIDHIING,Vidhi Specialty Food Ingredients Limited,208221,NSE,Basic Materials,Specialty Chemicals,VIDHIING.NS
+IOLCP,IOL Chemicals and Pharmaceuticals Limited,207641,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,IOLCP.NS
+VSTTILLERS,V.S.T Tillers Tractors Limited,207409,NSE,Industrials,Farm & Heavy Construction Machinery,VSTTILLERS.NS
+ANDHRSUGAR,The Andhra Sugars Limited,207234,NSE,Basic Materials,Chemicals,ANDHRSUGAR.NS
+VESUVIUS,Vesuvius India Limited,207010,NSE,Industrials,Specialty Industrial Machinery,VESUVIUS.NS
+NBVENTURES,Nava Bharat Ventures Limited,204447,NSE,Utilities,Utilities—Regulated Electric,NBVENTURES.NS
+ATFL,Agro Tech Foods Limited,204409,NSE,Consumer Defensive,Packaged Foods,ATFL.NS
+MMFL,MM Forgings Limited,204171,NSE,Industrials,Metal Fabrication,MMFL.NS
+JPASSOCIAT,Jaiprakash Associates Limited,203731,NSE,Industrials,Conglomerates,JPASSOCIAT.NS
+BOMDYEING,Bombay Dyeing & Mfg Company Limited,203334,NSE,Consumer Cyclical,Textile Manufacturing,BOMDYEING.NS
+SHK,S H Kelkar and Company Limited,202866,NSE,Consumer Defensive,Household & Personal Products,SHK.NS
+GMRP&UI,GMR Power and Urban Infra Limited,202808,NSE,Industrials,Infrastructure Operations,GMRP&UI.NS
+NAVNETEDUL,Navneet Education Limited,202235,NSE,Communication Services,Publishing,NAVNETEDUL.NS
+GATI,GATI Limited,201485,NSE,Industrials,Integrated Freight & Logistics,GATI.NS
+STOVEKRAFT,Stove Kraft Limited,201117,NSE,Consumer Cyclical,,STOVEKRAFT.NS
+FCL,Fineotex Chemical Limited,200122,NSE,Basic Materials,Specialty Chemicals,FCL.NS
+MUKANDLTD,Mukand Limited,199241,NSE,Basic Materials,Steel,MUKANDLTD.NS
+AVTNPL,AVT Natural Products Limited,198654,NSE,Basic Materials,Specialty Chemicals,AVTNPL.NS
+VOLTAMP,Voltamp Transformers Limited,198306,NSE,Industrials,Electrical Equipment & Parts,VOLTAMP.NS
+SBCL,Shivalik Bimetal Controls Limited,197237,NSE,Industrials,Metal Fabrication,SBCL.NS
+SIYSIL,Siyaram Silk Mills Limited,196620,NSE,Consumer Cyclical,Textile Manufacturing,SIYSIL.NS
+FAIRCHEMOR,Fairchem Organics Limited,195633,NSE,Basic Materials,Specialty Chemicals,FAIRCHEMOR.NS
+JAICORPLTD,Jai Corp Limited,195045,NSE,Basic Materials,Specialty Chemicals,JAICORPLTD.NS
+GTPL,GTPL Hathway Limited,194898,NSE,Communication Services,Entertainment,GTPL.NS
+ASTRAMICRO,Astra Microwave Products Limited,194833,NSE,Technology,Communication Equipment,ASTRAMICRO.NS
+ANANTRAJ,Anant Raj Limited,194468,NSE,Real Estate,Real Estate—Development,ANANTRAJ.NS
+PSPPROJECT,PSP Projects Limited,194094,NSE,Industrials,Engineering & Construction,PSPPROJECT.NS
+TIDEWATER,Tide Water Oil Company (India) Limited,193633,NSE,Basic Materials,Specialty Chemicals,TIDEWATER.NS
+MIRZAINT,Mirza International Limited,193332,NSE,Consumer Cyclical,Footwear & Accessories,MIRZAINT.NS
+BALMLAWRIE,Balmer Lawrie & Company Limited,192721,NSE,Industrials,Conglomerates,BALMLAWRIE.NS
+HSIL,HSIL Limited,191440,NSE,,,HSIL.NS
+VISHNU,Vishnu Chemicals Limited,191065,NSE,Basic Materials,Specialty Chemicals,VISHNU.NS
+KIRLOSENG,Kirloskar Oil Engines Limited,190818,NSE,Industrials,Specialty Industrial Machinery,KIRLOSENG.NS
+APOLLOPIPE,Apollo Pipes Limited,190742,NSE,Industrials,Building Products & Equipment,APOLLOPIPE.NS
+CHENNPETRO,Chennai Petroleum Corporation Limited,190085,NSE,Energy,Oil & Gas Refining & Marketing,CHENNPETRO.NS
+GTLINFRA,GTL Infrastructure Limited,189350,NSE,Technology,Communication Equipment,GTLINFRA.NS
+PILANIINVS,Pilani Investment and Industries Corporation Limited,187669,NSE,Financial Services,Asset Management,PILANIINVS.NS
+MANALIPETC,Manali Petrochemicals Limited,186361,NSE,Basic Materials,Specialty Chemicals,MANALIPETC.NS
+MARKSANS,Marksans Pharma Limited,186238,NSE,Healthcare,Drug Manufacturers—General,MARKSANS.NS
+APCOTEXIND,Apcotex Industries Limited,186072,NSE,Basic Materials,Specialty Chemicals,APCOTEXIND.NS
+ALEMBICLTD,Alembic Limited,186038,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ALEMBICLTD.NS
+NAHARSPING,Nahar Spinning Mills Limited,185430,NSE,Consumer Cyclical,Textile Manufacturing,NAHARSPING.NS
+GENUSPOWER,Genus Power Infrastructures Limited,185280,NSE,Industrials,Electrical Equipment & Parts,GENUSPOWER.NS
+UNICHEMLAB,Unichem Laboratories Limited,182985,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,UNICHEMLAB.NS
+RAMCOIND,Ramco Industries Limited,182686,NSE,Industrials,Building Products & Equipment,RAMCOIND.NS
+BAJAJHIND,Bajaj Hindusthan Sugar Limited,181385,NSE,Consumer Defensive,Confectioners,BAJAJHIND.NS
+SUBEXLTD,Subex Limited,180684,NSE,Technology,Software—Application,SUBEXLTD.NS
+JTEKTINDIA,Jtekt India Limited,180427,NSE,Consumer Cyclical,Auto Parts,JTEKTINDIA.NS
+SHANKARA,Shankara Building Products Limited,179836,NSE,Consumer Cyclical,Home Improvement Retail,SHANKARA.NS
+GENESYS,Genesys International Corporation Limited,179128,NSE,Technology,Software—Application,GENESYS.NS
+PUNJABCHEM,Punjab Chemicals & Crop Protection Limited,178948,NSE,Basic Materials,Chemicals,PUNJABCHEM.NS
+CAMLINFINE,Camlin Fine Sciences Limited,177978,NSE,Basic Materials,Specialty Chemicals,CAMLINFINE.NS
+CONFIPET,Confidence Petroleum India Limited,177365,NSE,Energy,Oil & Gas Refining & Marketing,CONFIPET.NS
+DATAMATICS,Datamatics Global Services Limited,176612,NSE,Technology,Information Technology Services,DATAMATICS.NS
+DEN,Den Networks Limited,176096,NSE,Communication Services,Entertainment,DEN.NS
+HBLPOWER,HBL Power Systems Limited,175742,NSE,Industrials,Electrical Equipment & Parts,HBLPOWER.NS
+INFOBEAN,InfoBeans Technologies Limited,175578,NSE,Technology,Software—Application,INFOBEAN.NS
+WABAG,VA Tech Wabag Limited,174382,NSE,Industrials,Waste Management,WABAG.NS
+XPROINDIA,Xpro India Limited,173292,NSE,Basic Materials,Specialty Chemicals,XPROINDIA.NS
+STYLAMIND,Stylam Industries Limited,173048,NSE,,,STYLAMIND.NS
+KTKBANK,The Karnataka Bank Limited,172540,NSE,Financial Services,Banks—Regional,KTKBANK.NS
+EXCELINDUS,Excel Industries Limited,172357,NSE,Basic Materials,Specialty Chemicals,EXCELINDUS.NS
+INDORAMA,Indo Rama Synthetics (India) Limited,172335,NSE,Consumer Cyclical,Textile Manufacturing,INDORAMA.NS
+EXPLEOSOL,Expleo Solutions Limited,172103,NSE,Technology,Information Technology Services,EXPLEOSOL.NS
+INEOSSTYRO,INEOS Styrolution India Limited,171521,NSE,Basic Materials,Chemicals,INEOSSTYRO.NS
+JAGRAN,Jagran Prakashan Limited,171243,NSE,Communication Services,Publishing,JAGRAN.NS
+ORISSAMINE,The Orissa Minerals Development Company Limited,170967,NSE,Basic Materials,Other Industrial Metals & Mining,ORISSAMINE.NS
+ELECTCAST,Electrosteel Castings Limited,170801,NSE,Basic Materials,Steel,ELECTCAST.NS
+FRETAIL,Future Retail Limited,169193,NSE,Consumer Cyclical,Department Stores,FRETAIL.NS
+LGBBROSLTD,LG Balakrishnan & Bros Limited,168640,NSE,Consumer Cyclical,Auto Parts,LGBBROSLTD.NS
+KABRAEXTRU,Kabra Extrusion Technik Limited,167966,NSE,Industrials,Specialty Industrial Machinery,KABRAEXTRU.NS
+KITEX,Kitex Garments Limited,165652,NSE,Consumer Cyclical,Apparel Manufacturing,KITEX.NS
+BECTORFOOD,Mrs. Bectors Food Specialities Limited,164889,NSE,Consumer Defensive,Packaged Foods,BECTORFOOD.NS
+GOLDIAM,Goldiam International Limited,164715,NSE,Consumer Cyclical,Luxury Goods,GOLDIAM.NS
+MOREPENLAB,Morepen Laboratories Limited,164274,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,MOREPENLAB.NS
+NELCO,NELCO Limited,163597,NSE,Technology,Communication Equipment,NELCO.NS
+RGL,Renaissance Global Limited,163468,NSE,Consumer Cyclical,Luxury Goods,RGL.NS
+GULPOLY,Gulshan Polyols Limited,163037,NSE,Basic Materials,Chemicals,GULPOLY.NS
+ZENTEC,Zen Technologies Limited,162996,NSE,Industrials,Aerospace & Defense,ZENTEC.NS
+GRWRHITECH,Garware Hi-Tech Films Limited,162232,NSE,Basic Materials,Specialty Chemicals,GRWRHITECH.NS
+DIAMONDYD,Prataap Snacks Limited,161826,NSE,Consumer Defensive,Packaged Foods,DIAMONDYD.NS
+ELECON,Elecon Engineering Company Limited,161344,NSE,Industrials,Specialty Industrial Machinery,ELECON.NS
+GABRIEL,Gabriel India Limited,160738,NSE,Consumer Cyclical,Auto Parts,GABRIEL.NS
+NACLIND,NACL Industries Limited,160728,NSE,Basic Materials,Agricultural Inputs,NACLIND.NS
+PANAMAPET,Panama Petrochem Limited,160429,NSE,Energy,Oil & Gas Refining & Marketing,PANAMAPET.NS
+MAYURUNIQ,Mayur Uniquoters Ltd,159566,NSE,Consumer Cyclical,Textile Manufacturing,MAYURUNIQ.NS
+SWARAJENG,Swaraj Engines Limited,158765,NSE,Consumer Cyclical,Auto Parts,SWARAJENG.NS
+GANECOS,Ganesha Ecosphere Limited,158656,NSE,Consumer Cyclical,Textile Manufacturing,GANECOS.NS
+PRICOLLTD,Pricol Limited,158629,NSE,Consumer Cyclical,Auto Parts,PRICOLLTD.NS
+SOUTHBANK,The South Indian Bank Limited,156956,NSE,Financial Services,Banks—Regional,SOUTHBANK.NS
+ADFFOODS,ADF Foods Limited,155827,NSE,Consumer Defensive,Packaged Foods,ADFFOODS.NS
+SHRIPISTON,Shriram Pistons & Rings Limited,155287,NSE,Consumer Cyclical,Auto Parts,SHRIPISTON.NS
+PGEL,PG Electroplast Limited,155175,NSE,Technology,Electronic Components,PGEL.NS
+RPSGVENT,RPSG VENTURES LIMITED,155171,NSE,Technology,Information Technology Services,RPSGVENT.NS
+SUNDARMHLD,Sundaram Finance Holdings Limited,153918,NSE,Industrials,Specialty Business Services,SUNDARMHLD.NS
+MATRIMONY,Matrimony.Com Limited,153593,NSE,Communication Services,Internet Content & Information,MATRIMONY.NS
+KRSNAA,Krsnaa Diagnostics Limited,153440,NSE,Healthcare,Diagnostics & Research,KRSNAA.NS
+KINGFA,Kingfa Science & Technology (India) Limited,153270,NSE,Basic Materials,Specialty Chemicals,KINGFA.NS
+MAXVIL,Max Ventures and Industries Limited,152177,NSE,Consumer Cyclical,Packaging & Containers,MAXVIL.NS
+KIRLOSIND,Kirloskar Industries Limited,151635,NSE,Industrials,Metal Fabrication,KIRLOSIND.NS
+JSWISPL,JSW Ispat Special Products Limited,151429,NSE,Basic Materials,Steel,JSWISPL.NS
+CARERATING,CARE Ratings Limited,151279,NSE,Financial Services,Financial Data & Stock Exchanges,CARERATING.NS
+DBCORP,D.B.Corp Limited,150676,NSE,Communication Services,Publishing,DBCORP.NS
+CANTABIL,Cantabil Retail India Limited,150353,NSE,Consumer Cyclical,Apparel Manufacturing,CANTABIL.NS
+THANGAMAYL,Thangamayil Jewellery Limited,149557,NSE,Consumer Cyclical,Luxury Goods,THANGAMAYL.NS
+GEOJITFSL,Geojit Financial Services Limited,149373,NSE,Financial Services,Capital Markets,GEOJITFSL.NS
+KCP,KCP Limited,149355,NSE,Basic Materials,Building Materials,KCP.NS
+HERITGFOOD,Heritage Foods Limited,148590,NSE,Consumer Defensive,Packaged Foods,HERITGFOOD.NS
+DFMFOODS,DFM Foods Limited,148563,NSE,Consumer Defensive,Packaged Foods,DFMFOODS.NS
+HIMATSEIDE,Himatsingka Seide Limited,148178,NSE,Consumer Cyclical,Textile Manufacturing,HIMATSEIDE.NS
+FMGOETZE,Federal-Mogul Goetze (India) Limited.,147787,NSE,Consumer Cyclical,Auto Parts,FMGOETZE.NS
+NDTV,New Delhi Television Limited,146350,NSE,Communication Services,Broadcasting,NDTV.NS
+OMAXE,Omaxe Limited,146229,NSE,Real Estate,Real Estate—Development,OMAXE.NS
+SPIC,Southern Petrochemicals Industries Corporation  Limited,145806,NSE,Basic Materials,Agricultural Inputs,SPIC.NS
+AVADHSUGAR,Avadh Sugar & Energy Limited,145514,NSE,Consumer Defensive,Confectioners,AVADHSUGAR.NS
+SOTL,Savita Oil Technologies Limited,145249,NSE,Basic Materials,Specialty Chemicals,SOTL.NS
+TIMETECHNO,Time Technoplast Limited,144508,NSE,Consumer Cyclical,Packaging & Containers,TIMETECHNO.NS
+GALLISPAT,Gallantt Ispat Limited,143580,NSE,Basic Materials,Steel,GALLISPAT.NS
+MTNL,Mahanagar Telephone Nigam Limited,142380,NSE,Communication Services,Telecom Services,MTNL.NS
+JYOTISTRUC,Jyoti Structures Limited,141182,NSE,Industrials,Specialty Industrial Machinery,JYOTISTRUC.NS
+APTECHT,Aptech Limited,140760,NSE,Consumer Defensive,Education & Training Services,APTECHT.NS
+ASHIANA,Ashiana Housing Limited,139864,NSE,Real Estate,Real Estate—Development,ASHIANA.NS
+ACCELYA,Accelya Solutions India Limited,138516,NSE,,,ACCELYA.NS
+SHANTIGEAR,Shanthi Gears Limited,138165,NSE,Industrials,Specialty Industrial Machinery,SHANTIGEAR.NS
+NAHARPOLY,Nahar Poly Films Limited,138086,NSE,Consumer Cyclical,Packaging & Containers,NAHARPOLY.NS
+SASKEN,Sasken Technologies Limited,138062,NSE,Technology,Software—Application,SASKEN.NS
+NURECA,Nureca Limited,136817,NSE,Healthcare,Medical Devices,NURECA.NS
+GOCLCORP,GOCL Corporation Limited,136448,NSE,Basic Materials,Specialty Chemicals,GOCLCORP.NS
+PRAKASH,Prakash Industries Limited,136102,NSE,Basic Materials,Steel,PRAKASH.NS
+DYNAMATECH,Dynamatic Technologies Limited,135507,NSE,Consumer Cyclical,Auto Parts,DYNAMATECH.NS
+NXTDIGITAL,NXTDIGITAL LIMITED,135461,NSE,Communication Services,Entertainment,NXTDIGITAL.NS
+KOPRAN,Kopran Limited,135453,NSE,Healthcare,Drug Manufacturers—General,KOPRAN.NS
+AMBIKCO,Ambika Cotton Mills Limited,134898,NSE,Consumer Cyclical,Textile Manufacturing,AMBIKCO.NS
+JMCPROJECT,JMC Projects (India)  Limited,134744,NSE,Industrials,Engineering & Construction,JMCPROJECT.NS
+SHIVALIK,Shivalik Rasayan Limited,134561,NSE,,,SHIVALIK.NS
+TEXRAIL,Texmaco Rail & Engineering Limited,134220,NSE,Industrials,Specialty Industrial Machinery,TEXRAIL.NS
+EIHAHOTELS,EIH Associated Hotels Limited,133450,NSE,Consumer Cyclical,Lodging,EIHAHOTELS.NS
+WONDERLA,Wonderla Holidays Limited,132942,NSE,Consumer Cyclical,Leisure,WONDERLA.NS
+NEULANDLAB,Neuland Laboratories Limited,132039,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,NEULANDLAB.NS
+SHRIRAMPPS,Shriram Properties Limited,131883,NSE,Real Estate,Real Estate—Development,SHRIRAMPPS.NS
+SANDHAR,Sandhar Technologies Limited,131667,NSE,Consumer Cyclical,Auto Parts,SANDHAR.NS
+DPSCLTD,DPSC Limited,130975,NSE,Utilities,Utilities—Regulated Electric,DPSCLTD.NS
+GMBREW,GM Breweries Limited,130465,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,GMBREW.NS
+KSL,Kalyani Steels Limited,129388,NSE,Basic Materials,Steel,KSL.NS
+THEJO,Thejo Engineering Limited,128168,NSE,,,THEJO.NS
+SIRCA,Sirca Paints India Limited,127389,NSE,Basic Materials,Specialty Chemicals,SIRCA.NS
+KESORAMIND,Kesoram Industries Limited,127323,NSE,Basic Materials,Building Materials,KESORAMIND.NS
+NITINSPIN,Nitin Spinners Limited,127282,NSE,Consumer Cyclical,Textile Manufacturing,NITINSPIN.NS
+SHALBY,Shalby Limited,126371,NSE,Healthcare,Medical Care Facilities,SHALBY.NS
+JKIL,J.Kumar Infraprojects Limited,126286,NSE,Industrials,Engineering & Construction,JKIL.NS
+LSIL,Lloyds Steels Industries Limited,126214,NSE,Industrials,Specialty Industrial Machinery,LSIL.NS
+PRECAM,Precision Camshafts Limited,125904,NSE,Consumer Cyclical,Auto Parts,PRECAM.NS
+HONDAPOWER,Honda India Power Products Limited,125165,NSE,Industrials,Specialty Industrial Machinery,HONDAPOWER.NS
+SJS,S.J.S. Enterprises Limited,124537,NSE,Consumer Cyclical,Auto Parts,SJS.NS
+63MOONS,63 moons technologies limited,124297,NSE,,,63MOONS.NS
+UJJIVAN,Ujjivan Financial Services Limited,123929,NSE,Financial Services,Credit Services,UJJIVAN.NS
+BODALCHEM,Bodal Chemicals Limited,123645,NSE,Basic Materials,Specialty Chemicals,BODALCHEM.NS
+WHEELS,Wheels India Limited,123247,NSE,Consumer Cyclical,Auto Parts,WHEELS.NS
+KDDL,KDDL Limited,123053,NSE,Consumer Cyclical,Luxury Goods,KDDL.NS
+POWERMECH,Power Mech Projects Limited,122945,NSE,Industrials,Engineering & Construction,POWERMECH.NS
+KKCL,Kewal Kiran Clothing Limited,122850,NSE,Consumer Cyclical,Apparel Manufacturing,KKCL.NS
+TVSSRICHAK,TVS Srichakra Limited,122348,NSE,Consumer Cyclical,Auto Parts,TVSSRICHAK.NS
+KHAICHEM,Khaitan Chemicals & Fertilizers Limited,121964,NSE,,,KHAICHEM.NS
+RAMKY,Ramky Infrastructure Limited,121961,NSE,Industrials,Engineering & Construction,RAMKY.NS
+VINDHYATEL,Vindhya Telelinks Limited,121886,NSE,Industrials,Engineering & Construction,VINDHYATEL.NS
+CENTENKA,Century Enka Limited,121314,NSE,Consumer Cyclical,Textile Manufacturing,CENTENKA.NS
+TWL,Titagarh Wagons Limited,121185,NSE,Industrials,Railroads,TWL.NS
+INSECTICID,Insecticides (India) Limited,121134,NSE,Basic Materials,Agricultural Inputs,INSECTICID.NS
+ONMOBILE,OnMobile Global Limited,121126,NSE,Communication Services,Telecom Services,ONMOBILE.NS
+HMT,HMT Limited,121022,NSE,Industrials,Farm & Heavy Construction Machinery,HMT.NS
+AGSTRA,AGS Transact Technologies Limited,120633,NSE,Technology,Software—Infrastructure,AGSTRA.NS
+CIGNITITEC,Cigniti Technologies Limited,120556,NSE,Technology,Information Technology Services,CIGNITITEC.NS
+NUCLEUS,Nucleus Software Exports Limited,120287,NSE,Technology,Software—Application,NUCLEUS.NS
+ESTER,Ester Industries Limited,119211,NSE,Basic Materials,Specialty Chemicals,ESTER.NS
+PATELENG,Patel Engineering Limited,118610,NSE,Industrials,Engineering & Construction,PATELENG.NS
+FIEMIND,Fiem Industries Limited,118458,NSE,Consumer Cyclical,Auto Parts,FIEMIND.NS
+SUVEN,Suven Life Sciences Limited,117991,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SUVEN.NS
+RIIL,Reliance Industrial Infrastructure Limited,117523,NSE,Industrials,Engineering & Construction,RIIL.NS
+UGROCAP,Ugro Capital Limited,117411,NSE,Financial Services,Credit Services,UGROCAP.NS
+TTKHLTCARE,TTK Healthcare Limited,117310,NSE,Healthcare,Drug Manufacturers—General,TTKHLTCARE.NS
+SUTLEJTEX,Sutlej Textiles and Industries Limited,117301,NSE,Consumer Cyclical,Textile Manufacturing,SUTLEJTEX.NS
+ANDHRAPAP,ANDHRA PAPER LIMITED,117202,NSE,Basic Materials,Paper & Paper Products,ANDHRAPAP.NS
+ASHAPURMIN,Ashapura Minechem Limited,116828,NSE,Basic Materials,Other Industrial Metals & Mining,ASHAPURMIN.NS
+ORCHPHARMA,Orchid Pharma Limited,116408,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ORCHPHARMA.NS
+BFUTILITIE,BF Utilities Limited,116148,NSE,Utilities,Utilities—Renewable,BFUTILITIE.NS
+AJMERA,Ajmera Realty & Infra India Limited,116089,NSE,Real Estate,Real Estate—Development,AJMERA.NS
+TNPL,Tamil Nadu Newsprint & Papers Limited,116032,NSE,Basic Materials,Paper & Paper Products,TNPL.NS
+VHL,Vardhman Holdings Limited,115622,NSE,Financial Services,Credit Services,VHL.NS
+COFFEEDAY,Coffee Day Enterprises Limited,115343,NSE,Consumer Cyclical,Restaurants,COFFEEDAY.NS
+LUMAXTECH,Lumax Auto Technologies Limited,114198,NSE,Consumer Cyclical,Auto Parts,LUMAXTECH.NS
+HUHTAMAKI,Huhtamaki India Limited,113963,NSE,Consumer Cyclical,Packaging & Containers,HUHTAMAKI.NS
+SASTASUNDR,Sastasundar Ventures Limited,113913,NSE,Healthcare,Pharmaceutical Retailers,SASTASUNDR.NS
+SUNFLAG,Sunflag Iron And Steel Company Limited,113448,NSE,Basic Materials,Steel,SUNFLAG.NS
+ORIENTHOT,Oriental Hotels Limited,112964,NSE,Consumer Cyclical,Lodging,ORIENTHOT.NS
+IGARASHI,Igarashi Motors India Limited,112807,NSE,Consumer Cyclical,Auto Parts,IGARASHI.NS
+SANGAMIND,Sangam (India) Limited,112440,NSE,Consumer Cyclical,Textile Manufacturing,SANGAMIND.NS
+EVERESTIND,Everest Industries Limited,111683,NSE,Industrials,Building Products & Equipment,EVERESTIND.NS
+NRBBEARING,NRB Bearing Limited,111461,NSE,Consumer Cyclical,Auto Parts,NRBBEARING.NS
+GIPCL,Gujarat Industries Power Company Limited,111094,NSE,Utilities,Utilities—Regulated Electric,GIPCL.NS
+REPCOHOME,Repco Home Finance Limited,110358,NSE,Financial Services,Mortgage Finance,REPCOHOME.NS
+SESHAPAPER,Seshasayee Paper and Boards Limited,110085,NSE,Basic Materials,Paper & Paper Products,SESHAPAPER.NS
+SANGHIIND,Sanghi Industries Limited,110064,NSE,Basic Materials,Building Materials,SANGHIIND.NS
+WELENT,Welspun Enterprises Limited,109342,NSE,Industrials,Engineering & Construction,WELENT.NS
+ITDCEM,ITD Cementation India Limited,108398,NSE,Industrials,Engineering & Construction,ITDCEM.NS
+TARC,TARC Limited,108005,NSE,Real Estate,Real Estate—Development,TARC.NS
+CENTRUM,Centrum Capital Limited,107544,NSE,Financial Services,Financial Conglomerates,CENTRUM.NS
+RUSHIL,Rushil Decor Limited,107488,NSE,Consumer Cyclical,604,RUSHIL.NS
+BCLIND,Bcl Industries Limited,107480,NSE,Consumer Defensive,Household & Personal Products,BCLIND.NS
+PNBGILTS,PNB Gilts Limited,107286,NSE,Financial Services,Capital Markets,PNBGILTS.NS
+TDPOWERSYS,TD Power Systems Limited,107198,NSE,Industrials,Specialty Industrial Machinery,TDPOWERSYS.NS
+DCW,DCW Limited,106631,NSE,Basic Materials,Chemicals,DCW.NS
+MANGLMCEM,Mangalam Cement Limited,106580,NSE,Basic Materials,Building Materials,MANGLMCEM.NS
+MPSLTD,MPS Limited,106488,NSE,Communication Services,Publishing,MPSLTD.NS
+ALICON,Alicon Castalloy Limited,106483,NSE,Industrials,Metal Fabrication,ALICON.NS
+GOKULAGRO,Gokul Agro Resources Limited,105373,NSE,Consumer Defensive,Packaged Foods,GOKULAGRO.NS
+CLNINDIA,Clariant Chemicals (India) Limited,105276,NSE,Basic Materials,Specialty Chemicals,CLNINDIA.NS
+GNA,GNA Axles Limited,104719,NSE,Consumer Cyclical,Auto Parts,GNA.NS
+TI,Tilaknagar Industries Limited,103961,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,TI.NS
+ZEEMEDIA,Zee Media Corporation Limited,103821,NSE,Communication Services,Broadcasting,ZEEMEDIA.NS
+PITTIENG,Pitti Engineering Limited,103426,NSE,Industrials,Metal Fabrication,PITTIENG.NS
+QUICKHEAL,Quick Heal Technologies Limited,102967,NSE,Technology,Software—Application,QUICKHEAL.NS
+TNPETRO,Tamilnadu PetroProducts Limited,102702,NSE,Basic Materials,Specialty Chemicals,TNPETRO.NS
+BFINVEST,BF Investment Limited,102531,NSE,Financial Services,Asset Management,BFINVEST.NS
+MANGCHEFER,Mangalore Chemicals & Fertilizers Limited,102516,NSE,Basic Materials,Agricultural Inputs,MANGCHEFER.NS
+SATIA,Satia Industries Limited,102400,NSE,Basic Materials,Paper & Paper Products,SATIA.NS
+GEPIL,GE Power India Limited,102219,NSE,Industrials,Engineering & Construction,GEPIL.NS
+VISAKAIND,Visaka Industries Limited,101413,NSE,Industrials,Building Products & Equipment,VISAKAIND.NS
+5PAISA,5Paisa Capital Limited,101401,NSE,Financial Services,Capital Markets,5PAISA.NS
+VADILALIND,Vadilal Industries Limited,101334,NSE,Consumer Defensive,Packaged Foods,VADILALIND.NS
+WENDT,Wendt (India) Limited,101204,NSE,Industrials,Tools & Accessories,WENDT.NS
+KPIGLOBAL,K.P.I. Global Infrastructure Limited,100453,NSE,,,KPIGLOBAL.NS
+MONTECARLO,Monte Carlo Fashions Limited,100364,NSE,Consumer Cyclical,Apparel Manufacturing,MONTECARLO.NS
+PFS,PTC India Financial Services Limited,100196,NSE,Financial Services,Credit Services,PFS.NS
+UNIDT,United Drilling Tools Limited,99699,NSE,Energy,Oil & Gas Equipment & Services,UNIDT.NS
+SHREDIGCEM,Shree Digvijay Cement Co.Ltd,99548,NSE,Basic Materials,Building Materials,SHREDIGCEM.NS
+NAHARCAP,Nahar Capital and Financial Services Limited,99280,NSE,Financial Services,Capital Markets,NAHARCAP.NS
+EMAMIPAP,Emami Paper Mills Limited,99067,NSE,,,EMAMIPAP.NS
+BBL,Bharat Bijlee Limited,98450,NSE,Industrials,Electrical Equipment & Parts,BBL.NS
+CHEMCON,Chemcon Speciality Chemicals Limited,97676,NSE,Basic Materials,Specialty Chemicals,CHEMCON.NS
+BANCOINDIA,Banco Products (I) Limited,97373,NSE,Consumer Cyclical,Auto Parts,BANCOINDIA.NS
+PCJEWELLER,PC Jeweller Limited,97269,NSE,Consumer Cyclical,Luxury Goods,PCJEWELLER.NS
+BHAGERIA,Bhageria Industries Limited,97152,NSE,Basic Materials,Specialty Chemicals,BHAGERIA.NS
+ENIL,Entertainment Network (India) Limited,97105,NSE,Communication Services,Broadcasting,ENIL.NS
+RSWM,RSWM Limited,96417,NSE,Consumer Cyclical,Textile Manufacturing,RSWM.NS
+INDNIPPON,India Nippon Electricals Limited,96130,NSE,Consumer Cyclical,Auto Parts,INDNIPPON.NS
+TAJGVK,Taj GVK Hotels & Resorts Limited,95682,NSE,Consumer Cyclical,Lodging,TAJGVK.NS
+CEREBRAINT,Cerebra Integrated Technologies Limited,95374,NSE,Technology,Computer Hardware,CEREBRAINT.NS
+IMPAL,India Motor Parts and Accessories Limited,94236,NSE,Consumer Cyclical,Auto Parts,IMPAL.NS
+SAKSOFT,Saksoft Limited,94171,NSE,Technology,Information Technology Services,SAKSOFT.NS
+BAJAJHCARE,Bajaj Healthcare Limited,94000,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,BAJAJHCARE.NS
+SURYODAY,Suryoday Small Finance Bank Limited,93154,NSE,Financial Services,Banks—Regional,SURYODAY.NS
+IFGLEXPOR,IFGL Refractories Limited,92963,NSE,Basic Materials,Building Materials,IFGLEXPOR.NS
+UNIENTER,Uniphos Enterprises Limited,92809,NSE,Basic Materials,Chemicals,UNIENTER.NS
+ASAL,Automotive Stampings and Assemblies Limited,92696,NSE,Consumer Cyclical,Auto Parts,ASAL.NS
+RPGLIFE,RPG Life Sciences Limited,92693,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,RPGLIFE.NS
+VSSL,Vardhman Special Steels Limited,92520,NSE,Basic Materials,Steel,VSSL.NS
+PARAGMILK,Parag Milk Foods Limited,92276,NSE,Consumer Defensive,Packaged Foods,PARAGMILK.NS
+PGIL,Pearl Global Industries Limited,92104,NSE,Consumer Cyclical,Apparel Manufacturing,PGIL.NS
+GREENPOWER,Orient Green Power Company Limited,91588,NSE,Utilities,Utilities—Independent Power Producers,GREENPOWER.NS
+NSIL,Nalwa Sons Investments Limited,90902,NSE,Financial Services,Asset Management,NSIL.NS
+URJA,Urja Global Limited,90899,NSE,Technology,Solar,URJA.NS
+FCONSUMER,Future Consumer Limited,90865,NSE,Consumer Defensive,Food Distribution,FCONSUMER.NS
+PANACEABIO,Panacea Biotec Limited,90774,NSE,Healthcare,Biotechnology,PANACEABIO.NS
+DHARAMSI,The Dharamsi Morarji Chemical Company Limited,90607,NSE,Basic Materials,Chemicals,DHARAMSI.NS
+HEXATRADEX,Hexa Tradex Limited,90380,NSE,Financial Services,Credit Services,HEXATRADEX.NS
+NDL,Nandan Denim Limited,90380,NSE,Consumer Cyclical,Textile Manufacturing,NDL.NS
+JETAIRWAYS,Jet Airways (India) Limited,90367,NSE,Industrials,Airlines,JETAIRWAYS.NS
+XCHANGING,Xchanging Solutions Limited,90181,NSE,Technology,Information Technology Services,XCHANGING.NS
+RADIOCITY,Music Broadcast Limited,89187,NSE,Communication Services,Broadcasting,RADIOCITY.NS
+AGARIND,Agarwal Industrial Corporation Limited,89093,NSE,Basic Materials,Specialty Chemicals,AGARIND.NS
+SIGACHI,Sigachi Industries Limited,88892,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SIGACHI.NS
+MBAPL,Madhya Bharat Agro Products Limited,88678,NSE,Basic Materials,Agricultural Inputs,MBAPL.NS
+SMCGLOBAL,SMC Global Securities Limited,88528,NSE,Financial Services,Capital Markets,SMCGLOBAL.NS
+FOSECOIND,Foseco India Limited,88389,NSE,Basic Materials,Chemicals,FOSECOIND.NS
+DREDGECORP,Dredging Corporation of India Limited,88032,NSE,Industrials,Engineering & Construction,DREDGECORP.NS
+PRECWIRE,Precision Wires India Limited,87941,NSE,Industrials,Electrical Equipment & Parts,PRECWIRE.NS
+SPAL,S. P. Apparels Limited,87817,NSE,Consumer Cyclical,Apparel Manufacturing,SPAL.NS
+APEX,Apex Frozen Foods Limited,87063,NSE,Consumer Defensive,Farm Products,APEX.NS
+ARVSMART,Arvind SmartSpaces Limited,86983,NSE,Real Estate,Real Estate—Development,ARVSMART.NS
+CREATIVE,Creative Newtech Limited,86760,NSE,Technology,Electronics & Computer Distribution,CREATIVE.NS
+GFLLIMITED,GFL Limited,86672,NSE,Communication Services,Entertainment,GFLLIMITED.NS
+INDIANHUME,Indian Hume Pipe Company Limited,86430,NSE,Industrials,Engineering & Construction,INDIANHUME.NS
+SHREEPUSHK,Shree Pushkar Chemicals & Fertilisers Limited,86419,NSE,Basic Materials,Specialty Chemicals,SHREEPUSHK.NS
+THEMISMED,Themis Medicare Limited,86216,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,THEMISMED.NS
+3IINFOLTD,3i Infotech Limited,86034,NSE,Technology,Information Technology Services,3IINFOLTD.NS
+ASALCBR,Associated Alcohols & Breweries Ltd.,85487,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,ASALCBR.NS
+SHALPAINTS,Shalimar Paints Limited,84638,NSE,Basic Materials,Specialty Chemicals,SHALPAINTS.NS
+ADORWELD,Ador Welding Limited,84569,NSE,Industrials,Specialty Industrial Machinery,ADORWELD.NS
+BHAGCHEM,Bhagiradha Chemicals & Industries Limited,84393,NSE,Basic Materials,Agricultural Inputs,BHAGCHEM.NS
+SHAKTIPUMP,Shakti Pumps (India) Limited,84392,NSE,Industrials,Specialty Industrial Machinery,SHAKTIPUMP.NS
+ARMANFIN,Arman Financial Services Limited,84143,NSE,Financial Services,Credit Services,ARMANFIN.NS
+RANEHOLDIN,Rane Holdings Limited,84139,NSE,Consumer Cyclical,Auto Parts,RANEHOLDIN.NS
+DPABHUSHAN,D. P. Abhushan Limited,83222,NSE,Consumer Cyclical,Luxury Goods,DPABHUSHAN.NS
+LUMAXIND,Lumax Industries Limited,82933,NSE,Consumer Cyclical,Auto Parts,LUMAXIND.NS
+UTTAMSUGAR,Uttam Sugar Mills Limited,82855,NSE,Consumer Defensive,Confectioners,UTTAMSUGAR.NS
+ARIHANTCAP,Arihant Capital Markets Limited,82645,NSE,Financial Services,Capital Markets,ARIHANTCAP.NS
+KRISHANA,Krishana Phoschem Limited,82381,NSE,Basic Materials,Agricultural Inputs,KRISHANA.NS
+JAGSNPHARM,Jagsonpal Pharmaceuticals Limited,82144,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,JAGSNPHARM.NS
+SHREYAS,Shreyas Shipping & Logistics Limited,81967,NSE,Industrials,Marine Shipping,SHREYAS.NS
+RAMCOSYS,Ramco Systems Limited,81426,NSE,Technology,Software—Application,RAMCOSYS.NS
+SRHHYPOLTD,Sree Rayalaseema Hi-Strength Hypo Limited,81275,NSE,Basic Materials,Chemicals,SRHHYPOLTD.NS
+KELLTONTEC,Kellton Tech Solutions Limited,81105,NSE,Technology,Software—Application,KELLTONTEC.NS
+NCLIND,NCL Industries Limited,80401,NSE,Basic Materials,Building Materials,NCLIND.NS
+DVL,Dhunseri Ventures Limited,80347,NSE,Financial Services,Capital Markets,DVL.NS
+DCMSRIND,DCM Shriram Industries Limited,80076,NSE,,,DCMSRIND.NS
+BLISSGVS,Bliss GVS Pharma Limited,79936,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,BLISSGVS.NS
+OCCL,Oriental Carbon & Chemicals Limited,79721,NSE,Basic Materials,Chemicals,OCCL.NS
+MADRASFERT,Madras Fertilizers Limited,79665,NSE,Basic Materials,Agricultural Inputs,MADRASFERT.NS
+SANGHVIMOV,Sanghvi Movers Limited,79563,NSE,Industrials,Rental & Leasing Services,SANGHVIMOV.NS
+ALLSEC,Allsec Technologies Limited,79514,NSE,Industrials,Specialty Business Services,ALLSEC.NS
+SMSPHARMA,SMS Pharmaceuticals Limited,79150,NSE,Healthcare,Drug Manufacturers—General,SMSPHARMA.NS
+ONWARDTEC,Onward Technologies Limited,79121,NSE,Technology,Information Technology Services,ONWARDTEC.NS
+ANUP,The Anup Engineering Limited,78491,NSE,Industrials,Specialty Industrial Machinery,ANUP.NS
+MEDICAMEQ,Medicamen Biotech Limited,78290,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,MEDICAMEQ.NS
+IWEL,Inox Wind Energy Limited,78004,NSE,Industrials,Specialty Industrial Machinery,IWEL.NS
+DECCANCE,Deccan Cements Limited,77812,NSE,Basic Materials,Building Materials,DECCANCE.NS
+NAGAFERT,Nagarjuna Fertilizers and Chemicals Limited,77449,NSE,Basic Materials,Agricultural Inputs,NAGAFERT.NS
+HTMEDIA,HT Media Limited,77389,NSE,Communication Services,Publishing,HTMEDIA.NS
+UGARSUGAR,The Ugar Sugar Works Limited,77063,NSE,Consumer Defensive,Confectioners,UGARSUGAR.NS
+MANORG,Mangalam Organics Limited,77016,NSE,Basic Materials,Specialty Chemicals,MANORG.NS
+SATIN,Satin Creditcare Network Limited,76819,NSE,Financial Services,Credit Services,SATIN.NS
+SPECIALITY,Speciality Restaurants Limited,75860,NSE,Consumer Cyclical,Restaurants,SPECIALITY.NS
+ARSHIYA,Arshiya Limited,75798,NSE,Industrials,Integrated Freight & Logistics,ARSHIYA.NS
+ZOTA,Zota Health Care LImited,74877,NSE,Healthcare,Biotechnology,ZOTA.NS
+JAYAGROGN,Jayant Agro Organics Limited,74550,NSE,Basic Materials,Specialty Chemicals,JAYAGROGN.NS
+AURIONPRO,Aurionpro Solutions Limited,74408,NSE,Technology,Software—Infrastructure,AURIONPRO.NS
+CAPACITE,Capacit'e Infraprojects Limited,74341,NSE,Industrials,Engineering & Construction,CAPACITE.NS
+AWHCL,Antony Waste Handling Cell Limited,73575,NSE,Industrials,Waste Management,AWHCL.NS
+SEPC,SEPC Limited,73350,NSE,Industrials,Engineering & Construction,SEPC.NS
+RCOM,Reliance Communications Limited,73287,NSE,Communication Services,Telecom Services,RCOM.NS
+ISMTLTD,ISMT Limited,73251,NSE,Basic Materials,Steel,ISMTLTD.NS
+ORIENTBELL,Orient Bell Limited,72999,NSE,Industrials,Building Products & Equipment,ORIENTBELL.NS
+DEEPINDS,Deep Industries Limited,72992,NSE,Energy,Oil & Gas E&P,DEEPINDS.NS
+TEXINFRA,Texmaco Infrastructure & Holdings Limited,72952,NSE,Real Estate,Real Estate Services,TEXINFRA.NS
+ORIENTPPR,Orient Paper & Industries Limited,72886,NSE,Basic Materials,Paper & Paper Products,ORIENTPPR.NS
+SPENCERS,Spencer's Retail Limited,72427,NSE,Consumer Cyclical,Department Stores,SPENCERS.NS
+GOODLUCK,Goodluck India Limited,72258,NSE,Basic Materials,Steel,GOODLUCK.NS
+HPAL,HP Adhesives Limited,71920,NSE,Basic Materials,Specialty Chemicals,HPAL.NS
+BALAJITELE,Balaji Telefilms Limited,71752,NSE,Communication Services,Entertainment,BALAJITELE.NS
+SMLISUZU,SML Isuzu Limited,71707,NSE,Consumer Cyclical,Auto Manufacturers,SMLISUZU.NS
+ROSSELLIND,Rossell India Limited,71613,NSE,Industrials,Conglomerates,ROSSELLIND.NS
+DIGISPICE,DiGiSPICE Technologies Limited,71012,NSE,Technology,Information Technology Services,DIGISPICE.NS
+GICHSGFIN,GIC Housing Finance Limited,70518,NSE,Financial Services,Mortgage Finance,GICHSGFIN.NS
+STEELCAS,Steelcast Limited,70516,NSE,Basic Materials,Steel,STEELCAS.NS
+JUBLINDS,Jubilant Industries Limited,70218,NSE,Basic Materials,Specialty Chemicals,JUBLINDS.NS
+KUANTUM,Kuantum Papers Limited,70160,NSE,Basic Materials,Paper & Paper Products,KUANTUM.NS
+VIMTALABS,Vimta Labs Limited,69894,NSE,Healthcare,Diagnostics & Research,VIMTALABS.NS
+FLFL,Future Lifestyle Fashions Limited,69209,NSE,Consumer Cyclical,Apparel Manufacturing,FLFL.NS
+JINDRILL,Jindal Drilling And Industries Limited,69207,NSE,Energy,Oil & Gas Equipment & Services,JINDRILL.NS
+KICL,Kalyani Investment Company Limited,69081,NSE,Financial Services,Asset Management,KICL.NS
+FCSSOFT,FCS Software Solutions Limited,67527,NSE,Technology,Information Technology Services,FCSSOFT.NS
+YUKEN,Yuken India Limited,66720,NSE,Industrials,Specialty Industrial Machinery,YUKEN.NS
+DYNPRO,Dynemic Products Limited,65813,NSE,Basic Materials,Specialty Chemicals,DYNPRO.NS
+TCPLPACK,TCPL Packaging Limited,65679,NSE,Consumer Cyclical,Packaging & Containers,TCPLPACK.NS
+NAHARINDUS,Nahar Industrial Enterprises Limited,65628,NSE,Consumer Cyclical,Textile Manufacturing,NAHARINDUS.NS
+PARSVNATH,Parsvnath Developers Limited,65277,NSE,Real Estate,Real Estate—Development,PARSVNATH.NS
+SUMMITSEC,Summit Securities Limited,64904,NSE,Financial Services,Capital Markets,SUMMITSEC.NS
+BIGBLOC,Bigbloc Construction Limited,64842,NSE,Industrials,Building Products & Equipment,BIGBLOC.NS
+EQUIPPP,Equippp Social Impact Technologies Limited,64486,NSE,Basic Materials,Agricultural Inputs,EQUIPPP.NS
+IFBAGRO,IFB Agro Industries Limited,64361,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,IFBAGRO.NS
+GANESHBE,Ganesh Benzoplast Limited,63887,NSE,Basic Materials,Specialty Chemicals,GANESHBE.NS
+RAJMET,Rajnandini Metal Limited,63323,NSE,Basic Materials,Other Industrial Metals & Mining,RAJMET.NS
+LINCOLN,Lincoln Pharmaceuticals Limited,62212,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,LINCOLN.NS
+KAMDHENU,Kamdhenu Limited,62208,NSE,Basic Materials,Steel,KAMDHENU.NS
+ADSL,Allied Digital Services Limited,62092,NSE,Technology,Information Technology Services,ADSL.NS
+VLSFINANCE,VLS Finance Limited,61705,NSE,Financial Services,Capital Markets,VLSFINANCE.NS
+JAYBARMARU,Jay Bharat Maruti Limited,61399,NSE,Consumer Cyclical,Auto Parts,JAYBARMARU.NS
+HCL-INSYS,HCL Infosystems Limited,61068,NSE,Technology,Electronics & Computer Distribution,HCL-INSYS.NS
+JASH,Jash Engineering Limited,60943,NSE,Industrials,Specialty Industrial Machinery,JASH.NS
+ARTEMISMED,Artemis Medicare Services Limited,60761,NSE,,,ARTEMISMED.NS
+SALASAR,Salasar Techno Engineering Limited,60670,NSE,Basic Materials,Steel,SALASAR.NS
+HLVLTD,HLV LIMITED,60322,NSE,Consumer Cyclical,Lodging,HLVLTD.NS
+UNIVPHOTO,Universus Photo Imagings Limited,60108,NSE,Healthcare,Medical Devices,UNIVPHOTO.NS
+BLKASHYAP,B. L. Kashyap and Sons Limited,59854,NSE,Industrials,Engineering & Construction,BLKASHYAP.NS
+MONARCH,Monarch Networth Capital Limited,59770,NSE,Financial Services,Capital Markets,MONARCH.NS
+KANORICHEM,Kanoria Chemicals & Industries Limited,59729,NSE,Basic Materials,Chemicals,KANORICHEM.NS
+BGRENERGY,BGR Energy Systems Limited,59605,NSE,Industrials,Engineering & Construction,BGRENERGY.NS
+KOKUYOCMLN,Kokuyo Camlin Limited,59229,NSE,Industrials,Business Equipment & Supplies,KOKUYOCMLN.NS
+HITECH,Hi-Tech Pipes Limited,59189,NSE,Basic Materials,Steel,HITECH.NS
+APCL,Anjani Portland Cement Limited,59004,NSE,Basic Materials,Building Materials,APCL.NS
+BINDALAGRO,Oswal Chemicals & Fertilizers Limited,58938,NSE,Financial Services,Asset Management,BINDALAGRO.NS
+CONTROLPR,Control Print Limited,58304,NSE,Industrials,Business Equipment & Supplies,CONTROLPR.NS
+STCINDIA,The State Trading Corporation of India Limited,58290,NSE,Industrials,Conglomerates,STCINDIA.NS
+CENTUM,Centum Electronics Limited,58271,NSE,Technology,Electronic Components,CENTUM.NS
+KBCGLOBAL,KBC Global Limited,58118,NSE,Real Estate,Real Estate—Development,KBCGLOBAL.NS
+THEINVEST,The Investment Trust Of India Limited,57703,NSE,Financial Services,Capital Markets,THEINVEST.NS
+SWELECTES,Swelect Energy Systems Limited,57474,NSE,Technology,Solar,SWELECTES.NS
+LIKHITHA,Likhitha Infrastructure Limited,57094,NSE,Energy,Oil & Gas Equipment & Services,LIKHITHA.NS
+RML,Rane (Madras) Limited,57083,NSE,Consumer Cyclical,Auto Parts,RML.NS
+AARTISURF,Aarti Surfactants Limited,56944,NSE,Basic Materials,Specialty Chemicals,AARTISURF.NS
+AYMSYNTEX,AYM Syntex Limited,56373,NSE,Consumer Cyclical,Textile Manufacturing,AYMSYNTEX.NS
+ZUARI,Zuari Agro Chemicals Limited,56337,NSE,Basic Materials,Agricultural Inputs,ZUARI.NS
+ASIANTILES,Asian Granito India Limited,56269,NSE,Industrials,Building Products & Equipment,ASIANTILES.NS
+TALBROAUTO,Talbros Automotive Components Limited,56173,NSE,Consumer Cyclical,Auto Parts,TALBROAUTO.NS
+SVPGLOB,SVP GLOBAL TEXTILES LIMITED,56103,NSE,Consumer Cyclical,Textile Manufacturing,SVPGLOB.NS
+INTLCONV,International Conveyors Limited,56059,NSE,,,INTLCONV.NS
+SKIPPER,Skipper Limited,55853,NSE,Industrials,Engineering & Construction,SKIPPER.NS
+SOUTHWEST,South West Pinnacle Exploration Limited,55121,NSE,Energy,Oil & Gas Equipment & Services,SOUTHWEST.NS
+SHYAMCENT,Shyam Century Ferrous Limited,55099,NSE,Basic Materials,Steel,SHYAMCENT.NS
+MANINDS,Man Industries (India) Limited,54648,NSE,Basic Materials,Steel,MANINDS.NS
+NBIFIN,N. B. I. Industrial Finance Company Limited,54536,NSE,Financial Services,Capital Markets,NBIFIN.NS
+MARATHON,Marathon Nextgen Realty Limited,54372,NSE,Real Estate,Real Estate—Development,MARATHON.NS
+BETA,Beta Drugs Limited,54366,NSE,,,BETA.NS
+TFCILTD,Tourism Finance Corporation of India Limited,54314,NSE,Financial Services,Credit Services,TFCILTD.NS
+SUULD,Suumaya Industries Limited,54115,NSE,Consumer Cyclical,Apparel Retail,SUULD.NS
+ARIHANTSUP,Arihant Superstructures Limited,54022,NSE,Real Estate,Real Estate—Development,ARIHANTSUP.NS
+NECLIFE,Nectar Lifesciences Limited,53935,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,NECLIFE.NS
+RUBYMILLS,The Ruby Mills Limited,53914,NSE,Consumer Cyclical,Textile Manufacturing,RUBYMILLS.NS
+MGEL,Mangalam Global Enterprise Limited,53546,NSE,Consumer Defensive,Farm Products,MGEL.NS
+INDRAMEDCO,Indraprastha Medical Corporation Limited,53537,NSE,Healthcare,Medical Care Facilities,INDRAMEDCO.NS
+KRITI,Kriti Industries (India) Limited,52977,NSE,Industrials,Building Products & Equipment,KRITI.NS
+RAMASTEEL,Rama Steel Tubes Limited,52448,NSE,Basic Materials,Steel,RAMASTEEL.NS
+UNITECH,Unitech Limited,52326,NSE,Real Estate,Real Estate—Diversified,UNITECH.NS
+ZUARIGLOB,Zuari Global Limited,52213,NSE,Industrials,Conglomerates,ZUARIGLOB.NS
+DELPHIFX,DELPHI WORLD MONEY LIMITED,52145,NSE,Financial Services,Capital Markets,DELPHIFX.NS
+EXXARO,Exxaro Tiles Limited,51944,NSE,Industrials,Building Products & Equipment,EXXARO.NS
+MAWANASUG,Mawana Sugars Limited,51908,NSE,Consumer Defensive,Confectioners,MAWANASUG.NS
+CREST,Crest Ventures Limited,51907,NSE,Financial Services,Financial Conglomerates,CREST.NS
+PLASTIBLEN,Plastiblends India Limited,51511,NSE,Basic Materials,Specialty Chemicals,PLASTIBLEN.NS
+NELCAST,Nelcast Limited,51331,NSE,Industrials,Metal Fabrication,NELCAST.NS
+BBTCL,B&B Triplewall Containers Limited,51278,NSE,,,BBTCL.NS
+SNOWMAN,Snowman Logistics Limited,51045,NSE,Industrials,Integrated Freight & Logistics,SNOWMAN.NS
+VASCONEQ,Vascon Engineers Limited,50635,NSE,Industrials,Engineering & Construction,VASCONEQ.NS
+KOTHARIPET,Kothari Petrochemicals Limited,50608,NSE,Basic Materials,Specialty Chemicals,KOTHARIPET.NS
+CLSEL,Chaman Lal Setia Exports Limited,50518,NSE,,,CLSEL.NS
+V2RETAIL,V2 Retail Limited,50380,NSE,Consumer Cyclical,Apparel Retail,V2RETAIL.NS
+REPRO,Repro India Limited,50354,NSE,Industrials,Specialty Business Services,REPRO.NS
+BASML,Bannari Amman Spinning Mills Limited,50155,NSE,Consumer Cyclical,Textile Manufacturing,BASML.NS
+MMP,MMP Industries Limited,50145,NSE,Basic Materials,Aluminum,MMP.NS
+MENONBE,Menon Bearings Limited,49792,NSE,Consumer Cyclical,Auto Parts,MENONBE.NS
+DLINKINDIA,D-Link (India) Limited,49618,NSE,Technology,Communication Equipment,DLINKINDIA.NS
+SANDESH,The Sandesh Limited,49500,NSE,Communication Services,Publishing,SANDESH.NS
+YAARI,Yaari Digital Integrated Services Limited,49442,NSE,Financial Services,Credit Services,YAARI.NS
+ORICONENT,Oricon Enterprises Limited,49313,NSE,Consumer Cyclical,Packaging & Containers,ORICONENT.NS
+VIKASLIFE,Vikas Lifecare Limited,49231,NSE,Basic Materials,Specialty Chemicals,VIKASLIFE.NS
+VIKASLIFE,Vikas Lifecare Limited,49231,NSE,Basic Materials,Specialty Chemicals,VIKASLIFE.NS
+PENIND,Pennar Industries Limited,49117,NSE,Industrials,Specialty Industrial Machinery,PENIND.NS
+GALLANTT,Gallantt Metal Limited,48997,NSE,Basic Materials,Steel,GALLANTT.NS
+STERTOOLS,Sterling Tools Limited,48867,NSE,Industrials,Tools & Accessories,STERTOOLS.NS
+JAIBALAJI,Jai Balaji Industries Limited,48433,NSE,Basic Materials,Steel,JAIBALAJI.NS
+MANAKSIA,Manaksia Limited,48364,NSE,Industrials,Metal Fabrication,MANAKSIA.NS
+VINYLINDIA,Vinyl Chemicals (India) Limited,48126,NSE,Basic Materials,Specialty Chemicals,VINYLINDIA.NS
+CYBERTECH,Cybertech Systems And Software Limited,48037,NSE,Technology,Information Technology Services,CYBERTECH.NS
+NAVKARCORP,Navkar Corporation Limited,47940,NSE,Industrials,Integrated Freight & Logistics,NAVKARCORP.NS
+AXISCADES,AXISCADES Technologies Limited,47866,NSE,Industrials,Engineering & Construction,AXISCADES.NS
+TVSELECT,TVS Electronics Limited,47698,NSE,Technology,Computer Hardware,TVSELECT.NS
+GOACARBON,Goa Carbon Limited,47682,NSE,Basic Materials,Specialty Chemicals,GOACARBON.NS
+RBL,Rane Brake Lining Limited,47311,NSE,Consumer Cyclical,Auto Parts,RBL.NS
+SARLAPOLY,Sarla Performance Fibers Limited,47304,NSE,Consumer Cyclical,Textile Manufacturing,SARLAPOLY.NS
+MALLCOM,Mallcom (India) Limited,47243,NSE,Industrials,Security & Protection Services,MALLCOM.NS
+BIRLACABLE,Birla Cable Limited,47010,NSE,Technology,Communication Equipment,BIRLACABLE.NS
+INNOVANA,Innovana Thinklabs Limited,46638,NSE,,,INNOVANA.NS
+INDOBORAX,Indo Borax & Chemicals Limited,46017,NSE,Basic Materials,Chemicals,INDOBORAX.NS
+SREEL,Sreeleathers Limited,45789,NSE,Consumer Cyclical,Footwear & Accessories,SREEL.NS
+WINDLAS,Windlas Biotech Limited,45779,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,WINDLAS.NS
+KAYA,Kaya Limited,45764,NSE,Consumer Defensive,Household & Personal Products,KAYA.NS
+TBZ,Tribhovandas Bhimji Zaveri Limited,45577,NSE,Consumer Cyclical,Luxury Goods,TBZ.NS
+SADBHAV,Sadbhav Engineering Limited,45380,NSE,Industrials,Engineering & Construction,SADBHAV.NS
+NRAIL,N R Agarwal Industries Limited,45322,NSE,Basic Materials,Paper & Paper Products,NRAIL.NS
+GANDHITUBE,Gandhi Special Tubes Limited,45196,NSE,Industrials,Metal Fabrication,GANDHITUBE.NS
+HMVL,Hindustan Media Ventures Limited,45161,NSE,Communication Services,Publishing,HMVL.NS
+SEJALLTD,Sejal Glass Limited,45001,NSE,Industrials,Building Products & Equipment,SEJALLTD.NS
+CONSOFINVT,Consolidated Finvest & Holdings Limited,44869,NSE,Financial Services,Capital Markets,CONSOFINVT.NS
+HERCULES,Hercules Hoists Limited,44560,NSE,Industrials,Specialty Industrial Machinery,HERCULES.NS
+MAGADSUGAR,Magadh Sugar & Energy Limited,44375,NSE,Consumer Defensive,Confectioners,MAGADSUGAR.NS
+DPWIRES,D P Wires Limited,44333,NSE,Industrials,Metal Fabrication,DPWIRES.NS
+UNIVCABLES,Universal Cables Limited,44226,NSE,Industrials,Electrical Equipment & Parts,UNIVCABLES.NS
+RANASUG,Rana Sugars Limited,44151,NSE,Consumer Defensive,Confectioners,RANASUG.NS
+MIRCELECTR,MIRC Electronics Limited,43996,NSE,Consumer Cyclical,591,MIRCELECTR.NS
+PTL,PTL Enterprises Limited,43949,NSE,Real Estate,Real Estate Services,PTL.NS
+DUCON,Ducon Infratechnologies Limited,43706,NSE,Industrials,Specialty Industrial Machinery,DUCON.NS
+TRIL,Transformers And Rectifiers (India) Limited,43680,NSE,Industrials,Electrical Equipment & Parts,TRIL.NS
+SDBL,Som Distilleries & Breweries Limited,43672,NSE,Consumer Defensive,Beverages—Brewers,SDBL.NS
+GAYAPROJ,Gayatri Projects Limited,43524,NSE,Industrials,Engineering & Construction,GAYAPROJ.NS
+ASIANENE,Asian Energy Services Limited,43519,NSE,Energy,Oil & Gas Equipment & Services,ASIANENE.NS
+DCMNVL,DCM Nouvelle Limited,43482,NSE,Consumer Cyclical,Textile Manufacturing,DCMNVL.NS
+VISESHINFO,Visesh Infotecnics Limited,43406,NSE,Technology,Information Technology Services,VISESHINFO.NS
+VARDHACRLC,Vardhman Acrylics Limited,43196,NSE,Consumer Cyclical,Textile Manufacturing,VARDHACRLC.NS
+BHARATWIRE,Bharat Wire Ropes Limited,43167,NSE,Basic Materials,Steel,BHARATWIRE.NS
+ANDHRACEMT,Andhra Cements Limited,43001,NSE,Basic Materials,Building Materials,ANDHRACEMT.NS
+TAKE,Take Solutions Limited,42901,NSE,Healthcare,Biotechnology,TAKE.NS
+MUTHOOTCAP,Muthoot Capital Services Limited,42829,NSE,Financial Services,Credit Services,MUTHOOTCAP.NS
+RICOAUTO,Rico Auto Industries Limited,42818,NSE,Consumer Cyclical,Auto Parts,RICOAUTO.NS
+ADVANIHOTR,Advani Hotels & Resorts (India) Limited,42198,NSE,Consumer Cyclical,Lodging,ADVANIHOTR.NS
+FOODSIN,Foods & Inns Limited,42133,NSE,,,FOODSIN.NS
+RELCAPITAL,Reliance Capital Limited,42076,NSE,Financial Services,Financial Conglomerates,RELCAPITAL.NS
+KSOLVES,Ksolves India Limited,42035,NSE,,,KSOLVES.NS
+TRIGYN,Trigyn Technologies Limited,41407,NSE,Technology,Information Technology Services,TRIGYN.NS
+LINC,Linc Limited,41263,NSE,Industrials,Business Equipment & Supplies,LINC.NS
+MSPL,MSP Steel & Power Limited,41239,NSE,Basic Materials,Steel,MSPL.NS
+BSHSL,Bombay Super Hybrid Seeds Limited,41209,NSE,Basic Materials,Agricultural Inputs,BSHSL.NS
+HPL,HPL Electric & Power Limited,41152,NSE,Industrials,Electrical Equipment & Parts,HPL.NS
+COASTCORP,Coastal Corporation Limited,40966,NSE,Consumer Defensive,Packaged Foods,COASTCORP.NS
+MUNJALAU,Munjal Auto Industries Limited,40900,NSE,Consumer Cyclical,Auto Parts,MUNJALAU.NS
+NATHBIOGEN,Nath Bio-Genes (India) Limited,40545,NSE,Basic Materials,Agricultural Inputs,NATHBIOGEN.NS
+ZEELEARN,Zee Learn Limited,40435,NSE,Consumer Defensive,Education & Training Services,ZEELEARN.NS
+XELPMOC,Xelpmoc Design And Tech Limited,40354,NSE,Technology,Information Technology Services,XELPMOC.NS
+HITECHGEAR,The Hi-Tech Gears Limited,40323,NSE,Consumer Cyclical,Auto Parts,HITECHGEAR.NS
+GODHA,Godha Cabcon & Insulation Limited,39974,NSE,Industrials,Electrical Equipment & Parts,GODHA.NS
+KHADIM,Khadim India Limited,39857,NSE,Consumer Cyclical,Footwear & Accessories,KHADIM.NS
+OMINFRAL,OM INFRA LIMITED,39822,NSE,Industrials,Engineering & Construction,OMINFRAL.NS
+MAXIND,Max India Limited,39640,NSE,Healthcare,Medical Care Facilities,MAXIND.NS
+INDOTHAI,Indo Thai Securities Limited,39635,NSE,Financial Services,Capital Markets,INDOTHAI.NS
+INDSWFTLAB,Ind-Swift Laboratories Limited,39381,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,INDSWFTLAB.NS
+MUNJALSHOW,Munjal Showa Limited,39175,NSE,Consumer Cyclical,Auto Parts,MUNJALSHOW.NS
+HITECHCORP,Hitech Corporation Limited,39169,NSE,Consumer Cyclical,Packaging & Containers,HITECHCORP.NS
+CEBBCO,Commercial Engineers & Body Builders Co Limited,39059,NSE,Industrials,Railroads,CEBBCO.NS
+HINDCOMPOS,Hindustan Composites Limited,39012,NSE,Consumer Cyclical,Auto Parts,HINDCOMPOS.NS
+LYKALABS,Lyka Labs Limited,38846,NSE,Healthcare,Biotechnology,LYKALABS.NS
+UFO,UFO Moviez India Limited,38658,NSE,Communication Services,Entertainment,UFO.NS
+KNAGRI,KN Agri Resources Limited,38211,NSE,,,KNAGRI.NS
+JPINFRATEC,Jaypee Infratech Limited,38196,NSE,Industrials,Infrastructure Operations,JPINFRATEC.NS
+KOTHARIPRO,Kothari Products Limited,38155,NSE,Industrials,Conglomerates,KOTHARIPRO.NS
+DHUNINV,Dhunseri Investments Limited,38123,NSE,Financial Services,Capital Markets,DHUNINV.NS
+VISHWARAJ,Vishwaraj Sugar Industries Limited,38025,NSE,Consumer Defensive,Confectioners,VISHWARAJ.NS
+PRECOT,Precot Limited,37956,NSE,Consumer Cyclical,Textile Manufacturing,PRECOT.NS
+MEGASOFT,Megasoft Limited,37955,NSE,Technology,Software—Application,MEGASOFT.NS
+MARINE,Marine Electricals (India) Limited,37842,NSE,Industrials,Marine Shipping,MARINE.NS
+GINNIFILA,Ginni Filaments Limited,37258,NSE,Consumer Cyclical,Textile Manufacturing,GINNIFILA.NS
+REPL,Rudrabhishek Enterprises Limited,37156,NSE,Industrials,Consulting Services,REPL.NS
+PPL,Prakash Pipes Limited,37073,NSE,Industrials,Building Products & Equipment,PPL.NS
+PDMJEPAPER,Pudumjee Paper Products Limited,36888,NSE,Basic Materials,Paper & Paper Products,PDMJEPAPER.NS
+SHEMAROO,Shemaroo Entertainment Limited,36805,NSE,Communication Services,Entertainment,SHEMAROO.NS
+SHIVAMAUTO,Shivam Autotech Limited,36544,NSE,Consumer Cyclical,Auto Parts,SHIVAMAUTO.NS
+OSWALAGRO,Oswal Agro Mills Limited,36378,NSE,Real Estate,Real Estate—Development,OSWALAGRO.NS
+BANSWRAS,Banswara Syntex Limited,36303,NSE,Consumer Cyclical,Textile Manufacturing,BANSWRAS.NS
+PRAXIS,Praxis Home Retail Limited,36261,NSE,Consumer Cyclical,Specialty Retail,PRAXIS.NS
+ACCURACY,Accuracy Shipping Limited,36210,NSE,Industrials,Integrated Freight & Logistics,ACCURACY.NS
+VENUSREM,Venus Remedies Limited,36131,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,VENUSREM.NS
+GENUSPAPER,Genus Paper & Boards Limited,35741,NSE,Basic Materials,Paper & Paper Products,GENUSPAPER.NS
+GSCLCEMENT,Gujarat Sidhee Cement Limited,35598,NSE,Basic Materials,Building Materials,GSCLCEMENT.NS
+ATULAUTO,Atul Auto Limited,35427,NSE,Consumer Cyclical,Auto Manufacturers,ATULAUTO.NS
+ORIENTABRA,Orient Abrasives Limited,35413,NSE,Basic Materials,Specialty Chemicals,ORIENTABRA.NS
+CLEDUCATE,CL Educate Limited,35400,NSE,Consumer Defensive,Education & Training Services,CLEDUCATE.NS
+CHEMFAB,Chemfab Alkalis Limited,35384,NSE,Basic Materials,Specialty Chemicals,CHEMFAB.NS
+MEP,MEP Infrastructure Developers Limited,35313,NSE,Industrials,Infrastructure Operations,MEP.NS
+SILINV,SIL Investments Limited,35168,NSE,Financial Services,Asset Management,SILINV.NS
+BALAXI,BALAXI PHARMACEUTICALS LIMITED,35160,NSE,,,BALAXI.NS
+NRL,Nupur Recyclers Limited,34949,NSE,,,NRL.NS
+HDIL,Housing Development and Infrastructure Limited,34839,NSE,Real Estate,Real Estate—Diversified,HDIL.NS
+SPTL,Sintex Plastics Technology Limited,34670,NSE,Consumer Cyclical,Auto Parts,SPTL.NS
+PASUPTAC,Pasupati Acrylon Limited,34539,NSE,,,PASUPTAC.NS
+WEBELSOLAR,Websol Energy System Limited,34497,NSE,Technology,Solar,WEBELSOLAR.NS
+ASAHISONG,Asahi Songwon Colors Limited,34314,NSE,Basic Materials,Specialty Chemicals,ASAHISONG.NS
+AURUM,Aurum PropTech Limited,34227,NSE,Technology,Information Technology Services,AURUM.NS
+DIL,Debock Industries Limited,34133,NSE,Industrials,Farm & Heavy Construction Machinery,DIL.NS
+VIKASECO,Vikas EcoTech Limited,34120,NSE,Basic Materials,Specialty Chemicals,VIKASECO.NS
+MARALOVER,Maral Overseas Limited,34078,NSE,Consumer Cyclical,Textile Manufacturing,MARALOVER.NS
+SCHAND,S Chand And Company Limited,33939,NSE,Communication Services,Publishing,SCHAND.NS
+BIRLAMONEY,Aditya Birla Money Limited,33938,NSE,Financial Services,Capital Markets,BIRLAMONEY.NS
+PREMEXPLN,Premier Explosives Limited,33687,NSE,Basic Materials,Specialty Chemicals,PREMEXPLN.NS
+HUBTOWN,Hubtown Limited,33677,NSE,Real Estate,Real Estate—Development,HUBTOWN.NS
+ORBTEXP,Orbit Exports Limited,33613,NSE,Consumer Cyclical,Textile Manufacturing,ORBTEXP.NS
+ROHLTD,Royal Orchid Hotels Limited,33349,NSE,Consumer Cyclical,Lodging,ROHLTD.NS
+MINDTECK,Mindteck (India) Limited,33171,NSE,Technology,Information Technology Services,MINDTECK.NS
+DANGEE,Dangee Dums Limited,32817,NSE,Consumer Cyclical,Restaurants,DANGEE.NS
+PROZONINTU,Prozone Intu Properties Limited,32581,NSE,Real Estate,Real Estate—Diversified,PROZONINTU.NS
+IRISDOREME,Iris Clothings Limited,32196,NSE,Consumer Cyclical,Apparel Manufacturing,IRISDOREME.NS
+GKWLIMITED,GKW Limited,32171,NSE,Industrials,Specialty Business Services,GKWLIMITED.NS
+SADBHIN,Sadbhav Infrastructure Project Limited,31700,NSE,Industrials,Engineering & Construction,SADBHIN.NS
+CUPID,Cupid Limited,31598,NSE,Consumer Defensive,Household & Personal Products,CUPID.NS
+DICIND,DIC India Limited,31493,NSE,Basic Materials,Specialty Chemicals,DICIND.NS
+GOKUL,Gokul Refoils and Solvent Limited,31480,NSE,,,GOKUL.NS
+PODDARMENT,Poddar Pigments Limited,31480,NSE,Basic Materials,Specialty Chemicals,PODDARMENT.NS
+PENINLAND,Peninsula Land Limited,31410,NSE,Real Estate,Real Estate—Development,PENINLAND.NS
+GEECEE,GeeCee Ventures Limited,31389,NSE,Real Estate,Real Estate—Development,GEECEE.NS
+DHANBANK,Dhanlaxmi Bank Limited,31373,NSE,Financial Services,Banks—Regional,DHANBANK.NS
+ROHITFERRO,Rohit Ferro-Tech Limited,31118,NSE,,,ROHITFERRO.NS
+KREBSBIO,Krebs Biochemicals and Industries Limited,30842,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,KREBSBIO.NS
+MAHESHWARI,Maheshwari Logistics Limited,30825,NSE,Industrials,Integrated Freight & Logistics,MAHESHWARI.NS
+BPL,BPL Limited,30626,NSE,Technology,Consumer Electronics,BPL.NS
+HIRECT,Hind Rectifiers Limited,30626,NSE,Industrials,Electrical Equipment & Parts,HIRECT.NS
+BIL,Bhartiya International Limited,30567,NSE,Consumer Cyclical,Footwear & Accessories,BIL.NS
+ALBERTDAVD,Albert David Limited,30288,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ALBERTDAVD.NS
+JPOLYINVST,Jindal Poly Investment and Finance Company Limited,30248,NSE,Financial Services,Asset Management,JPOLYINVST.NS
+INVENTURE,Inventure Growth & Securities Limited,30240,NSE,Financial Services,Capital Markets,INVENTURE.NS
+CINELINE,Cineline India Limited,30083,NSE,Real Estate,Real Estate Services,CINELINE.NS
+BAFNAPH,Bafna Pharmaceuticals Limited,29961,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,BAFNAPH.NS
+EMKAYTOOLS,Emkay Taps and Cutting Tools Limited,29880,NSE,,,EMKAYTOOLS.NS
+EROSMEDIA,Eros International Media Limited,29820,NSE,Communication Services,Entertainment,EROSMEDIA.NS
+BIRLATYRE,Birla Tyres Limited,29801,NSE,Consumer Cyclical,Auto Parts,BIRLATYRE.NS
+NGIL,Nakoda Group of Industries Limited,29799,NSE,Consumer Defensive,Packaged Foods,NGIL.NS
+KOTARISUG,Kothari Sugars And Chemicals Limited,29467,NSE,Consumer Defensive,Confectioners,KOTARISUG.NS
+SALZERELEC,Salzer Electronics Limited,29456,NSE,Industrials,Electrical Equipment & Parts,SALZERELEC.NS
+NIPPOBATRY,Indo-National Limited,29273,NSE,Industrials,Electrical Equipment & Parts,NIPPOBATRY.NS
+PENTAGOLD,Penta Gold Limited,29268,NSE,,,PENTAGOLD.NS
+KOTYARK,Kotyark Industries Limited,29119,NSE,,,KOTYARK.NS
+RUCHIRA,Ruchira Papers Limited,29023,NSE,Basic Materials,Paper & Paper Products,RUCHIRA.NS
+WEALTH,Wealth First Portfolio Managers Limited,29003,NSE,Financial Services,Capital Markets,WEALTH.NS
+EIFFL,Euro India Fresh Foods Limited,28991,NSE,Consumer Defensive,Packaged Foods,EIFFL.NS
+SELAN,Selan Exploration Technology Limited,28850,NSE,Energy,Oil & Gas E&P,SELAN.NS
+AKSHARCHEM,AksharChem India Limited,28619,NSE,Basic Materials,Specialty Chemicals,AKSHARCHEM.NS
+PRIMESECU,Prime Securities Limited,28495,NSE,Financial Services,Capital Markets,PRIMESECU.NS
+MANAKSTEEL,Manaksia Steels Limited,28442,NSE,Basic Materials,Steel,MANAKSTEEL.NS
+KCPSUGIND,KCP Sugar and Industries Corporation Limited,28403,NSE,Consumer Defensive,Confectioners,KCPSUGIND.NS
+SRPL,Shree Ram Proteins Limited,28049,NSE,Consumer Defensive,Farm Products,SRPL.NS
+ISFT,Intrasoft Technologies Limited,27806,NSE,Consumer Cyclical,Internet Retail,ISFT.NS
+WANBURY,Wanbury Limited,27619,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,WANBURY.NS
+SAKUMA,Sakuma Exports Limited,27561,NSE,Consumer Defensive,Farm Products,SAKUMA.NS
+DONEAR,Donear Industries Limited,27482,NSE,Consumer Cyclical,Textile Manufacturing,DONEAR.NS
+DTIL,Dhunseri Tea & Industries Limited,27466,NSE,Consumer Defensive,Packaged Foods,DTIL.NS
+SIMPLEXINF,Simplex Infrastructures Limited,27257,NSE,Industrials,Engineering & Construction,SIMPLEXINF.NS
+AHLEAST,Asian Hotels (East) Limited,27171,NSE,Consumer Cyclical,Lodging,AHLEAST.NS
+EUROBOND,Euro Panel Products Limited,27146,NSE,,,EUROBOND.NS
+ASHIMASYN,Ashima Limited,27120,NSE,Consumer Cyclical,Textile Manufacturing,ASHIMASYN.NS
+ABAN,Aban Offshore Limited,26936,NSE,Energy,Oil & Gas Drilling,ABAN.NS
+JINDALPHOT,Jindal Photo Limited,26918,NSE,Financial Services,Asset Management,JINDALPHOT.NS
+KMSUGAR,K.M.Sugar Mills Limited,26910,NSE,Consumer Defensive,Confectioners,KMSUGAR.NS
+JAYSREETEA,Jayshree Tea & Industries Limited,26625,NSE,Consumer Defensive,Farm Products,JAYSREETEA.NS
+PPAP,PPAP Automotive Limited,26621,NSE,Consumer Cyclical,Auto Parts,PPAP.NS
+FEL,Future Enterprises Limited,26613,NSE,Consumer Cyclical,Department Stores,FEL.NS
+GOLDTECH,Goldstone Technologies Limited,26594,NSE,Technology,Information Technology Services,GOLDTECH.NS
+SHIVATEX,Shiva Texyarn Limited,26405,NSE,Consumer Cyclical,Textile Manufacturing,SHIVATEX.NS
+SECURKLOUD,SECUREKLOUD TECHNOLOGIES LIMITED,26331,NSE,Technology,Software—Application,SECURKLOUD.NS
+KILITCH,Kilitch Drugs (India) Limited,26077,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,KILITCH.NS
+20MICRONS,20 Microns Limited,26059,NSE,Basic Materials,Other Industrial Metals & Mining,20MICRONS.NS
+KANPRPLA,Kanpur Plastipack Limited,25999,NSE,Consumer Cyclical,Packaging & Containers,KANPRPLA.NS
+SILVERTUC,Silver Touch Technologies Limited,25768,NSE,Technology,Information Technology Services,SILVERTUC.NS
+EMKAY,Emkay Global Financial Services Limited,25749,NSE,Financial Services,Capital Markets,EMKAY.NS
+LGBFORGE,LGB Forge Limited,25726,NSE,Industrials,Metal Fabrication,LGBFORGE.NS
+SREINFRA,SREI Infrastructure Finance Limited,25657,NSE,Financial Services,Credit Services,SREINFRA.NS
+WINDMACHIN,Windsor Machines Limited,25583,NSE,Industrials,Specialty Industrial Machinery,WINDMACHIN.NS
+ALMONDZ,Almondz Global Securities Limited,25419,NSE,Financial Services,Capital Markets,ALMONDZ.NS
+MBLINFRA,MBL Infrastructures Limited,25403,NSE,Industrials,Engineering & Construction,MBLINFRA.NS
+JITFINFRA,JITF Infralogistics Limited,25395,NSE,Industrials,Integrated Freight & Logistics,JITFINFRA.NS
+MAHEPC,Mahindra EPC Irrigation Limited,25264,NSE,Industrials,Farm & Heavy Construction Machinery,MAHEPC.NS
+SGIL,Synergy Green Industries Limited,25250,NSE,Industrials,Metal Fabrication,SGIL.NS
+HINDMOTORS,Hindustan Motors Limited,25248,NSE,Consumer Cyclical,Auto Manufacturers,HINDMOTORS.NS
+AAKASH,Aakash Exploration Services Limited,25161,NSE,Energy,Oil & Gas Equipment & Services,AAKASH.NS
+RAMANEWS,Shree Rama Newsprint Limited,25153,NSE,Basic Materials,Paper & Paper Products,RAMANEWS.NS
+REFEX,Refex Industries Limited,25055,NSE,Energy,Thermal Coal,REFEX.NS
+LIBERTSHOE,Liberty Shoes Limited,24947,NSE,Consumer Cyclical,Footwear & Accessories,LIBERTSHOE.NS
+ZODIACLOTH,Zodiac Clothing Company Limited,24859,NSE,Consumer Cyclical,Apparel Manufacturing,ZODIACLOTH.NS
+SITINET,Siti Networks Limited,24854,NSE,Communication Services,Entertainment,SITINET.NS
+STARPAPER,Star Paper Mills Limited,24802,NSE,Basic Materials,Paper & Paper Products,STARPAPER.NS
+UCALFUEL,Ucal Fuel Systems Limited,24800,NSE,Consumer Cyclical,Auto Parts,UCALFUEL.NS
+APOLLO,Apollo Micro Systems Limited,24626,NSE,Industrials,Aerospace & Defense,APOLLO.NS
+GUJAPOLLO,Gujarat Apollo Industries Limited,24467,NSE,Industrials,Specialty Industrial Machinery,GUJAPOLLO.NS
+HARRMALAYA,Harrisons  Malayalam Limited,24389,NSE,Consumer Defensive,Farm Products,HARRMALAYA.NS
+ARTNIRMAN,Art Nirman Limited,24207,NSE,Real Estate,Real Estate—Development,ARTNIRMAN.NS
+BRNL,Bharat Road Network Limited,24094,NSE,Industrials,Infrastructure Operations,BRNL.NS
+CHEMBOND,Chembond Chemicals Ltd,24086,NSE,Basic Materials,Specialty Chemicals,CHEMBOND.NS
+MCLEODRUSS,Mcleod Russel India Limited,23816,NSE,Consumer Defensive,Packaged Foods,MCLEODRUSS.NS
+DSSL,Dynacons Systems & Solutions Limited,23723,NSE,Technology,Information Technology Services,DSSL.NS
+SINTERCOM,Sintercom India Limited,23470,NSE,Consumer Cyclical,Auto Parts,SINTERCOM.NS
+NDRAUTO,Ndr Auto Components Limited,23443,NSE,Consumer Cyclical,Auto Parts,NDRAUTO.NS
+SIGMA,Sigma Solve Limited,23433,NSE,,,SIGMA.NS
+PIONDIST,Pioneer Distilleries Limited,23235,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,PIONDIST.NS
+RNAVAL,Reliance Naval and Engineering Limited,23234,NSE,Industrials,Aerospace & Defense,RNAVAL.NS
+SAKAR,Sakar Healthcare Limited,23135,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,SAKAR.NS
+GULFPETRO,GP Petroleums Limited,23121,NSE,Energy,Oil & Gas Refining & Marketing,GULFPETRO.NS
+INDOTECH,Indo Tech Transformers Limited,23014,NSE,Industrials,Electrical Equipment & Parts,INDOTECH.NS
+INSPIRISYS,Inspirisys Solutions Limited,22918,NSE,Technology,Information Technology Services,INSPIRISYS.NS
+PANSARI,Pansari Developers Limited,22855,NSE,Real Estate,Real Estate—Development,PANSARI.NS
+EMAMIREAL,Emami Realty Limited,22820,NSE,Real Estate,Real Estate—Development,EMAMIREAL.NS
+ANMOL,Anmol India Limited,22817,NSE,Energy,Thermal Coal,ANMOL.NS
+MOLDTECH,Mold-Tek Technologies Limited,22792,NSE,Industrials,Engineering & Construction,MOLDTECH.NS
+MACPOWER,Macpower CNC Machines Limited,22739,NSE,Industrials,Specialty Industrial Machinery,MACPOWER.NS
+ONEPOINT,One Point One Solutions Limited,22661,NSE,Industrials,Specialty Business Services,ONEPOINT.NS
+AIRAN,Airan Limited,22629,NSE,Technology,Information Technology Services,AIRAN.NS
+GIRRESORTS,GIR Natureview Resorts Limited,22472,NSE,Consumer Cyclical,Resorts & Casinos,GIRRESORTS.NS
+BEDMUTHA,Bedmutha Industries Limited,22278,NSE,Basic Materials,Steel,BEDMUTHA.NS
+NILAINFRA,Nila Infrastructures Limited,22255,NSE,Real Estate,Real Estate—Development,NILAINFRA.NS
+TEXMOPIPES,Texmo Pipes and Products Limited,22217,NSE,Industrials,Building Products & Equipment,TEXMOPIPES.NS
+SORILINFRA,SORIL Infra Resources Limited,22129,NSE,Industrials,Conglomerates,SORILINFRA.NS
+KANANIIND,Kanani Industries Limited,22112,NSE,Consumer Cyclical,Luxury Goods,KANANIIND.NS
+GPTINFRA,GPT Infraprojects Limited,21829,NSE,Industrials,Engineering & Construction,GPTINFRA.NS
+TTL,T T Limited,21735,NSE,Consumer Cyclical,Textile Manufacturing,TTL.NS
+VIPULLTD,Vipul Limited,21657,NSE,Real Estate,Real Estate—Diversified,VIPULLTD.NS
+MODISNME,Modison Metals Limited,21514,NSE,Industrials,Electrical Equipment & Parts,MODISNME.NS
+WFL,Wonder Fibromats Limited,21301,NSE,Consumer Cyclical,101,WFL.NS
+APOLSINHOT,Apollo Sindoori Hotels Limited,21273,NSE,Consumer Cyclical,Lodging,APOLSINHOT.NS
+DENORA,De Nora India Limited,21248,NSE,Industrials,Electrical Equipment & Parts,DENORA.NS
+STEL,Stel Holdings Limited,21205,NSE,Consumer Defensive,Farm Products,STEL.NS
+SMSLIFE,SMS Lifesciences India Limited,21140,NSE,Healthcare,Biotechnology,SMSLIFE.NS
+SPMLINFRA,SPML Infra Limited,21111,NSE,Industrials,Engineering & Construction,SPMLINFRA.NS
+IVC,IL&FS Investment Managers Limited,21040,NSE,Financial Services,Financial Conglomerates,IVC.NS
+ANSALAPI,Ansal Properties & Infrastructure Limited,21014,NSE,Real Estate,Real Estate—Development,ANSALAPI.NS
+RPPL,Rajshree Polypack Limited,20996,NSE,Consumer Cyclical,Packaging & Containers,RPPL.NS
+PILITA,PIL ITALICA LIFESTYLE LIMITED,20680,NSE,Consumer Cyclical,182,PILITA.NS
+BEWLTD,BEW Engineering Limited,20632,NSE,,,BEWLTD.NS
+SHIGAN,Shigan Quantum Technologies Limited,20606,NSE,,,SHIGAN.NS
+FSC,Future Supply Chain Solutions Limited,20581,NSE,Industrials,Integrated Freight & Logistics,FSC.NS
+MADHAVBAUG,Vaidya Sane Ayurved Laboratories Limited,20501,NSE,,,MADHAVBAUG.NS
+REVATHI,Revathi Equipment Limited,20499,NSE,Industrials,Farm & Heavy Construction Machinery,REVATHI.NS
+AUTOIND,Autoline Industries Limited,20462,NSE,Consumer Cyclical,Auto Parts,AUTOIND.NS
+RAJTV,Raj Television Network Limited,20324,NSE,Communication Services,Broadcasting,RAJTV.NS
+OSIAHYPER,Osia Hyper Retail Limited,20271,NSE,,,OSIAHYPER.NS
+BRFL,Bombay Rayon Fashions Limited,20160,NSE,Consumer Cyclical,Textile Manufacturing,BRFL.NS
+LOVABLE,Lovable Lingerie Limited,20150,NSE,Consumer Cyclical,Apparel Manufacturing,LOVABLE.NS
+CAREERP,Career Point Limited,20103,NSE,Industrials,Conglomerates,CAREERP.NS
+TEMBO,Tembo Global Industries Limited,19966,NSE,Industrials,Metal Fabrication,TEMBO.NS
+ASTRON,Astron Paper & Board Mill Limited,19879,NSE,Basic Materials,Paper & Paper Products,ASTRON.NS
+SHAHALLOYS,Shah Alloys Limited,19847,NSE,Basic Materials,Steel,SHAHALLOYS.NS
+INDTERRAIN,Indian Terrain Fashions Limited,19827,NSE,Consumer Cyclical,Apparel Manufacturing,INDTERRAIN.NS
+COMPINFO,Compuage Infocom Limited,19818,NSE,Technology,Electronics & Computer Distribution,COMPINFO.NS
+ELGIRUBCO,Elgi Rubber Company Limited,19795,NSE,Consumer Cyclical,Auto Parts,ELGIRUBCO.NS
+PONNIERODE,Ponni Sugars (Erode) Limited,19789,NSE,Consumer Defensive,Confectioners,PONNIERODE.NS
+ALPHAGEO,Alphageo (India) Limited,19702,NSE,Energy,Oil & Gas Equipment & Services,ALPHAGEO.NS
+PAR,Par Drugs And Chemicals Limited,19657,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,PAR.NS
+MAZDA,Mazda Limited,19629,NSE,Industrials,Specialty Industrial Machinery,MAZDA.NS
+GSS,GSS Infotech Limited,19562,NSE,Technology,Information Technology Services,GSS.NS
+IRIS,Iris Business Services Limited,19362,NSE,Technology,Software—Application,IRIS.NS
+VIPCLOTHNG,VIP Clothing Limited,19328,NSE,Consumer Cyclical,Apparel Manufacturing,VIPCLOTHNG.NS
+RUCHINFRA,Ruchi Infrastructure Limited,19293,NSE,Industrials,Specialty Business Services,RUCHINFRA.NS
+WALCHANNAG,Walchandnagar Industries Limited,19149,NSE,Industrials,Engineering & Construction,WALCHANNAG.NS
+PASHUPATI,Pashupati Cotspin Limited,19013,NSE,,,PASHUPATI.NS
+CAPTRUST,Capital Trust Limited,18971,NSE,Financial Services,Credit Services,CAPTRUST.NS
+ALANKIT,Alankit Limited,18942,NSE,Technology,Information Technology Services,ALANKIT.NS
+SPLIL,SPL Industries Limited,18908,NSE,Consumer Cyclical,Apparel Manufacturing,SPLIL.NS
+PARACABLES,Paramount Communications Limited,18836,NSE,Technology,Communication Equipment,PARACABLES.NS
+INTENTECH,Intense Technologies Limited,18707,NSE,Technology,Software—Infrastructure,INTENTECH.NS
+RHFL,Reliance Home Finance Limited,18655,NSE,Financial Services,Mortgage Finance,RHFL.NS
+GRPLTD,GRP Limited,18597,NSE,Consumer Cyclical,Auto Parts,GRPLTD.NS
+SETCO,Setco Automotive Limited,18527,NSE,Consumer Cyclical,Auto Parts,SETCO.NS
+TPLPLASTEH,TPL Plastech Limited,18323,NSE,,,TPLPLASTEH.NS
+IITL,Industrial Investment Trust Limited,18237,NSE,Financial Services,Credit Services,IITL.NS
+MAANALU,Maan Aluminium Limited,18227,NSE,Basic Materials,Aluminum,MAANALU.NS
+KERNEX,Kernex Microsystems (India) Limited,18168,NSE,Technology,Software—Application,KERNEX.NS
+EIMCOELECO,Eimco Elecon (India) Limited,18035,NSE,Industrials,Farm & Heavy Construction Machinery,EIMCOELECO.NS
+BROOKS,Brooks Laboratories Limited,18008,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,BROOKS.NS
+SUPERHOUSE,Superhouse Limited,17965,NSE,Consumer Cyclical,Footwear & Accessories,SUPERHOUSE.NS
+VISASTEEL,Visa Steel Limited,17774,NSE,Basic Materials,Steel,VISASTEEL.NS
+ARIES,Aries Agro Limited,17738,NSE,Basic Materials,Agricultural Inputs,ARIES.NS
+SUNDARAM,Sundaram Multi Pap Limited,17533,NSE,Basic Materials,Paper & Paper Products,SUNDARAM.NS
+AJRINFRA,AJR INFRA AND TOLLING LIMITED,17424,NSE,Industrials,Infrastructure Operations,AJRINFRA.NS
+COMPUSOFT,Compucom Software Limited,17408,NSE,Consumer Defensive,Education & Training Services,COMPUSOFT.NS
+KECL,Kirloskar Electric Company Limited,17400,NSE,Industrials,Specialty Industrial Machinery,KECL.NS
+VETO,Veto Switchgears And Cables Limited,17395,NSE,Industrials,Electrical Equipment & Parts,VETO.NS
+E2E,E2E Networks Limited,17370,NSE,Technology,Software—Infrastructure,E2E.NS
+GTL,GTL Limited,17303,NSE,Communication Services,Telecom Services,GTL.NS
+MODIRUBBER,Modi Rubber Limited,17290,NSE,Real Estate,Real Estate Services,MODIRUBBER.NS
+KAKATCEM,Kakatiya Cement Sugar & Industries Limited,17250,NSE,Basic Materials,Building Materials,KAKATCEM.NS
+JOCIL,Jocil Limited,17158,NSE,Basic Materials,Specialty Chemicals,JOCIL.NS
+AARVI,Aarvi Encon Limited,17135,NSE,Industrials,Staffing & Employment Services,AARVI.NS
+MANAKCOAT,Manaksia Coated Metals & Industries Limited,17039,NSE,Industrials,Metal Fabrication,MANAKCOAT.NS
+INDIANCARD,Indian Card Clothing Company Limited,17015,NSE,Consumer Cyclical,Textile Manufacturing,INDIANCARD.NS
+LASA,Lasa Supergenerics Limited,17001,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,LASA.NS
+A2ZINFRA,A2Z Infra Engineering Limited,16996,NSE,Industrials,Engineering & Construction,A2ZINFRA.NS
+UNITEDTEA,The United Nilgiri Tea Estates Company Limited,16891,NSE,Consumer Defensive,Farm Products,UNITEDTEA.NS
+PAVNAIND,Pavna Industries Limited,16782,NSE,,,PAVNAIND.NS
+SERVOTECH,Servotech Power Systems Limited,16745,NSE,,,SERVOTECH.NS
+DEEPENR,DEEP ENERGY RESOURCES LIMITED,16736,NSE,Energy,Oil & Gas Equipment & Services,DEEPENR.NS
+HINDNATGLS,Hindusthan National Glass & Industries Limited,16657,NSE,Consumer Cyclical,Packaging & Containers,HINDNATGLS.NS
+IL&FSTRANS,IL&FS Transportation Networks Limited,16612,NSE,Industrials,Infrastructure Operations,IL&FSTRANS.NS
+SHREYANIND,Shreyans Industries Limited,16486,NSE,Basic Materials,Paper & Paper Products,SHREYANIND.NS
+KAMATHOTEL,Kamat Hotels (I) Limited,16473,NSE,Consumer Cyclical,Lodging,KAMATHOTEL.NS
+NITCO,Nitco Limited,16456,NSE,Industrials,Building Products & Equipment,NITCO.NS
+GOLDENTOBC,Golden Tobacco Limited,16403,NSE,Consumer Defensive,Tobacco,GOLDENTOBC.NS
+NECCLTD,North Eastern Carrying Corporation Limited,16314,NSE,Industrials,Trucking,NECCLTD.NS
+AKSHOPTFBR,Aksh Optifibre Limited,16270,NSE,Technology,Communication Equipment,AKSHOPTFBR.NS
+SUVIDHAA,Suvidhaa Infoserve Limited,16263,NSE,Technology,Information Technology Services,SUVIDHAA.NS
+MANGALAM,Mangalam Drugs And Organics Limited,16208,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,MANGALAM.NS
+WORTH,Worth Peripherals Limited,16200,NSE,Consumer Cyclical,Packaging & Containers,WORTH.NS
+SKMEGGPROD,SKM Egg Products Export (India) Limited,16114,NSE,Consumer Defensive,Packaged Foods,SKMEGGPROD.NS
+RANEENGINE,Rane Engine Valve Limited,16089,NSE,Consumer Cyclical,Auto Parts,RANEENGINE.NS
+BALPHARMA,Bal Pharma Limited,15993,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,BALPHARMA.NS
+SAKHTISUG,Sakthi Sugars Limited,15985,NSE,Consumer Defensive,Confectioners,SAKHTISUG.NS
+PREMIERPOL,Premier Polyfilm Limited,15984,NSE,Basic Materials,Specialty Chemicals,PREMIERPOL.NS
+ATLANTA,Atlanta  Limited,15893,NSE,Industrials,Infrastructure Operations,ATLANTA.NS
+JAINAM,Jainam Ferro Alloys (I) Limited,15858,NSE,,,JAINAM.NS
+NILASPACES,Nila Spaces Limited,15756,NSE,Real Estate,Real Estate—Development,NILASPACES.NS
+MANAKALUCO,Manaksia Aluminium Company Limited,15695,NSE,Basic Materials,Aluminum,MANAKALUCO.NS
+IVP,IVP Limited,15670,NSE,Basic Materials,Specialty Chemicals,IVP.NS
+ASIANHOTNR,Asian Hotels (North) Limited,15660,NSE,Consumer Cyclical,Lodging,ASIANHOTNR.NS
+ESSARSHPNG,Essar Shipping Limited,15523,NSE,Industrials,Marine Shipping,ESSARSHPNG.NS
+DCM,DCM  Limited,15484,NSE,Industrials,Metal Fabrication,DCM.NS
+INDOWIND,Indowind Energy Limited,15480,NSE,Utilities,Utilities—Renewable,INDOWIND.NS
+LAGNAM,Lagnam Spintex Limited,15443,NSE,Consumer Cyclical,Textile Manufacturing,LAGNAM.NS
+3RDROCK,3rd Rock Multimedia Limited,15316,NSE,Industrials,Specialty Business Services,3RDROCK.NS
+EMMBI,Emmbi Industries Limited,15276,NSE,Consumer Cyclical,Packaging & Containers,EMMBI.NS
+ICEMAKE,Ice Make Refrigeration Limited,15246,NSE,Industrials,Specialty Industrial Machinery,ICEMAKE.NS
+RPPINFRA,R.P.P. Infra Projects Limited,15172,NSE,Industrials,Engineering & Construction,RPPINFRA.NS
+CORALFINAC,Coral India Finance & Housing Limited,15154,NSE,Real Estate,Real Estate Services,CORALFINAC.NS
+SHRENIK,Shrenik Limited,14994,NSE,Basic Materials,Paper & Paper Products,SHRENIK.NS
+JMA,Jullundur Motor Agency (Delhi) Limited,14881,NSE,Consumer Cyclical,Auto Parts,JMA.NS
+BALLARPUR,Ballarpur Industries Limited,14875,NSE,Basic Materials,Paper & Paper Products,BALLARPUR.NS
+BYKE,The Byke Hospitality Ltd,14796,NSE,Consumer Cyclical,Lodging,BYKE.NS
+TRF,TRF Limited,14790,NSE,Industrials,Specialty Industrial Machinery,TRF.NS
+ARROWGREEN,Arrow Greentech Limited,14743,NSE,Consumer Cyclical,Packaging & Containers,ARROWGREEN.NS
+BHARATGEAR,Bharat Gears Limited,14710,NSE,Consumer Cyclical,Auto Parts,BHARATGEAR.NS
+ALPA,Alpa Laboratories Limited,14665,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ALPA.NS
+PALREDTEC,Palred Technologies Limited,14648,NSE,Technology,Information Technology Services,PALREDTEC.NS
+IL&FSENGG,IL&FS Engineering and Construction Company Limited,14554,NSE,Industrials,Engineering & Construction,IL&FSENGG.NS
+DEVIT,Dev Information Technology Limited,14547,NSE,Technology,Information Technology Services,DEVIT.NS
+ELECTHERM,Electrotherm (India) Limited,14310,NSE,Industrials,Metal Fabrication,ELECTHERM.NS
+GILLANDERS,Gillanders Arbuthnot & Company Limited,14214,NSE,Industrials,Conglomerates,GILLANDERS.NS
+BHAGYANGR,Bhagyanagar India Limited,14174,NSE,Basic Materials,Copper,BHAGYANGR.NS
+SPECTRUM,Spectrum Electrical Industries Limited,14137,NSE,,,SPECTRUM.NS
+DAMODARIND,Damodar Industries Limited,14027,NSE,Consumer Cyclical,Textile Manufacturing,DAMODARIND.NS
+SURANAT&P,Surana Telecom and Power Limited,13915,NSE,Utilities,Utilities—Independent Power Producers,SURANAT&P.NS
+MURUDCERA,Murudeshwar Ceramics Limited,13874,NSE,Industrials,Building Products & Equipment,MURUDCERA.NS
+NOIDATOLL,Noida Toll Bridge Company Limited,13778,NSE,Industrials,Infrastructure Operations,NOIDATOLL.NS
+LOKESHMACH,Lokesh Machines Limited,13754,NSE,Industrials,Specialty Industrial Machinery,LOKESHMACH.NS
+PODDARHOUS,Poddar Housing and Development Limited,13701,NSE,Real Estate,Real Estate—Development,PODDARHOUS.NS
+GENCON,Generic Engineering Construction and Projects Limited,13611,NSE,Industrials,Engineering & Construction,GENCON.NS
+SHIVAUM,Shiv Aum Steels Limited,13600,NSE,,,SHIVAUM.NS
+ASPINWALL,Aspinwall and Company Limited,13428,NSE,Consumer Defensive,Farm Products,ASPINWALL.NS
+UMANGDAIRY,Umang Dairies Limited,13422,NSE,Consumer Defensive,Packaged Foods,UMANGDAIRY.NS
+SUNDRMBRAK,Sundaram Brake Linings Limited,13421,NSE,Consumer Cyclical,Auto Parts,SUNDRMBRAK.NS
+RVHL,Ravinder Heights Limited,13414,NSE,Real Estate,Real Estate—Development,RVHL.NS
+GLOBE,Globe Textiles (India) Limited,13376,NSE,Consumer Cyclical,Textile Manufacturing,GLOBE.NS
+GANGESSECU,Ganges Securities Limited,13315,NSE,Consumer Defensive,Packaged Foods,GANGESSECU.NS
+JHS,JHS Svendgaard Laboratories Limited,13234,NSE,Consumer Defensive,Household & Personal Products,JHS.NS
+PRITIKAUTO,Pritika Auto Industries Limited,13212,NSE,Industrials,Specialty Industrial Machinery,PRITIKAUTO.NS
+ZODIAC,Zodiac Energy Limited,13170,NSE,Utilities,Diversified Utilities,ZODIAC.NS
+SURYALAXMI,Suryalakshmi Cotton Mills Limited,13146,NSE,Consumer Cyclical,Textile Manufacturing,SURYALAXMI.NS
+MAHAPEXLTD,Maha Rashtra Apex Corporation Limited,13131,NSE,Financial Services,Credit Services,MAHAPEXLTD.NS
+INDOSOLAR,Indosolar Limited,13022,NSE,Technology,Solar,INDOSOLAR.NS
+AHLADA,Ahlada Engineers Limited,12999,NSE,Industrials,Building Products & Equipment,AHLADA.NS
+NDGL,Naga Dhunseri Group Limited,12900,NSE,Financial Services,Capital Markets,NDGL.NS
+SMLT,Sarthak Metals Limited,12820,NSE,Industrials,Metal Fabrication,SMLT.NS
+MHLXMIRU,Mahalaxmi Rubtech Limited,12739,NSE,Consumer Cyclical,Textile Manufacturing,MHLXMIRU.NS
+MEGASTAR,Megastar Foods Limited,12720,NSE,Consumer Defensive,Packaged Foods,MEGASTAR.NS
+AMJLAND,Amj Land Holdings Limited,12669,NSE,Real Estate,Real Estate—Development,AMJLAND.NS
+PIONEEREMB,Pioneer Embroideries Limited,12640,NSE,Consumer Cyclical,Textile Manufacturing,PIONEEREMB.NS
+ANKITMETAL,Ankit Metal & Power Limited,12629,NSE,Basic Materials,Steel,ANKITMETAL.NS
+ARVEE,Arvee Laboratories (India) Limited,12530,NSE,Basic Materials,Specialty Chemicals,ARVEE.NS
+CTE,Cambridge Technology Enterprises Limited,12240,NSE,Technology,Information Technology Services,CTE.NS
+MITCON,MITCON Consultancy,12180,NSE,Industrials,Engineering & Construction,MITCON.NS
+CCHHL,Country Club Hospitality & Holidays Limited,12178,NSE,Consumer Cyclical,Lodging,CCHHL.NS
+VIVIMEDLAB,Vivimed Labs Limited,12023,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,VIVIMEDLAB.NS
+PVP,PVP Ventures Limited,12008,NSE,Industrials,Conglomerates,PVP.NS
+NIRAJ,Niraj Cement Structurals Limited,11966,NSE,Industrials,Engineering & Construction,NIRAJ.NS
+VCL,Vaxtex Cotfab Limited,11796,NSE,Consumer Cyclical,Textile Manufacturing,VCL.NS
+UNITEDPOLY,United Polyfab Gujarat Limited,11722,NSE,Consumer Cyclical,Textile Manufacturing,UNITEDPOLY.NS
+DUGLOBAL,DUDIGITAL GLOBAL LIMITED,11695,NSE,,,DUGLOBAL.NS
+TCIDEVELOP,TCI Developers Limited,11673,NSE,Real Estate,Real Estate Services,TCIDEVELOP.NS
+GROBTEA,The Grob Tea Company Limited,11645,NSE,Consumer Defensive,Farm Products,GROBTEA.NS
+SBC,SBC Exports Limited,11640,NSE,Industrials,Conglomerates,SBC.NS
+SALONA,Salona Cotspin Limited,11635,NSE,Consumer Cyclical,Textile Manufacturing,SALONA.NS
+IMAGICAA,Imagicaaworld Entertainment Limited,11629,NSE,Communication Services,Entertainment,IMAGICAA.NS
+RKEC,RKEC Projects Limited,11599,NSE,Industrials,Engineering & Construction,RKEC.NS
+BLBLIMITED,BLB Limited,11577,NSE,Financial Services,Capital Markets,BLBLIMITED.NS
+BSL,BSL Limited,11558,NSE,Consumer Cyclical,Textile Manufacturing,BSL.NS
+PRAENG,Prajay Engineers Syndicate Limited,11435,NSE,Real Estate,Real Estate—Development,PRAENG.NS
+AARON,Aaron Industries Limited,11395,NSE,Industrials,Specialty Industrial Machinery,AARON.NS
+SMARTLINK,Smartlink Holdings Limited,11347,NSE,Technology,Communication Equipment,SMARTLINK.NS
+DRSDILIP,DRS Dilip Roadlines Limited,11297,NSE,,,DRSDILIP.NS
+SIGIND,Signet Industries Limited,11274,NSE,Basic Materials,Specialty Chemicals,SIGIND.NS
+IZMO,IZMO Limited,11108,NSE,Technology,Software—Application,IZMO.NS
+FIBERWEB,Fiberweb (India) Limited,11056,NSE,,,FIBERWEB.NS
+LOTUSEYE,Lotus Eye Hospital and Institute Limited,11022,NSE,Healthcare,Medical Care Facilities,LOTUSEYE.NS
+PALASHSECU,Palash Securities Limited,10998,NSE,Consumer Defensive,Packaged Foods,PALASHSECU.NS
+BAGFILMS,B.A.G Films and Media Limited,10975,NSE,Communication Services,Broadcasting,BAGFILMS.NS
+RAJSREESUG,Rajshree Sugars & Chemicals Limited,10786,NSE,Consumer Defensive,Confectioners,RAJSREESUG.NS
+BHANDARI,Bhandari Hosiery Exports Limited,10770,NSE,Consumer Cyclical,Apparel Manufacturing,BHANDARI.NS
+JBFIND,JBF Industries Limited,10602,NSE,Consumer Cyclical,Textile Manufacturing,JBFIND.NS
+VERTOZ,Vertoz Advertising Limited,10564,NSE,Communication Services,Advertising Agencies,VERTOZ.NS
+AKASH,Akash Infra-Projects Limited,10556,NSE,Industrials,Engineering & Construction,AKASH.NS
+SARVESHWAR,Sarveshwar Foods Limited,10539,NSE,,,SARVESHWAR.NS
+MUKTAARTS,Mukta Arts Limited,10536,NSE,Communication Services,Entertainment,MUKTAARTS.NS
+AAREYDRUGS,Aarey Drugs & Pharmaceuticals Limited,10522,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,AAREYDRUGS.NS
+ABMINTLLTD,ABM International Limited,10485,NSE,Basic Materials,Specialty Chemicals,ABMINTLLTD.NS
+TIRUPATIFL,Tirupati Forge Limited,10437,NSE,Industrials,Metal Fabrication,TIRUPATIFL.NS
+KAPSTON,Kapston Services Limited,10433,NSE,Industrials,Specialty Business Services,KAPSTON.NS
+SURANASOL,Surana Solar Limited,10432,NSE,Technology,Solar,SURANASOL.NS
+SOFTTECH,Softtech Engineers Limited,10358,NSE,Technology,Software—Application,SOFTTECH.NS
+REMSONSIND,Remsons Industries Limited,10344,NSE,Consumer Cyclical,Auto Parts,REMSONSIND.NS
+BHAGYAPROP,Bhagyanagar Properties Limited,10334,NSE,Real Estate,Real Estate Services,BHAGYAPROP.NS
+MAHASTEEL,Mahamaya Steel Industries Limited,10332,NSE,Basic Materials,Steel,MAHASTEEL.NS
+MOTOGENFIN,The Motor & General Finance Limited,10282,NSE,Real Estate,Real Estate—Diversified,MOTOGENFIN.NS
+AIROLAM,Airo Lam limited,10276,NSE,Consumer Cyclical,237,AIROLAM.NS
+TIL,TIL Limited,10236,NSE,Industrials,Farm & Heavy Construction Machinery,TIL.NS
+SECL,Salasar Exteriors and Contour Limited,10212,NSE,,,SECL.NS
+TOTAL,Total Transport Systems Limited,10186,NSE,Industrials,Integrated Freight & Logistics,TOTAL.NS
+FOCE,Foce India Limited,10084,NSE,,,FOCE.NS
+ENERGYDEV,Energy Development Company Limited,10070,NSE,Utilities,Utilities—Regulated Electric,ENERGYDEV.NS
+AVG,AVG Logistics Limited,10009,NSE,,,AVG.NS
+PARIN,Parin Furniture Limited,10006,NSE,,,PARIN.NS
+TOUCHWOOD,Touchwood Entertainment Limited,9906,NSE,Communication Services,Advertising Agencies,TOUCHWOOD.NS
+ROML,Raj Oil Mills Limited,9758,NSE,,,ROML.NS
+INCREDIBLE,INCREDIBLE INDUSTRIES LIMITED,9750,NSE,Basic Materials,Steel,INCREDIBLE.NS
+WEIZMANIND,Weizmann Limited,9750,NSE,Consumer Cyclical,Textile Manufacturing,WEIZMANIND.NS
+PKTEA,The Peria Karamalai Tea & Produce Company Limited,9681,NSE,Consumer Defensive,Farm Products,PKTEA.NS
+PRESSMN,Pressman Advertising Limited,9651,NSE,Communication Services,Advertising Agencies,PRESSMN.NS
+UNIVASTU,Univastu India Limited,9649,NSE,Industrials,Engineering & Construction,UNIVASTU.NS
+WELINV,Welspun Investments and Commercials Limited,9609,NSE,Financial Services,Capital Markets,WELINV.NS
+INDBANK,Indbank Merchant Banking Services Limited,9586,NSE,Financial Services,Capital Markets,INDBANK.NS
+LPDC,Landmark Property Development Company Limited,9524,NSE,Real Estate,Real Estate Services,LPDC.NS
+GOENKA,Goenka Diamond and Jewels Limited,9510,NSE,Consumer Cyclical,Luxury Goods,GOENKA.NS
+MRO-TEK,MRO-TEK Realty Limited,9417,NSE,Technology,Communication Equipment,MRO-TEK.NS
+BIOFILCHEM,Biofil Chemicals & Pharmaceuticals Limited,9382,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,BIOFILCHEM.NS
+SIMBHALS,Simbhaoli Sugars Limited,9247,NSE,Consumer Defensive,Confectioners,SIMBHALS.NS
+MICEL,MIC Electronics Limited,9223,NSE,Technology,Electronic Components,MICEL.NS
+SOLEX,Solex Energy Limited,9136,NSE,,,SOLEX.NS
+SGL,STL Global Limited,9109,NSE,Consumer Cyclical,Textile Manufacturing,SGL.NS
+OMAXAUTO,Omax Autos Limited,9072,NSE,Consumer Cyclical,Auto Parts,OMAXAUTO.NS
+LAMBODHARA,Lambodhara Textiles Limited,9034,NSE,Consumer Cyclical,Textile Manufacturing,LAMBODHARA.NS
+PRAKASHSTL,Prakash Steelage Limited,9013,NSE,Basic Materials,Steel,PRAKASHSTL.NS
+DBSTOCKBRO,DB (International) Stock Brokers Limited,8960,NSE,Financial Services,Capital Markets,DBSTOCKBRO.NS
+SEPOWER,S.E. Power Limited,8955,NSE,Basic Materials,Specialty Chemicals,SEPOWER.NS
+DHRUV,Dhruv Consultancy Services Limited,8892,NSE,Industrials,Engineering & Construction,DHRUV.NS
+AUSOMENT,Ausom Enterprise Limited,8862,NSE,Financial Services,Capital Markets,AUSOMENT.NS
+STEELCITY,Steel City Securities Limited,8853,NSE,Financial Services,Capital Markets,STEELCITY.NS
+SHIVAMILLS,Shiva Mills Limited,8828,NSE,Consumer Cyclical,Textile Manufacturing,SHIVAMILLS.NS
+FOCUS,Focus Lighting and Fixtures Limited,8823,NSE,Consumer Cyclical,113,FOCUS.NS
+AMDIND,AMD Industries Limited,8788,NSE,Consumer Cyclical,Packaging & Containers,AMDIND.NS
+MBECL,Mcnally Bharat Engineering Company Limited,8780,NSE,Industrials,Engineering & Construction,MBECL.NS
+CCCL,Consolidated Construction Consortium Limited,8767,NSE,Industrials,Engineering & Construction,CCCL.NS
+KRISHIVAL,Empyrean Cashews Limited,8730,NSE,,,KRISHIVAL.NS
+SVLL,Shree Vasu Logistics Limited,8714,NSE,,,SVLL.NS
+OSWALSEEDS,ShreeOswal Seeds And Chemicals Limited,8690,NSE,,,OSWALSEEDS.NS
+SEYAIND,Seya Industries Limited,8684,NSE,Basic Materials,Specialty Chemicals,SEYAIND.NS
+TOKYOPLAST,Tokyo Plast International Limited,8580,NSE,Consumer Cyclical,Packaging & Containers,TOKYOPLAST.NS
+VMARCIND,V Marc India Limited,8579,NSE,,,VMARCIND.NS
+ROLTA,Rolta India Limited,8543,NSE,Technology,Information Technology Services,ROLTA.NS
+SALSTEEL,S.A.L. Steel Limited,8454,NSE,,,SALSTEEL.NS
+BANKA,Banka BioLoo Limited,8395,NSE,Industrials,Pollution & Treatment Controls,BANKA.NS
+AROGRANITE,Aro Granite Industries Limited,8346,NSE,Industrials,Building Products & Equipment,AROGRANITE.NS
+UJAAS,Ujaas Energy Limited,8312,NSE,Technology,Solar,UJAAS.NS
+CENTEXT,Century Extrusions Limited,8280,NSE,,,CENTEXT.NS
+GANGAFORGE,Ganga Forging Limited,8159,NSE,Industrials,Metal Fabrication,GANGAFORGE.NS
+SANWARIA,Sanwaria Consumer Limited,8097,NSE,Consumer Defensive,Farm Products,SANWARIA.NS
+ALKALI,Alkali Metals Limited,8075,NSE,Basic Materials,Specialty Chemicals,ALKALI.NS
+MCL,Madhav Copper Limited,8061,NSE,Basic Materials,Copper,MCL.NS
+TREJHARA,TREJHARA SOLUTIONS LIMITED,8047,NSE,Technology,Software—Application,TREJHARA.NS
+TARMAT,Tarmat Limited,7992,NSE,Industrials,Engineering & Construction,TARMAT.NS
+MKPL,M K Proteins Limited,7987,NSE,,,MKPL.NS
+ANIKINDS,Anik Industries Limited,7951,NSE,Consumer Defensive,Food Distribution,ANIKINDS.NS
+RSSOFTWARE,R. S. Software (India) Limited,7944,NSE,Technology,Information Technology Services,RSSOFTWARE.NS
+MOKSH,Moksh Ornaments Limited,7888,NSE,Consumer Cyclical,Luxury Goods,MOKSH.NS
+JETFREIGHT,Jet Freight Logistics Limited,7813,NSE,Industrials,Integrated Freight & Logistics,JETFREIGHT.NS
+SHREERAMA,Shree Rama Multi-Tech Limited,7747,NSE,Consumer Cyclical,Packaging & Containers,SHREERAMA.NS
+ARCHIDPLY,Archidply Industries Limited,7727,NSE,Basic Materials,Lumber & Wood Production,ARCHIDPLY.NS
+SUMEETINDS,Sumeet Industries Limited,7721,NSE,Consumer Cyclical,Textile Manufacturing,SUMEETINDS.NS
+SIL,Standard Industries Limited,7719,NSE,Consumer Cyclical,Textile Manufacturing,SIL.NS
+CINEVISTA,Cinevista Limited,7610,NSE,Communication Services,Entertainment,CINEVISTA.NS
+KEYFINSERV,Keynote Financial Services Limited,7597,NSE,Financial Services,Capital Markets,KEYFINSERV.NS
+MORARJEE,Morarjee Textiles Limited,7521,NSE,Consumer Cyclical,Textile Manufacturing,MORARJEE.NS
+NITIRAJ,Nitiraj Engineers Limited,7473,NSE,Technology,Scientific & Technical Instruments,NITIRAJ.NS
+SAMBHAAV,Sambhaav Media Limited,7453,NSE,Communication Services,Publishing,SAMBHAAV.NS
+DELTAMAGNT,Delta Manufacturing Limited,7390,NSE,Industrials,Specialty Industrial Machinery,DELTAMAGNT.NS
+BCONCEPTS,Brand Concepts Limited,7382,NSE,Consumer Cyclical,Footwear & Accessories,BCONCEPTS.NS
+TIRUPATI,Shree Tirupati Balajee FIBC Limited,7344,NSE,,,TIRUPATI.NS
+AGRITECH,Agri-Tech (India) Limited,7315,NSE,Consumer Defensive,Farm Products,AGRITECH.NS
+SONAMCLOCK,Sonam Clock Limited,7221,NSE,Consumer Cyclical,356,SONAMCLOCK.NS
+PUNJLLOYD,Punj Lloyd Limited,7215,NSE,Industrials,Engineering & Construction,PUNJLLOYD.NS
+HINDCON,Hindcon Chemicals Limited,7126,NSE,Basic Materials,Specialty Chemicals,HINDCON.NS
+AMBANIORG,Ambani Organics Limited,7076,NSE,,,AMBANIORG.NS
+GLOBAL,Global Education Limited,7070,NSE,Consumer Defensive,Education & Training Services,GLOBAL.NS
+VAISHALI,Vaishali Pharma Limited,6976,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,VAISHALI.NS
+PRECISION,Precision Metaliks Limited,6975,NSE,,,PRECISION.NS
+GEEKAYWIRE,Geekay Wires Limited,6966,NSE,Industrials,Electrical Equipment & Parts,GEEKAYWIRE.NS
+MAHICKRA,Mahickra Chemicals Limited,6904,NSE,,,MAHICKRA.NS
+URAVI,Uravi T and Wedge Lamps Limited,6875,NSE,,,URAVI.NS
+SICAL,Sical Logistics Limited,6847,NSE,Industrials,Integrated Freight & Logistics,SICAL.NS
+PNC,Pritish Nandy Communications Limited,6836,NSE,Communication Services,Entertainment,PNC.NS
+UTTAMSTL,Uttam Galva Steels Limited,6828,NSE,Basic Materials,Steel,UTTAMSTL.NS
+TARACHAND,Tara Chand Logistic Solutions Limited,6822,NSE,,,TARACHAND.NS
+PROLIFE,Prolife Industries Limited,6788,NSE,,,PROLIFE.NS
+CELEBRITY,Celebrity Fashions Limited,6769,NSE,Consumer Cyclical,Apparel Manufacturing,CELEBRITY.NS
+AJOONI,Ajooni Biotech Limited,6734,NSE,Consumer Defensive,Packaged Foods,AJOONI.NS
+HISARMETAL,Hisar Metal Industries Limited,6612,NSE,Basic Materials,Steel,HISARMETAL.NS
+DGCONTENT,Digicontent Limited,6575,NSE,Communication Services,Internet Content & Information,DGCONTENT.NS
+PRITI,Priti International Limited,6558,NSE,Consumer Cyclical,48,PRITI.NS
+NIBL,NRB Industrial Bearings Limited,6542,NSE,Industrials,Tools & Accessories,NIBL.NS
+KRITIKA,Kritika Wires Limited,6515,NSE,Basic Materials,Steel,KRITIKA.NS
+SUPREMEENG,Supreme Engineering Limited,6499,NSE,Basic Materials,Steel,SUPREMEENG.NS
+SAGARDEEP,Sagardeep Alloys Limited,6490,NSE,Basic Materials,Copper,SAGARDEEP.NS
+ORIENTLTD,Orient Press Limited,6490,NSE,Consumer Cyclical,Packaging & Containers,ORIENTLTD.NS
+CORDSCABLE,Cords Cable Industries Limited,6490,NSE,Industrials,Electrical Equipment & Parts,CORDSCABLE.NS
+JAKHARIA,JAKHARIA FABRIC LIMITED,6482,NSE,,,JAKHARIA.NS
+TAINWALCHM,Tainwala Chemical and Plastic (I) Limited,6433,NSE,Basic Materials,Specialty Chemicals,TAINWALCHM.NS
+BMETRICS,Bombay Metrics Supply Chain Limited,6411,NSE,,,BMETRICS.NS
+EXCEL,Excel Realty N Infra Limited,6348,NSE,Industrials,Conglomerates,EXCEL.NS
+GLOBALVECT,Global Vectra Helicorp Limited,6342,NSE,Industrials,Airports & Air Services,GLOBALVECT.NS
+KALYANIFRG,Kalyani Forge Limited,6328,NSE,Consumer Cyclical,Auto Parts,KALYANIFRG.NS
+SUPERSPIN,Super Spinning Mills Limited,6325,NSE,Consumer Cyclical,Textile Manufacturing,SUPERSPIN.NS
+LEXUS,Lexus Granito (India) Limited,6314,NSE,,,LEXUS.NS
+VINNY,Vinny Overseas Limited,6252,NSE,,,VINNY.NS
+AVROIND,AVRO INDIA LIMITED,6204,NSE,Consumer Cyclical,44,AVROIND.NS
+BANARBEADS,Banaras Beads Limited,6105,NSE,Consumer Cyclical,Footwear & Accessories,BANARBEADS.NS
+SIKKO,Sikko Industries Limited,6104,NSE,Basic Materials,Agricultural Inputs,SIKKO.NS
+OMKARCHEM,Omkar Speciality Chemicals Limited,6081,NSE,Basic Materials,Specialty Chemicals,OMKARCHEM.NS
+PANACHE,Panache Digilife Limited,6048,NSE,Technology,Communication Equipment,PANACHE.NS
+INDSWFTLTD,Ind-Swift Limited,6039,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,INDSWFTLTD.NS
+ARCHIES,Archies Limited,5996,NSE,Consumer Cyclical,Specialty Retail,ARCHIES.NS
+VASWANI,Vaswani Industries Limited,5985,NSE,Basic Materials,Steel,VASWANI.NS
+MALUPAPER,Malu Paper Mills Limited,5920,NSE,Basic Materials,Paper & Paper Products,MALUPAPER.NS
+BEARDSELL,Beardsell Limited,5920,NSE,Industrials,Building Products & Equipment,BEARDSELL.NS
+AAATECH,Aaa Technologies Limited,5900,NSE,,,AAATECH.NS
+SECURCRED,SecUR Credentials Limited,5829,NSE,,,SECURCRED.NS
+BDR,BDR Buildcon Limited,5824,NSE,,,BDR.NS
+HPIL,Hindprakash Industries Limited,5775,NSE,,,HPIL.NS
+MTEDUCARE,MT Educare Limited,5670,NSE,Consumer Defensive,Education & Training Services,MTEDUCARE.NS
+JAIPURKURT,Nandani Creation Limited,5634,NSE,,,JAIPURKURT.NS
+AURDIS,Aurangabad Distillery Limited,5609,NSE,,,AURDIS.NS
+MERCATOR,Mercator Limited,5595,NSE,Energy,Thermal Coal,MERCATOR.NS
+AARVEEDEN,Aarvee Denims & Exports Limited,5595,NSE,Consumer Cyclical,Textile Manufacturing,AARVEEDEN.NS
+TERASOFT,Tera Software Limited,5580,NSE,Technology,Information Technology Services,TERASOFT.NS
+FLEXITUFF,Flexituff Ventures International Limited,5549,NSE,Consumer Cyclical,Textile Manufacturing,FLEXITUFF.NS
+GAL,Gyscoal Alloys Limited,5540,NSE,Basic Materials,Steel,GAL.NS
+HOVS,HOV Services Limited,5529,NSE,Technology,Information Technology Services,HOVS.NS
+CALSOFT,California Software Company Limited,5503,NSE,Technology,Software—Application,CALSOFT.NS
+DHARSUGAR,Dharani Sugars & Chemicals Limited,5478,NSE,Consumer Defensive,Confectioners,DHARSUGAR.NS
+BURNPUR,Burnpur Cement Limited,5469,NSE,Basic Materials,Building Materials,BURNPUR.NS
+PARTYCRUS,Party Cruisers Limited,5432,NSE,,,PARTYCRUS.NS
+ARSSINFRA,ARSS Infrastructure Projects Limited,5412,NSE,Industrials,Infrastructure Operations,ARSSINFRA.NS
+VARDMNPOLY,Vardhman Polytex Limited,5372,NSE,Consumer Cyclical,Textile Manufacturing,VARDMNPOLY.NS
+ICDSLTD,ICDS Limited,5347,NSE,Real Estate,Real Estate Services,ICDSLTD.NS
+ATALREAL,Atal Realtech Limited,5307,NSE,,,ATALREAL.NS
+EASTSILK,Eastern Silk Industries Limited,5290,NSE,Consumer Cyclical,Textile Manufacturing,EASTSILK.NS
+SHRADHA,Shradha Infraprojects Limited,5285,NSE,Real Estate,Real Estate Services,SHRADHA.NS
+ZENITHEXPO,Zenith Exports Limited,5256,NSE,Consumer Cyclical,Textile Manufacturing,ZENITHEXPO.NS
+BALKRISHNA,Balkrishna Paper Mills Limited,5198,NSE,Consumer Cyclical,Packaging & Containers,BALKRISHNA.NS
+MDL,Marvel Decor Limited,5197,NSE,,,MDL.NS
+NPST,Network People Services Technologies Limited,5170,NSE,,,NPST.NS
+WEWIN,WE WIN LIMITED,5116,NSE,,,WEWIN.NS
+KKVAPOW,KKV Agro Powers Limited,5116,NSE,,,KKVAPOW.NS
+BVCL,Barak Valley Cements Limited,5086,NSE,Basic Materials,Building Materials,BVCL.NS
+MHHL,Mohini Health & Hygiene Limited,5042,NSE,,,MHHL.NS
+DCI,DC Infotech and Communication Limited,5040,NSE,,,DCI.NS
+ROLLT,Rollatainers Limited,5003,NSE,Industrials,Conglomerates,ROLLT.NS
+TIMESGTY,Times Guaranty Limited,4964,NSE,Financial Services,Asset Management,TIMESGTY.NS
+MARSHALL,Marshall Machines Limited,4954,NSE,Industrials,Specialty Industrial Machinery,MARSHALL.NS
+CMICABLES,CMI Limited,4896,NSE,Industrials,Electrical Equipment & Parts,CMICABLES.NS
+WIPL,The Western India Plywoods Limited,4889,NSE,Basic Materials,Lumber & Wood Production,WIPL.NS
+CYBERMEDIA,Cyber Media (India) Limited,4880,NSE,Communication Services,Publishing,CYBERMEDIA.NS
+COOLCAPS,Cool Caps Industries Limited,4838,NSE,,,COOLCAPS.NS
+AISL,ANI Integrated Services Limited,4834,NSE,,,AISL.NS
+VIVIDHA,Visagar Polytex Limited,4830,NSE,Consumer Cyclical,Textile Manufacturing,VIVIDHA.NS
+KHFM,Khfm Hospitality And Facility Management Services Limited,4731,NSE,,,KHFM.NS
+AGROPHOS,Agro Phos India Limited,4683,NSE,Basic Materials,Agricultural Inputs,AGROPHOS.NS
+MRO,M.R. Organisation Limited,4651,NSE,Industrials,Specialty Industrial Machinery,MRO.NS
+MADHAV,Madhav Marbles and Granites Limited,4643,NSE,Industrials,Building Products & Equipment,MADHAV.NS
+FMNL,Future Market Networks Limited,4632,NSE,Real Estate,Real Estate Services,FMNL.NS
+NAGREEKEXP,Nagreeka Exports Limited,4625,NSE,Consumer Cyclical,Textile Manufacturing,NAGREEKEXP.NS
+NIDAN,Nidan Laboratories and Healthcare Limited,4615,NSE,,,NIDAN.NS
+AMBICAAGAR,Ambica Agarbathies & Aroma industries Limited,4543,NSE,Consumer Defensive,Household & Personal Products,AMBICAAGAR.NS
+ABCOTS,A B Cotspin India Limited,4523,NSE,,,ABCOTS.NS
+LCCINFOTEC,LCC Infotech Limited,4494,NSE,Consumer Defensive,Education & Training Services,LCCINFOTEC.NS
+KRIDHANINF,Kridhan Infra Limited,4407,NSE,Basic Materials,Steel,KRIDHANINF.NS
+VINEETLAB,Vineet Laboratories Limited,4393,NSE,Basic Materials,Chemicals,VINEETLAB.NS
+HAVISHA,Sri Havisha Hospitality and Infrastructure Limited,4376,NSE,Consumer Cyclical,Lodging,HAVISHA.NS
+COUNCODOS,Country Condo's Limited,4345,NSE,Real Estate,Real Estate—Development,COUNCODOS.NS
+BANG,Bang Overseas Limited,4339,NSE,Consumer Cyclical,Apparel Manufacturing,BANG.NS
+EDUCOMP,Educomp Solutions Limited,4286,NSE,Consumer Defensive,Education & Training Services,EDUCOMP.NS
+LIBAS,Libas Consumer Products Limited,4260,NSE,Consumer Cyclical,Apparel Manufacturing,LIBAS.NS
+RELIABLE,Reliable Data Services Limited,4231,NSE,,,RELIABLE.NS
+MADHUCON,Madhucon Projects Limited,4206,NSE,Industrials,Engineering & Construction,MADHUCON.NS
+MAGNUM,Magnum Ventures Limited,4155,NSE,Basic Materials,Paper & Paper Products,MAGNUM.NS
+ANSALHSG,Ansal Housing Limited,4127,NSE,Real Estate,Real Estate—Development,ANSALHSG.NS
+OILCOUNTUB,Oil Country Tubular Limited,4119,NSE,Energy,Oil & Gas Equipment & Services,OILCOUNTUB.NS
+UCL,Ushanti Colour Chem Limited,4089,NSE,,,UCL.NS
+HILTON,Hilton Metal Forging Limited,4007,NSE,Industrials,Metal Fabrication,HILTON.NS
+JETKNIT,Jet Knitwears Limited,4006,NSE,,,JETKNIT.NS
+MANUGRAPH,Manugraph India Limited,4000,NSE,Industrials,Specialty Industrial Machinery,MANUGRAPH.NS
+AKG,Akg Exim Limited,3972,NSE,Consumer Defensive,Packaged Foods,AKG.NS
+ASLIND,ASL Industries Limited,3958,NSE,,,ASLIND.NS
+SOMICONVEY,Somi Conveyor Beltings Limited,3911,NSE,Industrials,Specialty Industrial Machinery,SOMICONVEY.NS
+SHAIVAL,Shaival Reality Limited,3825,NSE,,,SHAIVAL.NS
+SURANI,Surani Steel Tubes Limited,3811,NSE,,,SURANI.NS
+DIGJAMLMTD,Digjam Limited,3800,NSE,,,DIGJAMLMTD.NS
+SWARAJ,Swaraj Suiting Limited,3758,NSE,,,SWARAJ.NS
+KARMAENG,Karma Energy Limited,3731,NSE,Utilities,Utilities—Renewable,KARMAENG.NS
+SANGINITA,Sanginita Chemicals Limited,3609,NSE,Basic Materials,Chemicals,SANGINITA.NS
+HECPROJECT,HEC Infra Projects Limited,3533,NSE,Industrials,Engineering & Construction,HECPROJECT.NS
+PIGL,Power & Instrumentation (Gujarat) Limited,3492,NSE,,,PIGL.NS
+HBSL,HB Stockholdings Limited,3480,NSE,Financial Services,Capital Markets,HBSL.NS
+SUMIT,Sumit Woods Limited,3441,NSE,Real Estate,Real Estate—Development,SUMIT.NS
+GIRIRAJ,Giriraj Civil Developers Limited,3439,NSE,,,GIRIRAJ.NS
+MILTON,Milton Industries Limited,3399,NSE,,,MILTON.NS
+CROWN,Crown Lifters Limited,3399,NSE,Industrials,Rental & Leasing Services,CROWN.NS
+TREEHOUSE,Tree House Education & Accessories Limited,3385,NSE,Consumer Defensive,Education & Training Services,TREEHOUSE.NS
+ORIENTALTL,Oriental Trimex Limited,3379,NSE,Industrials,Building Products & Equipment,ORIENTALTL.NS
+PATINTLOG,Patel Integrated Logistics Limited,3359,NSE,Industrials,Integrated Freight & Logistics,PATINTLOG.NS
+SETUINFRA,Setubandhan Infrastructure Limited,3330,NSE,Industrials,Engineering & Construction,SETUINFRA.NS
+CUBEXTUB,Cubex Tubings Limited,3322,NSE,Basic Materials,Copper,CUBEXTUB.NS
+REXPIPES,Rex Pipes And Cables Industries Limited,3290,NSE,,,REXPIPES.NS
+TMRVL,The Mandhana Retail Ventures Limited,3246,NSE,Consumer Cyclical,Apparel Retail,TMRVL.NS
+SUPREMEINF,Supreme Infrastructure India Limited,3238,NSE,Industrials,Engineering & Construction,SUPREMEINF.NS
+LAXMICOT,Laxmi Cotspin Limited,3224,NSE,Consumer Cyclical,Textile Manufacturing,LAXMICOT.NS
+SSINFRA,S.S. Infrastructure Development Consultants Limited,3217,NSE,,,SSINFRA.NS
+VSCL,Vadivarhe Speciality Chemicals Limited,3196,NSE,,,VSCL.NS
+DKEGL,D.K. Enterprises Global Limited,3191,NSE,,,DKEGL.NS
+NEXTMEDIA,Next Mediaworks Limited,3177,NSE,Communication Services,Broadcasting,NEXTMEDIA.NS
+KSHITIJPOL,Kshitij Polyline Limited,3176,NSE,,,KSHITIJPOL.NS
+TIMESCAN,Timescan Logistics (India) Limited,3145,NSE,,,TIMESCAN.NS
+VIVO,Vivo Collaboration Solutions Limited,3139,NSE,,,VIVO.NS
+VIJIFIN,Viji Finance Limited,3135,NSE,Financial Services,Credit Services,VIJIFIN.NS
+21STCENMGM,21st Century Management Services Limited,3119,NSE,Financial Services,Capital Markets,21STCENMGM.NS
+PEARLPOLY,Pearl Polymers Limited,3056,NSE,Consumer Cyclical,Packaging & Containers,PEARLPOLY.NS
+CADSYS,Cadsys (India) Limited,3039,NSE,,,CADSYS.NS
+SILGO,Silgo Retail Limited,2968,NSE,Consumer Cyclical,Luxury Goods,SILGO.NS
+LGHL,Laxmi Goldorna House Limited,2964,NSE,,,LGHL.NS
+LFIC,Lakshmi Finance & Industrial Corporation Limited,2937,NSE,Financial Services,Asset Management,LFIC.NS
+SONAHISONA,Sona Hi Sona Jewellers (Gujarat) Limited,2887,NSE,,,SONAHISONA.NS
+DNAMEDIA,Diligent Media Corporation Limited,2825,NSE,Communication Services,Publishing,DNAMEDIA.NS
+MOHITIND,Mohit Industries Limited,2789,NSE,Consumer Cyclical,Textile Manufacturing,MOHITIND.NS
+INFOMEDIA,Infomedia Press Limited,2786,NSE,Financial Services,Shell Companies,INFOMEDIA.NS
+GOLDSTAR,Goldstar Power Limited,2701,NSE,,,GOLDSTAR.NS
+NARMADA,Narmada Agrobase Limited,2696,NSE,,,NARMADA.NS
+TGBHOTELS,TGB Banquets And Hotels Limited,2680,NSE,Consumer Cyclical,Lodging,TGBHOTELS.NS
+ACEINTEG,Ace Integrated Solutions Limited,2652,NSE,,,ACEINTEG.NS
+SHANTI,Shanti Overseas (India) Limited,2627,NSE,Consumer Defensive,Farm Products,SHANTI.NS
+3PLAND,3P Land Holdings Limited,2610,NSE,,,3PLAND.NS
+ASCOM,Ascom Leasing & Investments Limited,2608,NSE,,,ASCOM.NS
+LATTEYS,Latteys Industries Limited,2597,NSE,,,LATTEYS.NS
+ADL,Archidply Decor Limited,2588,NSE,Consumer Cyclical,50,ADL.NS
+TANTIACONS,Tantia Constructions Limited,2494,NSE,Industrials,Engineering & Construction,TANTIACONS.NS
+KHANDSE,Khandwala Securities Limited,2453,NSE,Financial Services,Capital Markets,KHANDSE.NS
+ZENITHSTL,Zenith Steel Pipes & Industries Limited,2419,NSE,Basic Materials,Steel,ZENITHSTL.NS
+SOMATEX,Soma Textiles & Industries Limited,2411,NSE,Consumer Cyclical,Textile Manufacturing,SOMATEX.NS
+UNIINFO,Uniinfo Telecom Services Limited,2369,NSE,Communication Services,Telecom Services,UNIINFO.NS
+RKDL,Ravi Kumar Distilleries Limited,2352,NSE,Consumer Defensive,Beverages—Wineries & Distilleries,RKDL.NS
+RICHA,Richa Info Systems Limited,2333,NSE,,,RICHA.NS
+WILLAMAGOR,Williamson Magor & Company Limited,2301,NSE,Financial Services,Credit Services,WILLAMAGOR.NS
+SILLYMONKS,Silly Monks Entertainment Limited,2287,NSE,Communication Services,Entertainment,SILLYMONKS.NS
+QUADPRO,Quadpro Ites Limited,2275,NSE,,,QUADPRO.NS
+METALFORGE,Metalyst Forgings Limited,2265,NSE,Industrials,Metal Fabrication,METALFORGE.NS
+ANTGRAPHIC,Antarctica Limited,2170,NSE,Consumer Cyclical,Packaging & Containers,ANTGRAPHIC.NS
+JALAN,Jalan Transolutions (India) Limited,2152,NSE,,,JALAN.NS
+GICL,Globe International Carriers Limited,2146,NSE,,,GICL.NS
+MITTAL,Mittal Life Style Limited,2128,NSE,Consumer Cyclical,Textile Manufacturing,MITTAL.NS
+SIDDHIKA,Siddhika Coatings Limited,2113,NSE,,,SIDDHIKA.NS
+SPENTEX,Spentex Industries Limited,2110,NSE,Consumer Cyclical,Textile Manufacturing,SPENTEX.NS
+AVSL,AVSL Industries Limited,2076,NSE,,,AVSL.NS
+ADROITINFO,Adroit Infotech Limited,2073,NSE,Technology,Information Technology Services,ADROITINFO.NS
+DYNAMIC,Dynamic Services & Security Limited,2055,NSE,,,DYNAMIC.NS
+UWCSL,Ultra Wiring Connectivity System Limited,2029,NSE,,,UWCSL.NS
+RMCL,Radha Madhav Corporation Limited,2029,NSE,Consumer Cyclical,Packaging & Containers,RMCL.NS
+KAVVERITEL,Kavveri Telecom Products Limited,2022,NSE,Technology,Communication Equipment,KAVVERITEL.NS
+PULZ,Pulz Electronics Limited,2017,NSE,,,PULZ.NS
+MPTODAY,Madhya Pradesh Today Media Limited,2008,NSE,,,MPTODAY.NS
+TFL,Transwarranty Finance Limited,1957,NSE,Financial Services,Mortgage Finance,TFL.NS
+NKIND,NK Industries Limited,1929,NSE,Consumer Defensive,Household & Personal Products,NKIND.NS
+GUJRAFFIA,Gujarat Raffia Industries Limited,1892,NSE,78,,GUJRAFFIA.NS
+TNTELE,Tamilnadu Telecommunication Limited,1869,NSE,Technology,Communication Equipment,TNTELE.NS
+BARTRONICS,Bartronics India Limited,1839,NSE,Technology,Information Technology Services,BARTRONICS.NS
+ORTINLAB,Ortin Laboratories Limited,1838,NSE,Healthcare,Drug Manufacturers—Specialty & Generic,ORTINLAB.NS
+TIJARIA,Tijaria Polypipes Limited,1832,NSE,Industrials,Building Products & Equipment,TIJARIA.NS
+PBAINFRA,PBA Infrastructure Limited,1823,NSE,Industrials,Engineering & Construction,PBAINFRA.NS
+BTML,Bodhi Tree Multimedia Limited,1801,NSE,,,BTML.NS
+KEERTI,Keerti Knowledge and Skills Limited,1758,NSE,Consumer Defensive,Education & Training Services,KEERTI.NS
+TECHIN,Techindia Nirman Limited,1748,NSE,Real Estate,Real Estate—Development,TECHIN.NS
+KHAITANLTD,Khaitan (India) Limited,1724,NSE,Consumer Cyclical,35,KHAITANLTD.NS
+IMPEXFERRO,Impex Ferro Tech Limited,1715,NSE,Basic Materials,Other Industrial Metals & Mining,IMPEXFERRO.NS
+LYPSAGEMS,Lypsa Gems & Jewellery Limited,1695,NSE,Consumer Cyclical,Luxury Goods,LYPSAGEMS.NS
+BKMINDST,Bkm Industries Limited,1638,NSE,Consumer Cyclical,Packaging & Containers,BKMINDST.NS
+THOMASCOTT,Thomas Scott (India) Limited,1619,NSE,Consumer Cyclical,Textile Manufacturing,THOMASCOTT.NS
+SUBCAPCITY,International Constructions Limited,1610,NSE,,,SUBCAPCITY.NS
+ONELIFECAP,Onelife Capital Advisors Limited,1543,NSE,Financial Services,Capital Markets,ONELIFECAP.NS
+PREMIER,Premier Limited,1519,NSE,Industrials,Specialty Industrial Machinery,PREMIER.NS
+SPRL,Sp Refractories Limited,1512,NSE,,,SPRL.NS
+S&SPOWER,S&S Power Switchgears Limited,1463,NSE,Industrials,Electrical Equipment & Parts,S&SPOWER.NS
+CMMIPL,CMM Infraprojects Limited,1340,NSE,,,CMMIPL.NS
+VICEROY,Viceroy Hotels Limited,1315,NSE,Consumer Cyclical,Lodging,VICEROY.NS
+ALPSINDUS,Alps Industries Limited,1291,NSE,Consumer Cyclical,Textile Manufacturing,ALPSINDUS.NS
+ABINFRA,A B Infrabuild Limited,1286,NSE,,,ABINFRA.NS
+VERA,Vera Synthetic Limited,1283,NSE,,,VERA.NS
+KAUSHALYA,Kaushalya Infrastructure Development Corporation Limited,1229,NSE,Industrials,Engineering & Construction,KAUSHALYA.NS
+WALPAR,Walpar Nutritions Limited,1226,NSE,,,WALPAR.NS
+KALYANI,Kalyani Commercials Limited,1193,NSE,Consumer Cyclical,Auto & Truck Dealerships,KALYANI.NS
+BRIGHT,Bright Solar Limited,1153,NSE,,,BRIGHT.NS
+NAGREEKCAP,Nagreeka Capital & Infrastructure Limited,1142,NSE,Financial Services,Capital Markets,NAGREEKCAP.NS
+SHUBHLAXMI,Shubhlaxmi Jewel Art Limited,1138,NSE,,,SHUBHLAXMI.NS
+SANCO,Sanco Industries Limited,1122,NSE,Industrials,Electrical Equipment & Parts,SANCO.NS
+UMESLTD,Usha Martin Education & Solutions Limited,1083,NSE,Consumer Defensive,Education & Training Services,UMESLTD.NS
+INDLMETER,IMP Powers Limited,1071,NSE,Industrials,Electrical Equipment & Parts,INDLMETER.NS
+MASKINVEST,Mask Investments Limited,1059,NSE,Financial Services,Capital Markets,MASKINVEST.NS
+SHYAMTEL,Shyam Telecom Limited,1037,NSE,Technology,Communication Equipment,SHYAMTEL.NS
+CONTI,Continental Seeds and Chemicals Limited,1030,NSE,,,CONTI.NS
+INNOVATIVE,Innovative Tyres and Tubes Limited,999,NSE,,,INNOVATIVE.NS
+MINDPOOL,Mindpool Technologies Limited,987,NSE,,,MINDPOOL.NS
+ARENTERP,Rajdarshan Industries Limited,987,NSE,Basic Materials,Other Industrial Metals & Mining,ARENTERP.NS
+RMDRIP,R M Drip and Sprinklers Systems Limited,983,NSE,,,RMDRIP.NS
+RADAAN,Radaan Mediaworks India Limited,975,NSE,Communication Services,Entertainment,RADAAN.NS
+PERFECT,Perfect Infraengineers Limited,957,NSE,,,PERFECT.NS
+DRL,Dhanuka Realty Limited,936,NSE,,,DRL.NS
+AHIMSA,Ahimsa Industries Limited,931,NSE,,,AHIMSA.NS
+BLUECOAST,Blue Coast Hotels Limited,918,NSE,Consumer Cyclical,Lodging,BLUECOAST.NS
+DESTINY,Destiny Logistics & Infra Limited,877,NSE,,,DESTINY.NS
+CANDC,C & C Constructions Limited,865,NSE,Industrials,Engineering & Construction,CANDC.NS
+ABNINT,A B N Intercorp Limited,839,NSE,,,ABNINT.NS
+ACCORD,Accord Synergy Limited,835,NSE,,,ACCORD.NS
+FELIX,Felix Industries Limited,830,NSE,,,FELIX.NS
+GLFL,Gujarat Lease Financing Limited,827,NSE,Financial Services,Shell Companies,GLFL.NS
+SRIRAM,Shri Ram Switchgears Limited,811,NSE,,,SRIRAM.NS
+CREATIVEYE,Creative Eye Limited,802,NSE,Communication Services,Entertainment,CREATIVEYE.NS
+EASUNREYRL,Easun Reyrolle Limited,801,NSE,Industrials,Specialty Industrial Machinery,EASUNREYRL.NS
+TARAPUR,Tarapur Transformers Limited,790,NSE,Industrials,Specialty Industrial Machinery,TARAPUR.NS
+SMVD,SMVD Poly Pack Limited,770,NSE,,,SMVD.NS
+OMFURN,Omfurn India Limited,760,NSE,,,OMFURN.NS
+NORBTEAEXP,Norben Tea & Exports Limited,758,NSE,Consumer Defensive,Farm Products,NORBTEAEXP.NS
+TCIFINANCE,TCI Finance Limited,747,NSE,Financial Services,Credit Services,TCIFINANCE.NS
+SABEVENTS,Sab Events & Governance Now Media Limited,708,NSE,Communication Services,Publishing,SABEVENTS.NS
+SKSTEXTILE,SKS Textiles Limited,684,NSE,,,SKSTEXTILE.NS
+PAEL,PAE Limited,672,NSE,Industrial Goods,Diversified Machinery,PAEL.NS
+NIRAJISPAT,Niraj Ispat Industries Limited,672,NSE,,,NIRAJISPAT.NS
+DCMFINSERV,DCM Financial Services Limited,657,NSE,Financial Services,Credit Services,DCMFINSERV.NS
+LAKPRE,Lakshmi Precision Screws Limited,646,NSE,Industrials,Tools & Accessories,LAKPRE.NS
+AMJUMBO,A and M Jumbo Bags Limited,635,NSE,,,AMJUMBO.NS
+SABTN,Sri Adhikari Brothers Television Network Limited,629,NSE,Communication Services,Broadcasting,SABTN.NS
+AILIMITED,Abhishek Integrations Limited,593,NSE,,,AILIMITED.NS
+HOTELRUGBY,Hotel Rugby Limited,544,NSE,Financial Services,Shell Companies,HOTELRUGBY.NS
+BHALCHANDR,Bhalchandram Clothing Limited,476,NSE,,,BHALCHANDR.NS
+MELSTAR,Melstar Information Technologies Limited,471,NSE,Technology,Software—Application,MELSTAR.NS
+MANAV,Manav Infra Projects Limited,458,NSE,,,MANAV.NS
+GRETEX,Gretex Industries Limited,449,NSE,,,GRETEX.NS
+TRANSWIND,Transwind Infrastructures Limited,448,NSE,,,TRANSWIND.NS
+JAINSTUDIO,Jain Studios Limited,182,NSE,Communication Services,Broadcasting,JAINSTUDIO.NS
+RAJRILTD,Raj Rayon Industries Limited,41,NSE,Consumer Cyclical,Textile Manufacturing,RAJRILTD.NS

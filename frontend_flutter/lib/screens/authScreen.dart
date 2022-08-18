@@ -1,10 +1,12 @@
+// ignore_for_file: avoid_print
+
 import 'dart:io';
-import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
+import 'homeScreen.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({Key? key}) : super(key: key);
@@ -52,15 +54,11 @@ class _AuthScreenState extends State<AuthScreen> {
         child: // button with text
             Center(
           child: ElevatedButton(
-            onPressed: () async {
-              // if platform is android then navigate to _pageRoute
-
-              // launch url in browser
-              var response = await http
-                  .get(Uri.parse('http://localhost:3000/api/register/google'));
-              if (response.statusCode == 200) {
-                print(response.body);
-              }
+            onPressed: () {
+              Navigator.push(
+                context,
+                _pageRoute(),
+              );
             },
             child: const Text('Register with google'),
           ),
@@ -95,16 +93,42 @@ class _GoogleRegisterState extends State<GoogleRegister> {
         backgroundColor: Colors.black,
       ),
       body: WebView(
-        initialUrl: 'http://192.168.1.7:3000/api/register/google',
+        initialUrl:
+            'http://ec2-43-204-98-31.ap-south-1.compute.amazonaws.com:3000/api/register/google',
         javascriptMode: JavascriptMode.unrestricted,
         userAgent: "random",
         onWebViewCreated: (WebViewController controller) {
           _controller = controller;
         },
-        onPageFinished: (String url) {
-          print(url);
+        onPageFinished: (url) {
+          // if url contains google/callback then get token
+          if (url.contains('google/callback')) {
+            readJS();
+          }
         },
       ),
     );
+  }
+
+  readJS() {
+    setState(() {
+      _controller
+          .runJavascriptReturningResult(
+              "document.documentElement.outerHTML.toString()")
+          .then(
+        (value) async {
+          String token = value.split('{')[1].split('}')[0].split('"')[3];
+          token = token.substring(0, token.length - 1);
+          print(token);
+          await storage.write(key: 'token', value: token);
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => HomeScreen(),
+            ),
+          );
+        },
+      );
+    });
   }
 }
