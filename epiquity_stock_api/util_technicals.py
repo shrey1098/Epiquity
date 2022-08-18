@@ -27,7 +27,6 @@ def get_stock_tech(symbol):
             'AverageTrueRange': averageTrueRange(high, low, close),
             'BoolingerBands': boolingerBands(close),
             'DonchianChannel': donchianChannel(high, low, close),
-            'AverageDirectionalMovement': averageDirectionalMovement(high, low, close),
             'AroonIndicator': aroonIndicator(close),
             'CommodityChannelIndex': commodityChannelIndex(high, low, close),
             'DetrendedPriceOscillator': detrendedPriceOscillator(close),

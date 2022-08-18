@@ -25,10 +25,9 @@ class _StockDetailsState extends State<StockDetails> {
 
   _getStockData() async {
     final response = await http.get(Uri.parse(
-        'http://ec2-43-204-98-31.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
+        'http://ec2-43-204-98-31.ap-south-1.compute.amazonaws.com:3000/api/stockdata/allinfo?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
-      print(data);
       return data;
     } else {
       throw Exception('Failed to load stock data');
@@ -52,7 +51,7 @@ class _StockDetailsState extends State<StockDetails> {
           future: _getStockData(),
           builder: (context, snapshot) {
             if (snapshot.hasData) {
-              return Text(snapshot.data['price'].toString());
+              return Text(snapshot.data['Numbers']['price'].toString());
             } else if (snapshot.hasError) {
               return Text("${snapshot.error}");
             }
