@@ -77,10 +77,21 @@ def get_stock_financials(symbol: str):
     else:
         return {"error": "Error getting stock financials for " + symbol}
 
-#TODO:
-# 1. @app.get("/api/stocks/{symbol}/profile")
-# 2. to get sector industry, website link, number of employees
 
+
+@app.get("/api/stocks/{symbol}/allinfo")
+def get_stock_allinfo(symbol: str):
+    """
+    Get stock all info for a given symbol.
+    """
+    try:
+        technical = get_stock_tech(symbol)
+        financials = get_stock_fins(symbol)
+        price = get_stock_price_current(symbol)
+        price_range = get_stock_price_range(symbol, 30)
+        return {"symbol": symbol, "price": float("{:.2f}".format(price)), "price_range": price_range, "technical": technical, "financials": financials}
+    except:
+        return {"error": "Error getting stock all info"}
 
 @app.get("/stocks/dict/all")
 def get_all_stocks(apiToken: Union[str, None] = None):

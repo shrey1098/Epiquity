@@ -213,7 +213,7 @@ class _HomeState extends State<Home> {
                       context,
                       MaterialPageRoute(
                         builder: (context) => StockDetails(
-                          stockSymbol: data['symbol'],
+                          stockSymbol: data['yahooFinanceSymbol'],
                         ),
                       ),
                     );

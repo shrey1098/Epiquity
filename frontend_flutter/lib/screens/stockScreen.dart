@@ -29,6 +29,7 @@ class _StockDetailsState extends State<StockDetails> {
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       print(data);
+      return data;
     } else {
       throw Exception('Failed to load stock data');
     }
@@ -42,13 +43,22 @@ class _StockDetailsState extends State<StockDetails> {
 
   @override
   Widget build(BuildContext context) {
-    _getStockData();
     return Scaffold(
       appBar: AppBar(
-        title: Text('Stock Details'),
+        title: Text(widget.stockSymbol),
       ),
       body: Center(
-        child: Text('Stock Details'),
+        child: FutureBuilder<dynamic>(
+          future: _getStockData(),
+          builder: (context, snapshot) {
+            if (snapshot.hasData) {
+              return Text(snapshot.data['price'].toString());
+            } else if (snapshot.hasError) {
+              return Text("${snapshot.error}");
+            }
+            return CircularProgressIndicator();
+          },
+        ),
       ),
     );
   }
