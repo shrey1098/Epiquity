@@ -43,6 +43,7 @@ dependencies:
   floating_frosted_bottom_bar: ^0.0.1
   google_fonts: ^3.0.1
   flutter_typeahead: ^4.0.0
+  loading_animation_widget: ^1.2.0+2
 
 dev_dependencies:
   flutter_test:

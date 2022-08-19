@@ -1,5 +1,6 @@
 // ignore_for_file: sort_child_properties_last, prefer_const_constructors
 import 'dart:convert';
+import 'dart:html';
 
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
@@ -8,6 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'stockScreen.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -177,7 +179,12 @@ class _HomeState extends State<Home> {
                       final response = await http.get(Uri.parse(
                           'http://ec2-43-204-98-31.ap-south-1.compute.amazonaws.com:3000/api/search?q=$pattern&apiToken=$apiToken'));
                       final stocks = json.decode(response.body);
-
+                      if (kIsWeb) {
+                        for (var i = 0; i < stocks.length; i++) {
+                          stocks[i]['symbol'] =
+                              stocks[i]['symbol'].toUpperCase();
+                        }
+                      }
                       return stocks;
                     } else {
                       return [];
@@ -185,26 +192,26 @@ class _HomeState extends State<Home> {
                   },
                   itemBuilder: (BuildContext context, itemData) {
                     var data = itemData as Map;
-                    return ListTile(
-                      title: Row(
-                        children: [
-                          Text(
+                    return Column(
+                      children: [
+                        ListTile(
+                          title: Text(
                             data['name'],
                             style: GoogleFonts.ubuntu(
                               fontSize: 15,
                               color: Colors.grey,
                             ),
                           ),
-                          Spacer(),
-                          Text(
+                          trailing: Text(
                             data['exchange'],
                             style: GoogleFonts.ubuntu(
                               fontSize: 15,
                               color: Colors.grey,
                             ),
                           ),
-                        ],
-                      ),
+                        ),
+                        Divider(color: Colors.grey, height: .8),
+                      ],
                     );
                   },
                   onSuggestionSelected: (Object? suggestion) {
@@ -224,7 +231,6 @@ class _HomeState extends State<Home> {
           ),
           Container(
             color: Colors.white,
-            height: MediaQuery.of(context).size.height / 1.82,
           )
         ],
       ),
