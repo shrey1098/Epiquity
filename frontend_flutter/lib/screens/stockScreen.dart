@@ -130,14 +130,21 @@ class _StockDetailsState extends State<StockDetails> {
                             return Row(
                               children: [
                                 Text(
-                                  '${snapshot.data['price']}',
+                                  '${snapshot.data['price']['price']}',
                                   style: GoogleFonts.ubuntu(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
                                 Text(
-                                  '${snapshot.data['price']}',
+                                  '${snapshot.data['price']['change']}',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                Text(
+                                  '${snapshot.data['price']['change_percent']}',
                                   style: GoogleFonts.ubuntu(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
