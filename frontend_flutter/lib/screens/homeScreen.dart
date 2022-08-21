@@ -1,6 +1,5 @@
 // ignore_for_file: sort_child_properties_last, prefer_const_constructors
 import 'dart:convert';
-import 'dart:html';
 
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
@@ -177,7 +176,7 @@ class _HomeState extends State<Home> {
                   suggestionsCallback: (pattern) async {
                     if (pattern.length >= 3) {
                       final response = await http.get(Uri.parse(
-                          'http://ec2-43-204-98-31.ap-south-1.compute.amazonaws.com:3000/api/search?q=$pattern&apiToken=$apiToken'));
+                          'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/search?q=$pattern&apiToken=$apiToken'));
                       final stocks = json.decode(response.body);
                       if (kIsWeb) {
                         for (var i = 0; i < stocks.length; i++) {

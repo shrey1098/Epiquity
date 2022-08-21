@@ -10,7 +10,11 @@ def get_stock_price_current(symbol):
         start = datetime.datetime.now() - datetime.timedelta(days=10)
         end = datetime.datetime.now()
         df = web.DataReader(symbol, 'yahoo', start, end)
-        return df.iloc[-1]['Close']
+        current = df.iloc[-1]['Close']
+        previous = df.iloc[-2]['Close']
+        change = current - previous
+        change_percent = change / previous * 100
+        return {'price':float("{:.2f}".format(current)), 'change':float("{:.2f}".format(change)), 'change_percent':float("{:.2f}".format(change_percent))+"%"}
     except:
         return error("Error getting current stock price for " + symbol)
     

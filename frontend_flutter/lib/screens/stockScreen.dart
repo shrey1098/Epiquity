@@ -31,7 +31,7 @@ class _StockDetailsState extends State<StockDetails> {
 
   _getStockData() async {
     final response = await http.get(Uri.parse(
-        'http://ec2-43-204-98-31.ap-south-1.compute.amazonaws.com:3000/api/stockdata/allinfo?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
+        'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/stockdata/allinfo?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       return data;
@@ -42,7 +42,7 @@ class _StockDetailsState extends State<StockDetails> {
 
   _getStockPrice() async {
     final response = await http.get(Uri.parse(
-        'http://ec2-43-204-98-31.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
+        'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       return data;
@@ -52,10 +52,15 @@ class _StockDetailsState extends State<StockDetails> {
   }
 
   Stream<dynamic> _getStockPriceStream() async* {
-    yield* Stream.periodic(Duration(seconds: 5), (i) {
+    if (DateTime.now().hour < 15 && DateTime.now().hour > 8) {
+      yield* Stream.periodic(Duration(seconds: 10), (i) {
+        var response = _getStockPrice();
+        return response;
+      }).asyncMap((value) async => await value);
+    } else {
       var response = _getStockPrice();
-      return response;
-    }).asyncMap((value) async => await value);
+      yield Map.from(await response);
+    }
   }
 
   @override
@@ -102,6 +107,7 @@ class _StockDetailsState extends State<StockDetails> {
                   ),
                 ),
                 Container(
+                  margin: EdgeInsets.fromLTRB(5, 0, 0, 0),
                   child: StreamBuilder(
                       stream: _getStockPriceStream(),
                       builder: (
@@ -113,7 +119,7 @@ class _StockDetailsState extends State<StockDetails> {
                             ConnectionState.waiting) {
                           return LoadingAnimationWidget.horizontalRotatingDots(
                             color: Colors.orange,
-                            size: 10,
+                            size: 15,
                           );
                         } else if (snapshot.connectionState ==
                                 ConnectionState.active ||
@@ -121,12 +127,23 @@ class _StockDetailsState extends State<StockDetails> {
                           if (snapshot.hasError) {
                             return const Text('Error fetching price');
                           } else if (snapshot.hasData) {
-                            return Text(
-                              '${snapshot.data['price']}',
-                              style: GoogleFonts.ubuntu(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                              ),
+                            return Row(
+                              children: [
+                                Text(
+                                  '${snapshot.data['price']}',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                Text(
+                                  '${snapshot.data['price']}',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
                             );
                           } else {
                             return Text(

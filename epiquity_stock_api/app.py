@@ -42,7 +42,7 @@ def get_stock_price(symbol: str, range: Union[int, None] = None):
     else:
         price = get_stock_price_current(symbol)
         if(price):
-            return {"symbol": symbol, "price": float("{:.2f}".format(price))}
+            return {"symbol": symbol, "price": price}
         else:
             return {"symbol": symbol, "message": "error getting price"}
 
