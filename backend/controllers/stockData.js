@@ -3,14 +3,15 @@ import { Stocks } from "../models/stocks.js";
 
 
 const getStockPriceRange = async (req, res) => {
-    const { symbol, range } = req.query;
+    const { symbol, range, close } = req.query;
+    console.log(close, symbol, range);
     // if symbol is not provided
     if (!symbol) {
         return res.status(400).json({ message: "Symbol not provided" });
     }
     // if range is not provided
     if (!range) {
-        makeRequest(getStocksApiEndpoint(symbol, `price?range=60`)).then(response => {
+        makeRequest(getStocksApiEndpoint(symbol, `price?range=60&close=${close}`)).then(response => {
             return res.status(200).json(response);
         }).catch(error => {
             console.error(error);
@@ -19,7 +20,7 @@ const getStockPriceRange = async (req, res) => {
     }
     // if range is provided
     else {
-        makeRequest(getStocksApiEndpoint(symbol, `price?range=${range}`)).then(response => {
+        makeRequest(getStocksApiEndpoint(symbol, `price?range=${range}&close=${close}`)).then(response => {
             return res.status(200).json(response);
     }).catch(error => {
         console.error(error);
@@ -27,6 +28,8 @@ const getStockPriceRange = async (req, res) => {
     });
 }
 }
+
+
 
 const getStockPrice = async (req, res) => {
     const { symbol } = req.query;

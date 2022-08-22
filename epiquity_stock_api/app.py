@@ -28,17 +28,18 @@ def search_stocks(q: Union[str, None] = None):
 
 
 @app.get("/api/stocks/{symbol}/price")
-def get_stock_price(symbol: str, range: Union[int, None] = None):
+def get_stock_price(symbol: str, range: Union[int, None] = None, close: Union[bool, None] = None):
     """
     Get stock price for a given symbol and range.
     if no range is given, it will return the current price.
     """
     if range:
-        df = get_stock_price_range(symbol, range)
+        df = get_stock_price_range(symbol, range, close)
         if df is not None:
-            return df.to_dict(orient='records')
+            return df.to_dict()
         else:
             return {"error": "Error getting stock price for " + symbol + " and range " + range}
+
     else:
         price = get_stock_price_current(symbol)
         if(price):

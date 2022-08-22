@@ -19,13 +19,15 @@ def get_stock_price_current(symbol):
     
 
 # function to get stock price for a given symbol and range
-def get_stock_price_range(symbol, range):
+def get_stock_price_range(symbol, range, close):
     # get stock price for a given symbol and range
     try:
         start = datetime.datetime.now() - datetime.timedelta(days=range+10)
         end = datetime.datetime.now()
         df = web.DataReader(symbol, 'yahoo', start, end)
-        return df
+        if close == True:
+            return df['Close']
+        else:
+            return df
     except:
         return error("Error getting stock price for " + symbol + " and range " + range)
-

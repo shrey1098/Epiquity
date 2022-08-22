@@ -44,6 +44,7 @@ dependencies:
   google_fonts: ^3.0.1
   flutter_typeahead: ^4.0.0
   loading_animation_widget: ^1.2.0+2
+  syncfusion_flutter_charts: ^20.2.44
 
 dev_dependencies:
   flutter_test:

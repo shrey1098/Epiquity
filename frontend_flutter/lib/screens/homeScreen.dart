@@ -9,6 +9,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'stockScreen.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -112,6 +113,29 @@ class _HomeState extends State<Home> {
     });
   }
 
+  _getNIFTYPrice() async {
+    final response = await http.get(Uri.parse(
+        'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=^NSEI&apiToken=$apiToken'));
+    if (response.statusCode == 200) {
+      final data = json.decode(response.body);
+      return data;
+    } else {
+      throw Exception('Failed to load stock data');
+    }
+  }
+
+  Stream<dynamic> _getNIFTYPriceStream() async* {
+    if (DateTime.now().hour < 15 && DateTime.now().hour > 8) {
+      yield* Stream.periodic(const Duration(seconds: 3), (i) {
+        var response = _getNIFTYPrice();
+        return response;
+      }).asyncMap((value) async => await value);
+    } else {
+      var response = _getNIFTYPrice();
+      yield Map.from(await response);
+    }
+  }
+
   @override
   void initState() {
     _getToken();
@@ -133,7 +157,7 @@ class _HomeState extends State<Home> {
         ),
         backgroundColor: Colors.black,
       ),
-      body: Column(
+      body: ListView(
         children: [
           Container(
             height: MediaQuery.of(context).size.height / 3,
@@ -229,8 +253,116 @@ class _HomeState extends State<Home> {
             ),
           ),
           Container(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            alignment: Alignment.topLeft,
             color: Colors.white,
-          )
+            child: Column(
+              children: [
+                Container(
+                  margin: const EdgeInsets.fromLTRB(15, 20, 0, 0),
+                  alignment: Alignment.topLeft,
+                  child: Text(
+                    'NIFTY',
+                    style: GoogleFonts.ubuntu(
+                      fontSize: 25,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                StreamBuilder<dynamic>(
+                    stream: _getNIFTYPriceStream(),
+                    builder: (context, snapshot) {
+                      if (snapshot.connectionState == ConnectionState.waiting) {
+                        return Container(
+                          height: 50,
+                          child: LoadingAnimationWidget.horizontalRotatingDots(
+                            color: Colors.orange,
+                            size: 15,
+                          ),
+                        );
+                      } else if (snapshot.connectionState ==
+                              ConnectionState.active ||
+                          snapshot.connectionState == ConnectionState.done) {
+                        if (snapshot.hasError) {
+                          return const Text('Error fetching price');
+                        } else if (snapshot.hasData) {
+                          return Container(
+                            alignment: Alignment.topLeft,
+                            child: ListTile(
+                              visualDensity: VisualDensity.compact,
+                              leading: Text(
+                                '${snapshot.data['price']['price']}',
+                                style: GoogleFonts.ubuntu(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                              title: Row(children: [
+                                snapshot.data['price']['change'] > 0
+                                    ? const Icon(
+                                        Icons.arrow_drop_up,
+                                        color: Colors.green,
+                                      )
+                                    : const Icon(
+                                        Icons.arrow_drop_down,
+                                        color: Color(0xFFC62828),
+                                      ),
+                                Text(
+                                    '${snapshot.data['price']['change_percent']}'
+                                    '%',
+                                    style: GoogleFonts.ubuntu(
+                                        fontSize: 18,
+                                        color:
+                                            snapshot.data['price']['change'] > 0
+                                                ? Colors.green
+                                                : Colors.red[800])),
+                                Text(
+                                    "("
+                                    '${snapshot.data['price']['change']}'
+                                    ")",
+                                    style: GoogleFonts.ubuntu(
+                                        fontSize: 18,
+                                        color:
+                                            snapshot.data['price']['change'] > 0
+                                                ? Colors.green
+                                                : Colors.red[800])),
+                              ]),
+                            ),
+                          );
+                        } else {
+                          return Text(
+                            'Error fetching price',
+                            style: GoogleFonts.ubuntu(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          );
+                        }
+                      } else {
+                        return Text(
+                          'State: ${snapshot.connectionState}',
+                          style: GoogleFonts.ubuntu(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        );
+                      }
+                    }),
+                Container(
+                  margin: EdgeInsets.fromLTRB(15, 0, 0, 0),
+                  alignment: Alignment.topLeft,
+                  width: MediaQuery.of(context).size.width,
+                  child: Text(
+                    'Market is down today Tread carefully',
+                    style: GoogleFonts.ubuntu(
+                      fontSize: 15,
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
         ],
       ),
     );

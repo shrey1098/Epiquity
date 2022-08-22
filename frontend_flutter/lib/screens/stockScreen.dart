@@ -5,6 +5,8 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:syncfusion_flutter_charts/charts.dart';
+import 'package:syncfusion_flutter_charts/sparkcharts.dart';
 
 class StockDetails extends StatefulWidget {
   const StockDetails({Key? key, required this.stockSymbol}) : super(key: key);
@@ -14,9 +16,9 @@ class StockDetails extends StatefulWidget {
 }
 
 class _StockDetailsState extends State<StockDetails> {
-  final storage = FlutterSecureStorage();
+  final storage = const FlutterSecureStorage();
   var apiToken;
-  var savedIcon = Icon(
+  var savedIcon = const Icon(
     Icons.bookmark_add_outlined,
     color: Colors.grey,
   );
@@ -53,7 +55,7 @@ class _StockDetailsState extends State<StockDetails> {
 
   Stream<dynamic> _getStockPriceStream() async* {
     if (DateTime.now().hour < 15 && DateTime.now().hour > 8) {
-      yield* Stream.periodic(Duration(seconds: 10), (i) {
+      yield* Stream.periodic(const Duration(seconds: 3), (i) {
         var response = _getStockPrice();
         return response;
       }).asyncMap((value) async => await value);
@@ -75,7 +77,7 @@ class _StockDetailsState extends State<StockDetails> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_sharp, color: Colors.orange),
+          icon: const Icon(Icons.arrow_back_sharp, color: Colors.orange),
           onPressed: () {
             Navigator.pop(context);
           },
@@ -89,13 +91,21 @@ class _StockDetailsState extends State<StockDetails> {
               children: [
                 Container(
                   width: MediaQuery.of(context).size.width,
-                  margin: EdgeInsets.fromLTRB(5, 10, 0, 0),
+                  margin: const EdgeInsets.fromLTRB(5, 10, 0, 0),
                   child: ListTile(
                     title: Text(
                       '${snapshot.data['name']}',
                       style: GoogleFonts.ubuntu(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    subtitle: Text(
+                      '${snapshot.data['sector']}',
+                      style: GoogleFonts.ubuntu(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.grey,
                       ),
                     ),
                     trailing: GestureDetector(
@@ -107,19 +117,24 @@ class _StockDetailsState extends State<StockDetails> {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.fromLTRB(5, 0, 0, 0),
+                  margin: const EdgeInsets.fromLTRB(5, 0, 0, 0),
                   child: StreamBuilder(
                       stream: _getStockPriceStream(),
                       builder: (
                         BuildContext context,
                         AsyncSnapshot<dynamic> snapshot,
                       ) {
-                        print(snapshot.data.toString());
                         if (snapshot.connectionState ==
                             ConnectionState.waiting) {
-                          return LoadingAnimationWidget.horizontalRotatingDots(
-                            color: Colors.orange,
-                            size: 15,
+                          return Container(
+                            alignment: Alignment.topLeft,
+                            margin: EdgeInsets.fromLTRB(25, 0, 0, 0),
+                            height: 45,
+                            child:
+                                LoadingAnimationWidget.horizontalRotatingDots(
+                              color: Colors.orange,
+                              size: 20,
+                            ),
                           );
                         } else if (snapshot.connectionState ==
                                 ConnectionState.active ||
@@ -127,30 +142,50 @@ class _StockDetailsState extends State<StockDetails> {
                           if (snapshot.hasError) {
                             return const Text('Error fetching price');
                           } else if (snapshot.hasData) {
-                            return Row(
-                              children: [
-                                Text(
+                            return Container(
+                              alignment: Alignment.topLeft,
+                              child: ListTile(
+                                visualDensity: VisualDensity.compact,
+                                leading: Text(
                                   '${snapshot.data['price']['price']}',
                                   style: GoogleFonts.ubuntu(
                                     fontSize: 20,
-                                    fontWeight: FontWeight.bold,
+                                    fontWeight: FontWeight.w500,
                                   ),
                                 ),
-                                Text(
-                                  '${snapshot.data['price']['change']}',
-                                  style: GoogleFonts.ubuntu(
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                Text(
-                                  '${snapshot.data['price']['change_percent']}',
-                                  style: GoogleFonts.ubuntu(
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ],
+                                title: Row(children: [
+                                  snapshot.data['price']['change'] > 0
+                                      ? const Icon(
+                                          Icons.arrow_drop_up,
+                                          color: Colors.green,
+                                        )
+                                      : const Icon(
+                                          Icons.arrow_drop_down,
+                                          color: Color(0xFFC62828),
+                                        ),
+                                  Text(
+                                      '${snapshot.data['price']['change_percent']}'
+                                      '%',
+                                      style: GoogleFonts.ubuntu(
+                                          fontSize: 18,
+                                          color: snapshot.data['price']
+                                                      ['change'] >
+                                                  0
+                                              ? Colors.green
+                                              : Colors.red[800])),
+                                  Text(
+                                      "("
+                                      '${snapshot.data['price']['change']}'
+                                      ")",
+                                      style: GoogleFonts.ubuntu(
+                                          fontSize: 18,
+                                          color: snapshot.data['price']
+                                                      ['change'] >
+                                                  0
+                                              ? Colors.green
+                                              : Colors.red[800])),
+                                ]),
+                              ),
                             );
                           } else {
                             return Text(
@@ -172,6 +207,53 @@ class _StockDetailsState extends State<StockDetails> {
                         }
                       }),
                 ),
+                Container(
+                  margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          Text(
+                            'Open: ',
+                            style: GoogleFonts.ubuntu(
+                              fontSize: 15,
+                            ),
+                          ),
+                          Text(
+                            num.parse(
+                                    '${snapshot.data['Numbers']['pricerange'][26]['Open']}')
+                                .toStringAsFixed(2),
+                            style: GoogleFonts.ubuntu(
+                                fontSize: 15, fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Text(
+                            'Market Cap: ',
+                            style: GoogleFonts.ubuntu(
+                              fontSize: 15,
+                            ),
+                          ),
+                          Text(
+                            '${snapshot.data['marketcap']}',
+                            style: GoogleFonts.ubuntu(
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                SfSparkAreaChart(
+                  data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                  color: Colors.orange,
+                  borderColor: Colors.black,
+                )
               ],
             );
           } else if (snapshot.hasError) {
@@ -184,33 +266,5 @@ class _StockDetailsState extends State<StockDetails> {
         },
       ),
     );
-  }
-}
-
-class OverflowProofText extends StatelessWidget {
-  const OverflowProofText({required this.text, required this.fallback});
-
-  final Text text;
-  final Text fallback;
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-        width: double.infinity,
-        child:
-            LayoutBuilder(builder: (BuildContext context, BoxConstraints size) {
-          final TextPainter painter = TextPainter(
-            maxLines: 1,
-            textAlign: TextAlign.left,
-            textDirection: TextDirection.ltr,
-            text: TextSpan(
-                style: text.style ?? DefaultTextStyle.of(context).style,
-                text: text.data),
-          );
-
-          painter.layout(maxWidth: size.maxWidth);
-
-          return painter.didExceedMaxLines ? fallback : text;
-        }));
   }
 }
