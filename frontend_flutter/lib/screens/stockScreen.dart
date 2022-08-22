@@ -249,10 +249,58 @@ class _StockDetailsState extends State<StockDetails> {
                     ],
                   ),
                 ),
-                SfSparkAreaChart(
-                  data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-                  color: Colors.orange,
-                  borderColor: Colors.black,
+                FutureBuilder<dynamic>(
+                  future: _getStockPrice(),
+                  builder: (context, snapshot) {
+                    if (snapshot.hasData) {
+                      return Container(
+                        margin: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              children: [
+                                Text(
+                                  '52 Week Range: ',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 15,
+                                  ),
+                                ),
+                                Text(
+                                  '${snapshot.data['Numbers']['pricerange'][0]['Low']}'
+                                  ' - '
+                                  '${snapshot.data['Numbers']['pricerange'][0]['High']}',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Text(
+                                  'Volume: ',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 15,
+                                  ),
+                                ),
+                                Text(
+                                  '${snapshot.data['Numbers']['volume']}',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      );
+                    } else {
+                      return Container();
+                    }
+                  },
                 )
               ],
             );
