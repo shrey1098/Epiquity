@@ -89,7 +89,7 @@ def get_stock_allinfo(symbol: str):
     financials = get_stock_fins(symbol)
     technicals = get_stock_tech(symbol)
     price = get_stock_price_current(symbol)
-    price_range = get_stock_price_range(symbol, 30).to_dict(orient='records')
+    price_range = get_stock_price_range(symbol, 30, close='false').to_dict(orient='records')
     return {"price": price, "pricerange":price_range, "financials": financials, 
      "technical": technicals}
 
