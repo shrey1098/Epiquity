@@ -9,7 +9,7 @@ from statistics import mean, mode
 
 def get_stock_tech(symbol):
     try:
-        df = get_stock_price_range(symbol, range=60)
+        df = get_stock_price_range(symbol, range=60, close='false')
         close, high, low, open, volume = arrange_data(df)
         return {
             'AwesomOscilator': awesomeOscillator(high, low),
