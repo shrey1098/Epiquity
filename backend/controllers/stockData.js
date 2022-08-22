@@ -97,7 +97,7 @@ const getStockAllInfo = async (req, res) => {
         const stock = await Stocks.findOne({ yahooFinanceSymbol: { $regex: symbol, $options: 'i' } });
         // if stock is not in db
         var [name, quote, marketCap, industry, sector] = [stock.name, stock.symbol, stock.marketCap, stock.industry, stock.sector];
-        makeRequest(getStocksApiEndpoint(symbol, `allinfo`)).then(response => {
+        makeRequest(getStocksApiEndpoint(symbol, `allinfo?close=false`)).then(response => {
             return res.status(200).json({'name': name, 'tickername':quote, 'marketcap': marketCap, 'industry': industry, 'sector': sector, 'Numbers': response});
         }).catch(error => {
             console.error(error);
