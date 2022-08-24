@@ -4,7 +4,8 @@ const stockSearch = async (req, res) => {
     try {
         // fin dtocks whihch contain the search term and return 10 results
         const stocks = await Stocks.find({
-            name: { $regex: req.query.q, $options: 'i' }
+            name: { $regex: req.query.q, $options: 'i' },
+            symbol: { $regex: req.query.q, $options: 'i' }
         }).limit(10);
         res.status(200).json(stocks);
     } catch (error) {
