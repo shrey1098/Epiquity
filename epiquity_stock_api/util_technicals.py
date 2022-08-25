@@ -22,16 +22,16 @@ def get_stock_tech(symbol):
             'EaseOfMovement': easeOfMovement(high, low, close),
             'AccumulationDistribution': accumulationDistribution(high, low, close, volume),
             'ChaikinMoneyFlow': chaikinMoneyFlow(high, low, close, volume),
-            'OnBalanceVolume': onBalanceVolume(close, volume),
+            
             'ForceIndex': forceIndex(close, volume),
             'AverageTrueRange': averageTrueRange(high, low, close),
-            'BoolingerBands': boolingerBands(close),
+            
             'DonchianChannel': donchianChannel(high, low, close),
             'AroonIndicator': aroonIndicator(close),
             'CommodityChannelIndex': commodityChannelIndex(high, low, close),
             'DetrendedPriceOscillator': detrendedPriceOscillator(close),
             'ExponentialMovingAverage': exponentialMovingAverage(close),
-            "Ichimoku": ichimoku(high, low),
+            
             'KSTOscillator': kstOscillator(close),
             'MovingAverageConvergenceDivergence': movingAverageConvergenceDivergence(close),
          }
@@ -458,4 +458,4 @@ def movingAverageConvergenceDivergence(close):
         status = "Sell"
     else:
         status = "Hold"
-    return {'value': {'MACD': macd[-1], 'Signal': macd_signal[-1]}, 'status': status}
+    return {'value':  macd_signal[-1], 'status': status}

@@ -226,7 +226,7 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                           trailing: Text(
-                            data['exchange'],
+                            data['symbol'],
                             style: GoogleFonts.ubuntu(
                               fontSize: 15,
                               color: Colors.grey,
