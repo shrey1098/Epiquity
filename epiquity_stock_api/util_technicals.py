@@ -12,27 +12,27 @@ def get_stock_tech(symbol):
         df = get_stock_price_range(symbol, range=60, close='false')
         close, high, low, open, volume = arrange_data(df)
         return {
-            'AwesomOscilator': awesomeOscillator(high, low),
-            'RelativeStrengthIndex': relativeStrengthIndex(close, 14),
-            'RateOfChange': rateOfChange(close), 
-            'StochasticOscillator': stochasticOscillator(high, low, close),
-            'TrueStrengthIndex': trueStrengthIndex(close),
-            'UltimateOscillator': ultimateOscillator(high, low, close),
-            'WilliamsR': williamsR(high, low, close), 
-            'EaseOfMovement': easeOfMovement(high, low, close),
-            'AccumulationDistribution': accumulationDistribution(high, low, close, volume),
-            'ChaikinMoneyFlow': chaikinMoneyFlow(high, low, close, volume),
+            'Awesome Oscilator': awesomeOscillator(high, low),
+            'Relative Strength Index': relativeStrengthIndex(close, 14),
+            'Rate Of Change': rateOfChange(close), 
+            'Stochastic Oscillator': stochasticOscillator(high, low, close),
+            'True Strength Index': trueStrengthIndex(close),
+            'Ultimate Oscillator': ultimateOscillator(high, low, close),
+            'Williams R%': williamsR(high, low, close), 
+            'Ease Of Movement': easeOfMovement(high, low, close),
+            'Accumulation Distribution': accumulationDistribution(high, low, close, volume),
+            'Chaikin Money Flow': chaikinMoneyFlow(high, low, close, volume),
             
-            'ForceIndex': forceIndex(close, volume),
-            'AverageTrueRange': averageTrueRange(high, low, close),
+            'Force Index': forceIndex(close, volume),
+            'Average True Range': averageTrueRange(high, low, close),
             
-            'DonchianChannel': donchianChannel(high, low, close),
+            'Donchian Channel': donchianChannel(high, low, close),
 
-            'CommodityChannelIndex': commodityChannelIndex(high, low, close),
+            'Commodity Channel Index': commodityChannelIndex(high, low, close),
 
             
-            'KSTOscillator': kstOscillator(close),
-            'MovingAverageConvergenceDivergence': movingAverageConvergenceDivergence(close),
+            'KST Oscillator': kstOscillator(close),
+            'MACD': movingAverageConvergenceDivergence(close),
          }
     except:
         return error("Error getting stock technicals for " + symbol)

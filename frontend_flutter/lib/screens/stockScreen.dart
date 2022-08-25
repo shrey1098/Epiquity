@@ -566,11 +566,21 @@ class _StockDetailsState extends State<StockDetails> {
             fontSize: 15,
           ),
         ),
-        trailing: Text(
-          (value.keys).toString() ?? value.toString(),
-          style: GoogleFonts.ubuntu(
-            fontSize: 15,
-          ),
+        trailing: Column(
+          children: [
+            Text(
+              (value.values.first).toStringAsFixed(2),
+              style: GoogleFonts.ubuntu(
+                fontSize: 15,
+              ),
+            ),
+            Text(
+              (value.values.last).toString(),
+              style: GoogleFonts.ubuntu(
+                fontSize: 15,
+              ),
+            ),
+          ],
         ),
       ));
     });
