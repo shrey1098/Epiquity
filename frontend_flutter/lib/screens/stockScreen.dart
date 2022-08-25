@@ -554,10 +554,11 @@ class _StockDetailsState extends State<StockDetails> {
     );
   }
 
-  List<ListTile> _buildTchnicalsList(Map<String, dynamic> data) {
+  List<ListTile> _buildTchnicalsList(Map<dynamic, dynamic> data) {
     List<ListTile> list = [];
+    print(data);
     data.forEach((key, value) {
-      print(value['value']);
+      print(value.runtimeType);
       list.add(ListTile(
         title: Text(
           key,
@@ -566,7 +567,7 @@ class _StockDetailsState extends State<StockDetails> {
           ),
         ),
         trailing: Text(
-          '${value['value'].toStringAsFixed(2)}',
+          (value.keys).toString() ?? value.toString(),
           style: GoogleFonts.ubuntu(
             fontSize: 15,
           ),
