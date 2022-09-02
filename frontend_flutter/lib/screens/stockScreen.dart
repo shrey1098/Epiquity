@@ -498,7 +498,7 @@ class _StockDetailsState extends State<StockDetails> {
                             ]),
                       ),
                       SizedBox(
-                        height: 2000,
+                        height: MediaQuery.of(context).size.height * 2,
                         child: PageView(
                           controller: _controller,
                           onPageChanged: (value) {
@@ -529,60 +529,51 @@ class _StockDetailsState extends State<StockDetails> {
           } else if (snapshot.hasError) {
             return Text("${snapshot.error}");
           }
+
           return Center(
             child: LoadingAnimationWidget.newtonCradle(
                 color: Colors.orange, size: 80),
           );
         },
       ),
-      bottomNavigationBar: AnimatedContainer(
-        duration: Duration(milliseconds: 100),
-        height: _isVisibleFAB ? 50 : 0,
-        margin: EdgeInsets.fromLTRB(100, 0, 100, 30),
-        child: FloatingActionButton.extended(
-          onPressed: () {},
-          label: _isVisibleFAB
-              ? Text('Understand this!',
-                  style: GoogleFonts.ubuntu(
-                    fontSize: 15,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ))
-              : Text(''),
-        ),
-      ),
     );
   }
 
-  List<ListTile> _buildTchnicalsList(Map<dynamic, dynamic> data) {
-    List<ListTile> list = [];
-    print(data);
+  List<Container> _buildTchnicalsList(Map<dynamic, dynamic> data) {
+    List<Container> list = [];
+
     data.forEach((key, value) {
-      print(value.runtimeType);
-      list.add(ListTile(
-        title: Text(
-          key,
-          style: GoogleFonts.ubuntu(
-            fontSize: 15,
+      list.add(Container(
+        color: Colors.amber,
+        child: ListTile(
+          title: Text(
+            key,
+            style: GoogleFonts.ubuntu(
+              fontSize: 15,
+            ),
+          ),
+          trailing: Padding(
+            padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+            child: Column(
+              children: [
+                Text(
+                  (value.values.first).toStringAsFixed(2),
+                  style: GoogleFonts.ubuntu(
+                    fontSize: 15,
+                  ),
+                ),
+                Text(
+                  (value.values.last).toString(),
+                  style: GoogleFonts.ubuntu(
+                    fontSize: 15,
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
-        trailing: Column(
-          children: [
-            Text(
-              (value.values.first).toStringAsFixed(2),
-              style: GoogleFonts.ubuntu(
-                fontSize: 15,
-              ),
-            ),
-            Text(
-              (value.values.last).toString(),
-              style: GoogleFonts.ubuntu(
-                fontSize: 15,
-              ),
-            ),
-          ],
-        ),
       ));
+      Spacer();
     });
     return list;
   }
