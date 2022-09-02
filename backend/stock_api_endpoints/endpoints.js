@@ -1,9 +1,9 @@
 import fetch from "node-fetch";
 
-const url = 'http://43.204.235.208:8000';
+const url = 'http://43.204.235.208';
 const stocksDictAllEndpoint = url + '/stocks/dict/all';
 
-const getStocksApiEndpoint = function (symbol, operation, url='http://43.204.149.240'){
+const getStocksApiEndpoint = function (symbol, operation, url='http://43.204.235.208'){
     return url + '/api/stocks/' + symbol + '/' + operation;
 }
 
