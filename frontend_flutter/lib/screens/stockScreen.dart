@@ -36,7 +36,7 @@ class _StockDetailsState extends State<StockDetails> {
 
   _getStockData() async {
     final response = await http.get(Uri.parse(
-        'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/stockdata/allinfo?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
+        'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/stockdata/allinfo?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       //print(data);
@@ -48,7 +48,7 @@ class _StockDetailsState extends State<StockDetails> {
 
   _getStockPrice() async {
     final response = await http.get(Uri.parse(
-        'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
+        'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       //print(data);
@@ -73,7 +73,7 @@ class _StockDetailsState extends State<StockDetails> {
 
   _getStockCloseRange() async {
     final response = await http.get(Uri.parse(
-        'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/stockdata/pricerange?symbol=${widget.stockSymbol}&apiToken=$apiToken&close=true&range=450'));
+        'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/stockdata/pricerange?symbol=${widget.stockSymbol}&apiToken=$apiToken&close=true&range=450'));
     if (response.statusCode == 200) {
       var data = json.decode(response.body);
 

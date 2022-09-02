@@ -115,7 +115,7 @@ class _HomeState extends State<Home> {
 
   _getNIFTYPrice() async {
     final response = await http.get(Uri.parse(
-        'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=^NSEI&apiToken=$apiToken'));
+        'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/stockdata/price?symbol=^NSEI&apiToken=$apiToken'));
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       return data;
@@ -200,7 +200,7 @@ class _HomeState extends State<Home> {
                   suggestionsCallback: (pattern) async {
                     if (pattern.length >= 3) {
                       final response = await http.get(Uri.parse(
-                          'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/search?q=$pattern&apiToken=$apiToken'));
+                          'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/search?q=$pattern&apiToken=$apiToken'));
                       final stocks = json.decode(response.body);
                       if (kIsWeb) {
                         for (var i = 0; i < stocks.length; i++) {

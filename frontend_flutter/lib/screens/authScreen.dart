@@ -94,7 +94,7 @@ class _GoogleRegisterState extends State<GoogleRegister> {
       ),
       body: WebView(
         initialUrl:
-            'http://ec2-52-66-130-245.ap-south-1.compute.amazonaws.com:3000/api/register/google',
+            'https://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/register/google',
         javascriptMode: JavascriptMode.unrestricted,
         userAgent: "random",
         onWebViewCreated: (WebViewController controller) {
