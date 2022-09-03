@@ -21,25 +21,27 @@ class StockDetails extends StatefulWidget {
 class _StockDetailsState extends State<StockDetails> {
   final storage = const FlutterSecureStorage();
   var apiToken;
+  late final Future stockData;
+  late Stream<dynamic> _stream;
   var savedIcon = const Icon(
     Icons.bookmark_add_outlined,
     color: Colors.grey,
   );
 
-  _getToken() async {
-    await storage.read(key: 'token').then((value) {
+  _getToken() {
+    storage.read(key: 'token').then((value) {
       setState(() {
         apiToken = value;
       });
-    });
+    }).then((value) => stockData = _getStockData());
   }
 
   _getStockData() async {
     final response = await http.get(Uri.parse(
         'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/stockdata/allinfo?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
+    print(response.statusCode);
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
-      //print(data);
       return data;
     } else {
       throw Exception('Failed to load stock data');
@@ -106,6 +108,7 @@ class _StockDetailsState extends State<StockDetails> {
   @override
   void initState() {
     _getToken();
+    _stream = _getStockPriceStream().asBroadcastStream();
     super.initState();
   }
 
@@ -123,7 +126,7 @@ class _StockDetailsState extends State<StockDetails> {
         ),
       ),
       body: FutureBuilder<dynamic>(
-        future: _getStockData(),
+        future: stockData,
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             return GestureDetector(
@@ -175,7 +178,7 @@ class _StockDetailsState extends State<StockDetails> {
                       Container(
                         margin: const EdgeInsets.fromLTRB(5, 0, 0, 0),
                         child: StreamBuilder(
-                            stream: _getStockPriceStream(),
+                            stream: _stream,
                             builder: (
                               BuildContext context,
                               AsyncSnapshot<dynamic> snapshot,
@@ -498,7 +501,7 @@ class _StockDetailsState extends State<StockDetails> {
                             ]),
                       ),
                       SizedBox(
-                        height: MediaQuery.of(context).size.height * 2,
+                        height: MediaQuery.of(context).size.height + 914,
                         child: PageView(
                           controller: _controller,
                           onPageChanged: (value) {
@@ -507,9 +510,14 @@ class _StockDetailsState extends State<StockDetails> {
                             });
                           },
                           children: [
-                            Text(snapshot.data['Numbers']['financials']
-                                    ['incomeStatement']['Total Revenue'] ??
-                                '------'),
+                            Container(
+                              margin: EdgeInsets.fromLTRB(15, 15, 25, 0),
+                              child: Column(
+                                children: _buildFinancialsList(
+                                    snapshot.data['Numbers']['financials']
+                                        ['incomeStatement']),
+                              ),
+                            ),
                             Container(
                               margin: EdgeInsets.fromLTRB(15, 15, 25, 0),
                               child: Column(
@@ -539,12 +547,39 @@ class _StockDetailsState extends State<StockDetails> {
     );
   }
 
+  List<Container> _buildFinancialsList(Map<dynamic, dynamic> data) {
+    List<Container> list = [];
+
+    data.forEach((key, value) {
+      list.add(Container(
+        child: ListTile(
+          title: Text(
+            key,
+            style: GoogleFonts.ubuntu(
+              fontSize: 15,
+            ),
+          ),
+          trailing: Padding(
+            padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+            child: Text(
+              (value),
+              style: GoogleFonts.ubuntu(
+                fontSize: 15,
+              ),
+            ),
+          ),
+        ),
+      ));
+      Spacer();
+    });
+    return list;
+  }
+
   List<Container> _buildTchnicalsList(Map<dynamic, dynamic> data) {
     List<Container> list = [];
 
     data.forEach((key, value) {
       list.add(Container(
-        color: Colors.amber,
         child: ListTile(
           title: Text(
             key,

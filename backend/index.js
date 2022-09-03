@@ -16,6 +16,7 @@ import { stockSearchRouter } from './routes/stockSearch.js';
 import { registerRouter } from './routes/register.js';
 import { watchlistRouter } from "./routes/watchlist.js";
 import { stockDataRouter } from "./routes/stockData.js";
+import { getNewsRouter } from "./routes/getNews.js";
 
 
 const app = express();
@@ -44,6 +45,7 @@ app.use('/api/search/', stockSearchRouter);
 app.use('/api/register/', registerRouter);
 app.use('/api/watchlist/', watchlistRouter);
 app.use('/api/stockdata/', stockDataRouter);
+app.use('/api/getnews/', getNewsRouter);
 app.use('/dbauth', verifyToken, (req, res) => {
     // if user is Admin
     if (res.locals.isAdmin === true) {
