@@ -10,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:syncfusion_flutter_charts/sparkcharts.dart';
 import 'package:fl_chart/fl_chart.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class StockDetails extends StatefulWidget {
   const StockDetails({Key? key, required this.stockSymbol}) : super(key: key);
@@ -22,6 +23,8 @@ class _StockDetailsState extends State<StockDetails> {
   final storage = const FlutterSecureStorage();
   var apiToken;
   late final Future stockData;
+  late final stockPriceRange;
+  late final Future stockNews;
   late Stream<dynamic> _stream;
   var savedIcon = const Icon(
     Icons.bookmark_add_outlined,
@@ -29,11 +32,21 @@ class _StockDetailsState extends State<StockDetails> {
   );
 
   _getToken() {
-    storage.read(key: 'token').then((value) {
-      setState(() {
-        apiToken = value;
-      });
-    }).then((value) => stockData = _getStockData());
+    storage
+        .read(key: 'token')
+        .then((value) {
+          setState(() {
+            apiToken = value;
+          });
+        })
+        .then((value) => stockData = _getStockData())
+        .then((value) => stockPriceRange = _getStockCloseRange())
+        .then((value) => _stream = _getStockPriceStream())
+        .then((value) {
+          setState(() {
+            stockNews = _getStockNews();
+          });
+        });
   }
 
   _getStockData() async {
@@ -98,6 +111,17 @@ class _StockDetailsState extends State<StockDetails> {
     }
   }
 
+  _getStockNews() async {
+    final response = await http.get(Uri.parse(
+        'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/getnews?symbol=${widget.stockSymbol}&apiToken=$apiToken'));
+    if (response.statusCode == 200) {
+      final data = json.decode(response.body);
+      return data;
+    } else {
+      throw Exception('Failed to load stock data');
+    }
+  }
+
   // ignore: unused_element, prefer_final_fields
   PageController _controller = PageController(
     initialPage: 0,
@@ -105,10 +129,10 @@ class _StockDetailsState extends State<StockDetails> {
   var _currentIndex = 0;
   bool _isVisibleAppbar = false;
   bool _isVisibleFAB = false;
+
   @override
   void initState() {
     _getToken();
-    _stream = _getStockPriceStream().asBroadcastStream();
     super.initState();
   }
 
@@ -338,7 +362,7 @@ class _StockDetailsState extends State<StockDetails> {
                         ),
                       ),
                       FutureBuilder<dynamic>(
-                          future: _getStockCloseRange(),
+                          future: stockPriceRange,
                           builder: (context, data) {
                             if (data.hasData) {
                               List<FlSpot> dataList = [];
@@ -525,7 +549,75 @@ class _StockDetailsState extends State<StockDetails> {
                                     snapshot.data['Numbers']['technical']),
                               ),
                             ),
-                            Text('Page2'),
+                            Container(
+                                margin: EdgeInsets.fromLTRB(15, 15, 25, 0),
+                                child: FutureBuilder<dynamic>(
+                                  future: stockNews,
+                                  builder: (context, snapshot) {
+                                    if (snapshot.hasData) {
+                                      return ListView.builder(
+                                        itemCount: snapshot.data.length,
+                                        itemBuilder: (context, index) {
+                                          return Container(
+                                            margin: EdgeInsets.fromLTRB(
+                                                0, 0, 0, 15),
+                                            child: ListTile(
+                                              autofocus: true,
+                                              leading: Container(
+                                                width: 50,
+                                                height: 50,
+                                                child: Image.network(
+                                                  snapshot.data['articles']
+                                                      [index]['urlToImage'],
+                                                  fit: BoxFit.cover,
+                                                ),
+                                              ),
+                                              title: Text(
+                                                snapshot.data['articles'][index]
+                                                    ['title'],
+                                                style: GoogleFonts.ubuntu(
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                              ),
+                                              subtitle: Text(
+                                                snapshot.data['articles'][index]
+                                                    ['description'],
+                                                style: GoogleFonts.ubuntu(
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.normal,
+                                                ),
+                                              ),
+                                              onTap: () async {
+                                                if (await canLaunch(
+                                                    snapshot.data['articles']
+                                                        [index]['url'])) {
+                                                  await launch(
+                                                      snapshot.data['articles']
+                                                          [index]['url']);
+                                                } else {
+                                                  throw 'Could not launch ${snapshot.data['articles'][index]['url']}';
+                                                }
+                                              },
+                                            ),
+                                          );
+                                        },
+                                      );
+                                    } else {
+                                      return Container(
+                                        alignment: Alignment.topLeft,
+                                        margin: const EdgeInsets.fromLTRB(
+                                            25, 0, 0, 0),
+                                        height: 45,
+                                        child: LoadingAnimationWidget
+                                            .horizontalRotatingDots(
+                                          color: Colors.orange,
+                                          size: 20,
+                                        ),
+                                      );
+                                    }
+                                  },
+                                )),
                           ],
                         ),
                       ),
