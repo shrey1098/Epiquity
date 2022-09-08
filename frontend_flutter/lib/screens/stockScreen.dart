@@ -26,27 +26,25 @@ class _StockDetailsState extends State<StockDetails> {
   late final stockPriceRange;
   late final Future stockNews;
   late Stream<dynamic> _stream;
+  bool _isExpanded = false;
   var savedIcon = const Icon(
     Icons.bookmark_add_outlined,
     color: Colors.grey,
   );
 
   _getToken() {
-    storage
-        .read(key: 'token')
-        .then((value) {
-          setState(() {
-            apiToken = value;
-          });
-        })
-        .then((value) => stockData = _getStockData())
-        .then((value) => stockPriceRange = _getStockCloseRange())
-        .then((value) => _stream = _getStockPriceStream())
-        .then((value) {
-          setState(() {
-            stockNews = _getStockNews();
-          });
-        });
+    storage.read(key: 'token').then((value) {
+      setState(() {
+        apiToken = value;
+      });
+    }).then((value) {
+      setState(() {
+        stockNews = _getStockNews();
+        stockData = _getStockData();
+        stockPriceRange = _getStockCloseRange();
+        _stream = _getStockPriceStream();
+      });
+    });
   }
 
   _getStockData() async {
@@ -133,6 +131,7 @@ class _StockDetailsState extends State<StockDetails> {
   @override
   void initState() {
     _getToken();
+    _stream = _getStockPriceStream();
     super.initState();
   }
 
@@ -550,74 +549,111 @@ class _StockDetailsState extends State<StockDetails> {
                               ),
                             ),
                             Container(
-                                margin: EdgeInsets.fromLTRB(15, 15, 25, 0),
-                                child: FutureBuilder<dynamic>(
-                                  future: stockNews,
-                                  builder: (context, snapshot) {
-                                    if (snapshot.hasData) {
-                                      return ListView.builder(
-                                        itemCount: snapshot.data.length,
-                                        itemBuilder: (context, index) {
-                                          return Container(
-                                            margin: EdgeInsets.fromLTRB(
-                                                0, 0, 0, 15),
-                                            child: ListTile(
-                                              autofocus: true,
-                                              leading: Container(
-                                                width: 50,
+                              margin: EdgeInsets.fromLTRB(15, 15, 25, 0),
+                              child: FutureBuilder<dynamic>(
+                                future: stockNews,
+                                builder: (context, snapshot) {
+                                  if (snapshot.hasData) {
+                                    List<Container> list = [];
+
+                                    for (var i = 0;
+                                        i < snapshot.data['articles'].length;
+                                        i++) {
+                                      list.add(Container(
+                                        margin:
+                                            EdgeInsets.fromLTRB(0, 0, 0, 15),
+                                        child: Column(
+                                          children: [
+                                            ListTile(
+                                              isThreeLine: true,
+                                              leading: Image.network(
+                                                snapshot.data['articles'][i]
+                                                    ['urlToImage'],
+                                                width: 65,
                                                 height: 50,
-                                                child: Image.network(
-                                                  snapshot.data['articles']
-                                                      [index]['urlToImage'],
-                                                  fit: BoxFit.cover,
-                                                ),
+                                                fit: BoxFit.cover,
                                               ),
                                               title: Text(
-                                                snapshot.data['articles'][index]
+                                                snapshot.data['articles'][i]
                                                     ['title'],
                                                 style: GoogleFonts.ubuntu(
-                                                  fontSize: 16,
-                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 15,
                                                 ),
                                               ),
-                                              subtitle: Text(
-                                                snapshot.data['articles'][index]
-                                                    ['description'],
-                                                style: GoogleFonts.ubuntu(
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.normal,
-                                                ),
-                                              ),
-                                              onTap: () async {
-                                                if (await canLaunch(
-                                                    snapshot.data['articles']
-                                                        [index]['url'])) {
-                                                  await launch(
+                                              subtitle: RichText(
+                                                text: TextSpan(
+                                                  text:
                                                       snapshot.data['articles']
-                                                          [index]['url']);
-                                                } else {
-                                                  throw 'Could not launch ${snapshot.data['articles'][index]['url']}';
-                                                }
+                                                          [i]['description'],
+                                                  style: GoogleFonts.ubuntu(
+                                                    fontSize: 12,
+                                                    color: Colors.grey,
+                                                  ),
+                                                ),
+                                                maxLines: 2,
+                                                overflow: TextOverflow.ellipsis,
+                                              ),
+                                              onTap: () {
+                                                launch(snapshot.data['articles']
+                                                        [i]['url']
+                                                    .toString());
                                               },
                                             ),
-                                          );
-                                        },
-                                      );
-                                    } else {
-                                      return Container(
-                                        alignment: Alignment.topLeft,
-                                        margin: const EdgeInsets.fromLTRB(
-                                            25, 0, 0, 0),
-                                        height: 45,
-                                        child: LoadingAnimationWidget
-                                            .horizontalRotatingDots(
-                                          color: Colors.orange,
-                                          size: 20,
+                                            Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.end,
+                                              children: [
+                                                i % 2 == 0
+                                                    ? Container(
+                                                        margin:
+                                                            EdgeInsets.fromLTRB(
+                                                                0, 0, 15, 0),
+                                                        child: Text(
+                                                          'Sentiment: Positive',
+                                                          style: GoogleFonts
+                                                              .ubuntu(
+                                                            fontSize: 14,
+                                                            color: Colors.green,
+                                                          ),
+                                                        ),
+                                                      )
+                                                    : Container(
+                                                        margin:
+                                                            EdgeInsets.fromLTRB(
+                                                                0, 0, 15, 0),
+                                                        child: Text(
+                                                          'Sentiment: Negative',
+                                                          style: GoogleFonts
+                                                              .ubuntu(
+                                                            fontSize: 14,
+                                                            color: Colors.red,
+                                                          ),
+                                                        ),
+                                                      )
+                                              ],
+                                            ),
+                                          ],
                                         ),
-                                      );
+                                      ));
                                     }
-                                  },
-                                )),
+
+                                    return Column(children: list);
+                                  } else {
+                                    return Container(
+                                      alignment: Alignment.topLeft,
+                                      margin: const EdgeInsets.fromLTRB(
+                                          25, 0, 0, 0),
+                                      height: 45,
+                                      child: LoadingAnimationWidget
+                                          .horizontalRotatingDots(
+                                        color: Colors.orange,
+                                        size: 20,
+                                      ),
+                                    );
+                                  }
+                                },
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -672,35 +708,135 @@ class _StockDetailsState extends State<StockDetails> {
 
     data.forEach((key, value) {
       list.add(Container(
+        child: Column(
+          children: [
+            ListTile(
+              leading: InkWell(
+                onTap: () => setState(() => _isExpanded = !_isExpanded),
+                child: Icon(
+                  Icons.arrow_drop_down,
+                  color: Colors.orange,
+                  size: 20,
+                ),
+              ),
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    key,
+                    style: GoogleFonts.ubuntu(
+                      fontSize: 15,
+                    ),
+                  ),
+                  Text(
+                    (value.values.first).toStringAsFixed(2),
+                    style: GoogleFonts.ubuntu(
+                      fontSize: 15,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              child: _isExpanded
+                  ? Card(
+                      color: Colors.grey[200],
+                      shape: ShapeBorder.lerp(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(0),
+                        ),
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(0),
+                        ),
+                        0.5,
+                      ),
+                      child: Column(
+                        children: [
+                          ListTile(
+                            title: Text(
+                              'Recommendation',
+                              style: GoogleFonts.ubuntu(
+                                fontSize: 15,
+                              ),
+                            ),
+                            trailing: Padding(
+                              padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+                              child: Text(
+                                (value.values.last),
+                                style: GoogleFonts.ubuntu(
+                                  fontSize: 15,
+                                  color: (value.values.last) == 'Buy'
+                                      ? Colors.green
+                                      : (value.values.last) == 'Sell'
+                                          ? Colors.red
+                                          : Colors.grey,
+                                ),
+                              ),
+                            ),
+                          ),
+                          ListTile(
+                            title: Text(
+                              'Why it is a ${value.values.last}?',
+                              style: GoogleFonts.ubuntu(
+                                fontSize: 15,
+                              ),
+                            ),
+                            subtitle: Text(
+                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                              style: GoogleFonts.ubuntu(
+                                fontSize: 15,
+                              ),
+                            ),
+                          ),
+                          ListTile(
+                            title: Text(
+                              'Learn ${key} in 5 minutes',
+                              style: GoogleFonts.ubuntu(
+                                fontSize: 15,
+                              ),
+                            ),
+                            trailing: Padding(
+                              padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+                              child: Icon(
+                                Icons.arrow_forward_ios,
+                                color: Colors.orange,
+                                size: 15,
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
+                    )
+                  : Container(),
+            )
+          ],
+        ),
+      ));
+      Spacer();
+    });
+    return list;
+  }
+
+  List<Container> _buildNews(List<dynamic> data) {
+    List<Container> list = [];
+
+    data.forEach((element) {
+      list.add(Container(
         child: ListTile(
           title: Text(
-            key,
+            element['title'],
             style: GoogleFonts.ubuntu(
               fontSize: 15,
             ),
           ),
-          trailing: Padding(
-            padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
-            child: Column(
-              children: [
-                Text(
-                  (value.values.first).toStringAsFixed(2),
-                  style: GoogleFonts.ubuntu(
-                    fontSize: 15,
-                  ),
-                ),
-                Text(
-                  (value.values.last).toString(),
-                  style: GoogleFonts.ubuntu(
-                    fontSize: 15,
-                  ),
-                ),
-              ],
+          subtitle: Text(
+            element['description'],
+            style: GoogleFonts.ubuntu(
+              fontSize: 15,
             ),
           ),
         ),
       ));
-      Spacer();
     });
     return list;
   }
