@@ -8,8 +8,8 @@ const getNews= (req, res) => {
     const client = new ComprehendClient({
         region: "ap-south-1",
         credentials: {
-            accessKeyId: 'AKIAXYAUM5IEYDCC6AU6',
-            secretAccessKey: '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',
+            accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+            secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
 
         },
     });

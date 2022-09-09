@@ -17,7 +17,7 @@ class _VideoPageState extends State<VideoPage> {
   void initState() {
     super.initState();
     _controller = VideoPlayerController.network(
-        'https://youtu.be/Cu-VFm4Hbns?list=PLEAWiihj06OL80BfkpXVh2AQ-AYe04xiU')
+        'https://raw.githubusercontent.com/shrey1098/Epiquity/main/video.mp4')
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
@@ -32,10 +32,7 @@ class _VideoPageState extends State<VideoPage> {
         child: Center(
           child: _controller.value.isInitialized
               ? AspectRatio(
-                  aspectRatio: MediaQuery.of(context).size.width *
-                      1.13 /
-                      MediaQuery.of(context).size.height *
-                      0.9,
+                  aspectRatio: 1,
                   child: VideoPlayer(_controller),
                 )
               : Container(),
