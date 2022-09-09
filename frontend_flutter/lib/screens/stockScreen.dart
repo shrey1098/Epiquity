@@ -1,6 +1,7 @@
 // ignore_for_file: unnecessary_const, prefer_const_constructors
 
 import 'dart:convert';
+
 import 'package:http/http.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -121,6 +122,20 @@ class _StockDetailsState extends State<StockDetails> {
     }
   }
 
+  _addToWatchlist() async {
+    final response = await http.post(
+        Uri.parse(
+            'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/watchlist?apiToken=$apiToken'),
+        body: {'yahooFinanceSymbol': widget.stockSymbol});
+    print('${response.statusCode}........');
+    if (response.statusCode == 200) {
+      final data = json.decode(response.body);
+      return data;
+    } else {
+      throw Exception('Failed to load stock data');
+    }
+  }
+
   // ignore: unused_element, prefer_final_fields
   PageController _controller = PageController(
     initialPage: 0,
@@ -192,10 +207,13 @@ class _StockDetailsState extends State<StockDetails> {
                             ),
                           ),
                           trailing: GestureDetector(
-                              onTap: () => setState(() {
-                                    savedIcon = const Icon(Icons.bookmark_added,
-                                        color: Colors.orange);
-                                  }),
+                              onTap: () {
+                                _addToWatchlist();
+                                setState(() {
+                                  savedIcon = const Icon(Icons.bookmark_added,
+                                      color: Colors.orange);
+                                });
+                              },
                               child: savedIcon),
                         ),
                       ),
@@ -525,7 +543,7 @@ class _StockDetailsState extends State<StockDetails> {
                             ]),
                       ),
                       SizedBox(
-                        height: MediaQuery.of(context).size.height + 914,
+                        height: 5000,
                         child: PageView(
                           controller: _controller,
                           onPageChanged: (value) {

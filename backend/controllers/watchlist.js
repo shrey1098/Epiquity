@@ -37,7 +37,7 @@ const postWatchList = async (req, res) => {
                 try{
                 const request = makeRequest(getStocksApiEndpoint(req.body.yahooFinanceSymbol, 'price')).then(response => {
                     // update stock price
-                    watchlist.price = response.price;
+                    watchlist.price = response.price['price'];
                     watchlist.save();
                     return res.status(200).json({ message: 'Stock updated' });
                 }

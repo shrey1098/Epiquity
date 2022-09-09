@@ -1,6 +1,7 @@
 // ignore_for_file: sort_child_properties_last, prefer_const_constructors
 import 'dart:convert';
 
+import 'package:frontend_flutter/screens/sampleVideo.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:floating_frosted_bottom_bar/floating_frosted_bottom_bar.dart';
@@ -359,7 +360,79 @@ class _HomeState extends State<Home> {
                       fontSize: 15,
                     ),
                   ),
-                )
+                ),
+                Container(
+                    margin: EdgeInsets.fromLTRB(15, 20, 0, 0),
+                    alignment: Alignment.topLeft,
+                    width: MediaQuery.of(context).size.width,
+                    child: ListTile(
+                      autofocus: mounted,
+                      // basics of investing
+                      title: Text(
+                        'Meme of the day',
+                        style: GoogleFonts.ubuntu(
+                          fontSize: 20,
+                        ),
+                      ),
+                      subtitle: Image.network(
+                          'https://i.kym-cdn.com/entries/icons/mobile/000/029/959/Screen_Shot_2019-06-05_at_1.26.32_PM.jpg'),
+                    )),
+                Container(
+                    margin: EdgeInsets.fromLTRB(15, 20, 0, 0),
+                    alignment: Alignment.topLeft,
+                    width: MediaQuery.of(context).size.width,
+                    child: ListTile(
+                      autofocus: mounted,
+                      // basics of investing
+                      title: Text(
+                        'Basics of Investing',
+                        style: GoogleFonts.ubuntu(
+                          fontSize: 20,
+                        ),
+                      ),
+                      trailing: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_forward_ios,
+                          color: Colors.orange,
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const VideoPage(),
+                            ),
+                          );
+                        },
+                      ),
+                    )),
+                Container(
+                    margin: EdgeInsets.fromLTRB(15, 20, 0, 0),
+                    alignment: Alignment.topLeft,
+                    width: MediaQuery.of(context).size.width,
+                    child: ListTile(
+                      autofocus: mounted,
+                      // basics of investing
+                      title: Text(
+                        'Basics of Trading',
+                        style: GoogleFonts.ubuntu(
+                          fontSize: 20,
+                        ),
+                      ),
+                      trailing: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_forward_ios,
+                          color: Colors.orange,
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const VideoPage(),
+                            ),
+                          );
+                        },
+                      ),
+                    ))
               ],
             ),
           ),
