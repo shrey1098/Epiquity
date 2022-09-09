@@ -11,6 +11,7 @@ import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:syncfusion_flutter_charts/sparkcharts.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'sampleVideo.dart';
 
 class StockDetails extends StatefulWidget {
   const StockDetails({Key? key, required this.stockSymbol}) : super(key: key);
@@ -557,7 +558,7 @@ class _StockDetailsState extends State<StockDetails> {
                                     List<Container> list = [];
 
                                     for (var i = 0;
-                                        i < snapshot.data['articles'].length;
+                                        i < snapshot.data.length;
                                         i++) {
                                       list.add(Container(
                                         margin:
@@ -567,24 +568,21 @@ class _StockDetailsState extends State<StockDetails> {
                                             ListTile(
                                               isThreeLine: true,
                                               leading: Image.network(
-                                                snapshot.data['articles'][i]
-                                                    ['urlToImage'],
+                                                snapshot.data[i]['urlToImage'],
                                                 width: 65,
                                                 height: 50,
                                                 fit: BoxFit.cover,
                                               ),
                                               title: Text(
-                                                snapshot.data['articles'][i]
-                                                    ['title'],
+                                                snapshot.data[i]['title'],
                                                 style: GoogleFonts.ubuntu(
                                                   fontSize: 15,
                                                 ),
                                               ),
                                               subtitle: RichText(
                                                 text: TextSpan(
-                                                  text:
-                                                      snapshot.data['articles']
-                                                          [i]['description'],
+                                                  text: snapshot.data[i]
+                                                      ['description'],
                                                   style: GoogleFonts.ubuntu(
                                                     fontSize: 12,
                                                     color: Colors.grey,
@@ -594,8 +592,7 @@ class _StockDetailsState extends State<StockDetails> {
                                                 overflow: TextOverflow.ellipsis,
                                               ),
                                               onTap: () {
-                                                launch(snapshot.data['articles']
-                                                        [i]['url']
+                                                launch(snapshot.data[i]['url']
                                                     .toString());
                                               },
                                             ),
@@ -603,33 +600,40 @@ class _StockDetailsState extends State<StockDetails> {
                                               mainAxisAlignment:
                                                   MainAxisAlignment.end,
                                               children: [
-                                                i % 2 == 0
-                                                    ? Container(
-                                                        margin:
-                                                            EdgeInsets.fromLTRB(
-                                                                0, 0, 15, 0),
-                                                        child: Text(
-                                                          'Sentiment: Positive',
+                                                Container(
+                                                  margin: EdgeInsets.fromLTRB(
+                                                      0, 0, 15, 0),
+                                                  child: snapshot.data[i]
+                                                              ['sentiment'] !=
+                                                          'NEUTRAL'
+                                                      ? Text(
+                                                          'Sentiment: ${snapshot.data[i]['sentiment']}',
+                                                          style: GoogleFonts
+                                                              .ubuntu(
+                                                            fontSize: 14,
+                                                            color: snapshot.data[
+                                                                            i][
+                                                                        'sentiment'] ==
+                                                                    'POSITIVE'
+                                                                ? Colors.green
+                                                                : snapshot.data[i]
+                                                                            [
+                                                                            'sentiment'] ==
+                                                                        'NEGATIVE'
+                                                                    ? Colors.red
+                                                                    : Colors
+                                                                        .grey,
+                                                          ),
+                                                        )
+                                                      : Text(
+                                                          'Sentiment: POSITIVE',
                                                           style: GoogleFonts
                                                               .ubuntu(
                                                             fontSize: 14,
                                                             color: Colors.green,
                                                           ),
                                                         ),
-                                                      )
-                                                    : Container(
-                                                        margin:
-                                                            EdgeInsets.fromLTRB(
-                                                                0, 0, 15, 0),
-                                                        child: Text(
-                                                          'Sentiment: Negative',
-                                                          style: GoogleFonts
-                                                              .ubuntu(
-                                                            fontSize: 14,
-                                                            color: Colors.red,
-                                                          ),
-                                                        ),
-                                                      )
+                                                )
                                               ],
                                             ),
                                           ],
@@ -710,31 +714,33 @@ class _StockDetailsState extends State<StockDetails> {
       list.add(Container(
         child: Column(
           children: [
-            ListTile(
-              leading: InkWell(
-                onTap: () => setState(() => _isExpanded = !_isExpanded),
-                child: Icon(
+            InkWell(
+              onTap: () => setState(() {
+                _isExpanded = !_isExpanded;
+              }),
+              child: ListTile(
+                leading: Icon(
                   Icons.arrow_drop_down,
                   color: Colors.orange,
                   size: 20,
                 ),
-              ),
-              title: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    key,
-                    style: GoogleFonts.ubuntu(
-                      fontSize: 15,
+                title: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      key,
+                      style: GoogleFonts.ubuntu(
+                        fontSize: 15,
+                      ),
                     ),
-                  ),
-                  Text(
-                    (value.values.first).toStringAsFixed(2),
-                    style: GoogleFonts.ubuntu(
-                      fontSize: 15,
+                    Text(
+                      (value.values.first).toStringAsFixed(2),
+                      style: GoogleFonts.ubuntu(
+                        fontSize: 15,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             Container(
@@ -788,19 +794,30 @@ class _StockDetailsState extends State<StockDetails> {
                               ),
                             ),
                           ),
-                          ListTile(
-                            title: Text(
-                              'Learn ${key} in 5 minutes',
-                              style: GoogleFonts.ubuntu(
-                                fontSize: 15,
+                          InkWell(
+                            onTap: () // navigate to video page,
+                                {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => VideoPage(),
+                                ),
+                              );
+                            },
+                            child: ListTile(
+                              title: Text(
+                                'Learn ${key} in 5 minutes',
+                                style: GoogleFonts.ubuntu(
+                                  fontSize: 15,
+                                ),
                               ),
-                            ),
-                            trailing: Padding(
-                              padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
-                              child: Icon(
-                                Icons.arrow_forward_ios,
-                                color: Colors.orange,
-                                size: 15,
+                              trailing: Padding(
+                                padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+                                child: Icon(
+                                  Icons.arrow_forward_ios,
+                                  color: Colors.orange,
+                                  size: 15,
+                                ),
                               ),
                             ),
                           )
@@ -813,30 +830,6 @@ class _StockDetailsState extends State<StockDetails> {
         ),
       ));
       Spacer();
-    });
-    return list;
-  }
-
-  List<Container> _buildNews(List<dynamic> data) {
-    List<Container> list = [];
-
-    data.forEach((element) {
-      list.add(Container(
-        child: ListTile(
-          title: Text(
-            element['title'],
-            style: GoogleFonts.ubuntu(
-              fontSize: 15,
-            ),
-          ),
-          subtitle: Text(
-            element['description'],
-            style: GoogleFonts.ubuntu(
-              fontSize: 15,
-            ),
-          ),
-        ),
-      ));
     });
     return list;
   }
