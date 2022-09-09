@@ -60,7 +60,7 @@ const postWatchList = async (req, res) => {
                 const watchlistItem = new Watchlist({
                     user: res.locals._id,
                     stock: stock._id,
-                    price: response.price,
+                    price: response.price['price'],
                     date: new Date()
                     });
                 watchlistItem.save();
