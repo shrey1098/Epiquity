@@ -92,6 +92,168 @@ class _HomeScreenState extends State<HomeScreen>
     if (index == 0) {
       return const Home();
     }
+    if (index == 1) {
+      return const Watchlist();
+    }
+  }
+}
+
+class Watchlist extends StatefulWidget {
+  const Watchlist({Key? key}) : super(key: key);
+
+  @override
+  State<Watchlist> createState() => _WatchlistState();
+}
+
+class _WatchlistState extends State<Watchlist> {
+  final storage = FlutterSecureStorage();
+  var apiToken;
+  late final Future watchlist;
+
+  _getToken() async {
+    await storage.read(key: 'token').then((value) {
+      setState(() {
+        apiToken = value;
+      });
+    }).then((value) {
+      setState(() {
+        watchlist = _getWatchlist();
+      });
+    });
+  }
+
+  void initState() {
+    _getToken();
+    super.initState();
+  }
+
+  _getWatchlist() async {
+    var response = await http.get(
+      Uri.parse(
+          'http://ec2-15-206-210-181.ap-south-1.compute.amazonaws.com:3000/api/watchlist?apiToken=$apiToken'),
+    );
+    if (response.statusCode == 200) {
+      final data = json.decode(response.body);
+      return data;
+    } else {
+      throw Exception('Failed to load stock data');
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        elevation: 0.0,
+        title: Text(
+          'epiquity',
+          style: GoogleFonts.ubuntu(
+            fontSize: 30,
+            color: Colors.orange,
+          ),
+        ),
+        backgroundColor: Colors.black,
+      ),
+      body: Column(
+        children: [
+          Container(
+            // header watchlist
+            padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+            child: Text(
+              'Watchlist',
+              style: GoogleFonts.ubuntu(
+                fontSize: 20,
+                color: Colors.black,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 15.0),
+            child: FutureBuilder<dynamic>(
+              future: watchlist,
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  List<Container> wl = [];
+                  print(snapshot.data);
+
+                  for (var i = 0; i < snapshot.data.length; i++) {
+                    wl.add(Container(
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => StockDetails(
+                                stockSymbol: snapshot.data[i]['stockPrice']
+                                    ['symbol'],
+                              ),
+                            ),
+                          );
+                        },
+                        child: ListTile(
+                          shape: Border(
+                              bottom:
+                                  BorderSide(color: Colors.grey, width: 0.3)),
+                          title: Text(
+                              '${snapshot.data[i]['stockPrice']['symbol']}'),
+                          subtitle: Row(
+                            children: [
+                              Text('${snapshot.data[i]['price']}'),
+                              Text(
+                                  '         ${snapshot.data[i]['stockPrice']['price']['change_percent']}%',
+                                  style: GoogleFonts.ubuntu(
+                                    fontSize: 14,
+                                    color: snapshot.data[i]['stockPrice']
+                                                ['price']['change'] >=
+                                            0
+                                        ? Colors.green
+                                        : Colors.red,
+                                  )),
+                            ],
+                          ),
+                          trailing: Text(
+                              '${snapshot.data[i]['stockPrice']['price']['price']}',
+                              style: GoogleFonts.ubuntu(
+                                fontSize: 20,
+                                color: Colors.black,
+                              )),
+                        ),
+                      ),
+                    ));
+                  }
+                  return Column(
+                    children: wl,
+                  );
+                } else if (snapshot.hasError) {
+                  return Text('${snapshot.error}');
+                }
+                return const Center(
+                  child: CircularProgressIndicator(),
+                );
+              },
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(top: 30),
+            child: // button with text insights,
+                Container(
+              alignment: Alignment.center,
+              child: ElevatedButton(
+                onPressed: () {},
+                child: Text('Insights'),
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.orange,
+                  onPrimary: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(32.0),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
@@ -355,7 +517,7 @@ class _HomeState extends State<Home> {
                   alignment: Alignment.topLeft,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
-                    'Market is down today Tread carefully',
+                    'UPsy Daisy',
                     style: GoogleFonts.ubuntu(
                       fontSize: 15,
                     ),
@@ -432,7 +594,126 @@ class _HomeState extends State<Home> {
                           );
                         },
                       ),
-                    ))
+                    )),
+                Container(
+                    margin: EdgeInsets.fromLTRB(15, 20, 0, 0),
+                    alignment: Alignment.topLeft,
+                    width: MediaQuery.of(context).size.width,
+                    child: ListTile(
+                      autofocus: mounted,
+                      // basics of investing
+                      title: Text(
+                        'Wth is inflation?',
+                        style: GoogleFonts.ubuntu(
+                          fontSize: 20,
+                        ),
+                      ),
+                      trailing: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_forward_ios,
+                          color: Colors.orange,
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const VideoPage(),
+                            ),
+                          );
+                        },
+                      ),
+                    )),
+                Container(
+                  margin: EdgeInsets.fromLTRB(15, 20, 0, 0),
+                  alignment: Alignment.topLeft,
+                  width: MediaQuery.of(context).size.width,
+                  child: Column(children: [
+                    Text(
+                      'Top 5 stocks to watch today',
+                      style: GoogleFonts.ubuntu(
+                        fontSize: 20,
+                      ),
+                    ),
+                    ListTile(
+                      autofocus: mounted,
+                      title: Text(
+                        'Tata Motors',
+                        style: GoogleFonts.ubuntu(
+                          fontSize: 20,
+                        ),
+                      ),
+                      subtitle: Text('+2%',
+                          style: GoogleFonts.ubuntu(
+                              fontSize: 18, color: Colors.green)),
+                      trailing: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_forward_ios,
+                          color: Colors.orange,
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const VideoPage(),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                    ListTile(
+                      autofocus: mounted,
+                      title: Text(
+                        'Tata Motors',
+                        style: GoogleFonts.ubuntu(
+                          fontSize: 20,
+                        ),
+                      ),
+                      subtitle: Text('+2%',
+                          style: GoogleFonts.ubuntu(
+                              fontSize: 18, color: Colors.green)),
+                      trailing: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_forward_ios,
+                          color: Colors.orange,
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const VideoPage(),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                    ListTile(
+                      autofocus: mounted,
+                      title: Text(
+                        'Tata Motors',
+                        style: GoogleFonts.ubuntu(
+                          fontSize: 20,
+                        ),
+                      ),
+                      subtitle: Text('+2%',
+                          style: GoogleFonts.ubuntu(
+                              fontSize: 18, color: Colors.green)),
+                      trailing: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_forward_ios,
+                          color: Colors.orange,
+                        ),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const VideoPage(),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                  ]),
+                )
               ],
             ),
           ),
