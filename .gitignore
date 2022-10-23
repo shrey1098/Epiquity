@@ -15,3 +15,6 @@
 /frontend_flutter/.pub/
 /frontend_flutter/build/
 /frontend_flutter/frontend_flutter.iml
+
+rootkey.csv
+
