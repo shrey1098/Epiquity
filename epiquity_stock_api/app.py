@@ -33,6 +33,7 @@ def get_stock_price(symbol: str, range: Union[int, None] = None, close: Union[bo
     Get stock price for a given symbol and range.
     if no range is given, it will return the current price.
     """
+    #TODO : Cases where close is False
     if range:
         df = get_stock_price_range(symbol, range, close)
         if df is not None:

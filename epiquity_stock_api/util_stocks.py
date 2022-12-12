@@ -28,11 +28,14 @@ def get_stock_price_range(symbol, range, close):
     get stock price for a given symbol and range
     """
     # get stock price for a given symbol and range
+    # TODO: add other cases for close = flase
     try:
         start = datetime.datetime.now() - datetime.timedelta(days=range+10)
         end = datetime.datetime.now()
         d_f = web.DataReader(symbol, 'yahoo', start, end)
-        if close:
+        if close == True:
             return d_f['Close']
+        else:
+            return d_f
     except:
         return error("Error getting stock price for " + symbol + " and range " + range)
