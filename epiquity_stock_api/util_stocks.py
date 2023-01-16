@@ -4,6 +4,7 @@ Stock Price
 from logging import error
 import datetime
 import pandas_datareader.data as web
+import yfinance as yf
 
 # function to get current stock price
 def get_stock_price_current(symbol):
@@ -11,9 +12,10 @@ def get_stock_price_current(symbol):
     get current stock price
     """
     # get current stock price
+    yf.pdr_override()
     start = datetime.datetime.now() - datetime.timedelta(days=10)
     end = datetime.datetime.now()
-    d_f = web.DataReader(symbol, 'yahoo', start, end)
+    d_f = web.get_data_yahoo(symbol, start, end)
     current = d_f.iloc[-1]['Close']
     previous = d_f.iloc[-2]['Close']
     change = current - previous
@@ -27,12 +29,13 @@ def get_stock_price_range(symbol, range, close):
     """
     get stock price for a given symbol and range
     """
+    yf.pdr_override()
     # get stock price for a given symbol and range
     # TODO: add other cases for close = flase
     try:
         start = datetime.datetime.now() - datetime.timedelta(days=range+10)
         end = datetime.datetime.now()
-        d_f = web.DataReader(symbol, 'yahoo', start, end)
+        d_f = web.get_data_yahoo(symbol, start, end)
         if close == True:
             return d_f['Close']
         else:
