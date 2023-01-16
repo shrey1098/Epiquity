@@ -644,11 +644,11 @@ class _StockDetailsState extends State<StockDetails> {
                                                           ),
                                                         )
                                                       : Text(
-                                                          'Sentiment: POSITIVE',
+                                                          'Sentiment: NEUTRAL',
                                                           style: GoogleFonts
                                                               .ubuntu(
                                                             fontSize: 14,
-                                                            color: Colors.green,
+                                                            color: Colors.grey,
                                                           ),
                                                         ),
                                                 )
